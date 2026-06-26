@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="小学知识点静态站首页">
+  <title>小学知识点</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/site.css">
+  <script src="/assets/js/site-shell.js" defer></script>
+</head>
+<body data-nav="home">
+  <div data-site-header></div>
+  <main class="home-shell">
+    <section class="hero-panel" aria-labelledby="page-title">
+      <p class="kicker">知识入口</p>
+      <h1 id="page-title">小学知识点</h1>
+      <p class="page-summary">当前站点保留最基础的静态结构：首页作为一级入口，英语作为二级入口，课文和单词内容作为三级页面。后续新增内容时，会按维护记录继续补充。</p>
+    </section>
+
+    <section class="content-section" aria-labelledby="subject-entry">
+      <div class="section-head">
+        <div>
+          <p class="kicker">当前内容</p>
+          <h2 id="subject-entry">学科入口</h2>
+        </div>
+      </div>
+      <div class="content-list">
+        <a class="content-card is-ready" href="/subjects/english/">
+          <span>英语</span>
+          <strong>英语课文朗读与单词词汇</strong>
+          <small>已收录三年级下学期、五年级下学期的课文和单词</small>
+        </a>
+      </div>
+    </section>
+
+    <section class="content-section" aria-labelledby="planned-content">
+      <div class="section-head">
+        <div>
+          <p class="kicker">预留方向</p>
+          <h2 id="planned-content">后续可扩展</h2>
+        </div>
+      </div>
+      <div class="subject-grid">
+        <article class="subject-card">
+          <span class="subject-mark red">文</span>
+          <h3>语文</h3>
+          <p>古诗、成语、字词、阅读。</p>
+          <small>待添加</small>
+        </article>
+        <article class="subject-card">
+          <span class="subject-mark blue">数</span>
+          <h3>数学</h3>
+          <p>公式、单位、图形、应用题。</p>
+          <small>待添加</small>
+        </article>
+        <article class="subject-card">
+          <span class="subject-mark green">英</span>
+          <h3>英语</h3>
+          <p>课文、单词、短语、句型。</p>
+          <small>已添加课文和单词</small>
+        </article>
+      </div>
+    </section>
+  </main>
+  <div data-site-footer></div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="小学知识站">
+  <rect width="64" height="64" rx="12" fill="#f8fafc"/>
+  <path d="M14 18h20c4.4 0 8 3.6 8 8v22H22c-4.4 0-8-3.6-8-8V18Z" fill="#2563eb"/>
+  <path d="M22 16h20c4.4 0 8 3.6 8 8v22H30c-4.4 0-8-3.6-8-8V16Z" fill="#16a34a" opacity=".92"/>
+  <path d="M30 25h12M30 32h12M30 39h8" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+</svg>
