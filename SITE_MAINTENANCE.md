@@ -75,19 +75,18 @@
 - 站点页头和品牌区。
 - 主导航。
 - 站点页脚。
-- 内容页返回上级链接。
+- 可选内容页返回上级链接。当前英语课文页和词汇页不使用“返回英语”链接，统一通过顶部主导航进入英语二级页。
 - 内容页朗读工具栏。
 
 页面通过占位节点接入公共模板：
 
 ```html
 <div data-site-header></div>
-<div data-section-back data-href="/subjects/english/" data-label="返回英语"></div>
 <div data-reader-tools></div>
 <div data-site-footer></div>
 ```
 
-不是所有页面都需要全部占位节点。首页和英语清单页通常只需要 `data-site-header` 和 `data-site-footer`；英语课文页和词汇页通常需要全部四个。
+不是所有页面都需要全部占位节点。首页和英语清单页通常只需要 `data-site-header` 和 `data-site-footer`；英语课文页和词汇页通常使用 `data-site-header`、`data-reader-tools` 和 `data-site-footer`，不再放 `data-section-back`。
 
 ## 普通页面结构
 
@@ -113,7 +112,6 @@
 <body data-nav="english">
   <div data-site-header></div>
   <main class="reader-shell">
-    <div data-section-back data-href="/subjects/english/" data-label="返回英语"></div>
     ...页面自己的标题、Unit 导航和正文...
     <div data-reader-tools></div>
   </main>
@@ -137,7 +135,7 @@
 - 每个词汇行使用 `button.read-btn`，并在 `data-text` 中保存朗读文本。
 - 每个词汇行的三列内容都应非空；如果原始资料未提供中文或音标，维护时需要按英文内容补齐，不再使用 `-` 占位。
 - 词汇页不引用额外展开/折叠脚本。
-- 可选听写模式由 `assets/js/textbook-reader.js` 统一处理；只在页面包含 `data-dictation`、`data-dictation-toggle`、`data-dictation-tray` 标记时启用。目前已用于三年级下学期和五年级下学期单词页。
+- 可选听写模式由 `assets/js/textbook-reader.js` 统一处理；只在页面包含 `data-dictation`、`data-dictation-toggle`、`data-dictation-tray` 标记时启用。目前已用于三年级下学期和五年级下学期单词页。听写面板应放在 `reader-unit-nav` 后面，启用后由 CSS 固定在 Unit 单元栏下方。
 
 ## 新增或修改页面流程
 
@@ -187,6 +185,8 @@ http://127.0.0.1:8080/
 
 ### 2026-06-29
 
+- 删除英语三年级/五年级课文页和单词词汇页头部的“返回英语”链接，改为依靠顶部主导航返回英语二级页。
+- 调整三年级下学期和五年级下学期单词词汇页听写模式：听写面板移到 Unit 单元栏下方，启用后随滚动固定在顶部区域。
 - 按 `english-vocabulary-html` skill 新规范复检三年级下学期和五年级下学期单词词汇页：补齐所有缺失音标，移除词汇表音标列的 `-` 占位，并修正三年级页 3 处 OCR/拼接残留。
 - 三年级下学期单词词汇页启用听写模式，与五年级下学期单词页保持一致。
 - 听写区词卡显示序号，并在删除靠前词卡后自动重排后续序号。

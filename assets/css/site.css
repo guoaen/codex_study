@@ -463,8 +463,10 @@ h1, h2, h3, p { margin: 0; }
     width: auto;
   }
   .reader-unit-nav { top: 132px; }
+  .dictation-panel.is-active { top: 198px; }
   .reader-unit,
   .vocab-unit { scroll-margin-top: 204px; }
+  .vocab-shell.is-dictation-active .vocab-unit { scroll-margin-top: 360px; }
   .subject-grid,
   .reader-hero,
   .reader-tools {
@@ -518,7 +520,15 @@ h1, h2, h3, p { margin: 0; }
   margin-bottom: 12px;
 }
 .dictation-panel {
-  margin: 12px 0 0;
+  margin: 0 0 14px;
+}
+.dictation-panel.is-active {
+  position: sticky;
+  top: 138px;
+  z-index: 9;
+  padding: 10px 0;
+  background: rgba(246, 248, 251, 0.96);
+  backdrop-filter: blur(12px);
 }
 .dictation-toolbar {
   display: flex;
@@ -559,6 +569,8 @@ h1, h2, h3, p { margin: 0; }
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.92);
   box-shadow: var(--shadow);
+  max-height: min(32vh, 220px);
+  overflow-y: auto;
 }
 .dictation-tray[hidden] {
   display: none;
@@ -584,6 +596,9 @@ h1, h2, h3, p { margin: 0; }
   cursor: pointer;
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+.vocab-shell.is-dictation-active .vocab-unit {
+  scroll-margin-top: 310px;
 }
 .vocab-units {
   display: grid;
