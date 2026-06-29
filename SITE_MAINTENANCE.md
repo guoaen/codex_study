@@ -61,6 +61,7 @@
 - `assets/js/textbook-reader.js`：课文页、词汇页和 Little Fox 故事页朗读、译文显示、返回顶部交互。
 - `assets/images/little-fox/wizard-and-cat/once-upon-a-time/`：Once Upon a Time 由 PDF 渲染出的封面和故事页插画。
 - `assets/images/little-fox/wizard-and-cat/toms-gift/`：Tom's Gift 由 PDF 渲染出的封面和故事页插画。
+- `assets/images/little-fox/wizard-and-cat/into-the-dark-forest/`：Into the Dark Forest 由 PDF 渲染出的封面和故事页插画。
 - `subjects/english/index.html`：英语二级清单页。
 - `subjects/english/grade-3/second/texts/index.html`：英语三年级下学期课文页。
 - `subjects/english/grade-3/second/words/index.html`：英语三年级下学期单词词汇页。
@@ -70,6 +71,7 @@
 - `subjects/little-fox/wizard-and-cat/index.html`：Wizard and Cat 三级系列页。
 - `subjects/little-fox/wizard-and-cat/once-upon-a-time/index.html`：Once Upon a Time 故事朗读页。
 - `subjects/little-fox/wizard-and-cat/toms-gift/index.html`：Tom's Gift 故事朗读页。
+- `subjects/little-fox/wizard-and-cat/into-the-dark-forest/index.html`：Into the Dark Forest 故事朗读页。
 
 ## 当前页面
 
@@ -83,6 +85,7 @@
 - `/subjects/little-fox/wizard-and-cat/`
 - `/subjects/little-fox/wizard-and-cat/once-upon-a-time/`
 - `/subjects/little-fox/wizard-and-cat/toms-gift/`
+- `/subjects/little-fox/wizard-and-cat/into-the-dark-forest/`
 
 ## 公共模板
 
@@ -214,6 +217,7 @@ http://127.0.0.1:8080/
 
 ### 2026-06-29
 
+- 使用 `english-pdf-story-html` skill 新增 Little Fox 的 Wizard and Cat 3：Into the Dark Forest 故事朗读页；保留 PDF 封面和 10 页正文插画，跳过版权尾页，并按故事上下文整理正文顺序、补齐中文译文。
 - 使用 `english-pdf-story-html` skill 新增 Little Fox 的 Wizard and Cat 2：Tom's Gift 故事朗读页；保留 PDF 封面和 10 页正文插画，跳过版权尾页，并按文本块坐标与上下文整理正文顺序、补齐中文译文。
 
 - 使用 `english-pdf-story-html` skill 新增 Little Fox 的 Wizard and Cat 三级系列页，以及 Once Upon a Time 故事朗读页；故事页保留 PDF 渲染插画，并按文本坐标和故事上下文整理正文顺序、补齐中文译文。
