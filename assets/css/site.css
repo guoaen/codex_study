@@ -156,7 +156,7 @@ h1, h2, h3, p { margin: 0; }
 }
 .subject-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
   gap: 14px;
 }
 .subject-card {
@@ -182,6 +182,7 @@ h1, h2, h3, p { margin: 0; }
 .subject-mark.red { background: var(--red); }
 .subject-mark.blue { background: var(--blue); }
 .subject-mark.green { background: var(--green); }
+.subject-mark.teal { background: #0f766e; }
 
 .back-link {
   display: inline-flex;
@@ -673,4 +674,46 @@ h1, h2, h3, p { margin: 0; }
 @media (max-width: 860px) {
   /* Mobile sticky header offset for vocabulary anchors. */
   .vocab-unit { scroll-margin-top: 204px; }
+}
+.story-page .reader-unit-body {
+  padding: 18px 20px 20px;
+}
+.story-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 44%) minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+.story-figure {
+  margin: 0;
+}
+.story-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+.story-text {
+  min-width: 0;
+}
+.story-page .reader-line:first-child {
+  padding-top: 0;
+}
+.story-page .reader-line:last-child {
+  border-bottom: 0;
+}
+@media (max-width: 860px) {
+  .story-layout {
+    grid-template-columns: 1fr;
+  }
+}
+@media print {
+  .story-layout {
+    grid-template-columns: 42% 1fr;
+  }
+  .story-figure img {
+    box-shadow: none;
+  }
 }

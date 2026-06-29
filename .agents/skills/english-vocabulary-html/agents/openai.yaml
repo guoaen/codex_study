@@ -1,0 +1,4 @@
+interface:
+  display_name: "English Vocabulary HTML"
+  short_description: "Build three-column English vocabulary pages."
+  default_prompt: "Use $english-vocabulary-html to create a unit-based English vocabulary page with English, 中文, and 音标 columns."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "English PDF Story HTML"
+  short_description: "Turn illustrated English PDFs into static reader pages."
+  default_prompt: "Use $english-pdf-story-html to convert this illustrated English story PDF into a static reader page with images, TTS, and Chinese translations."

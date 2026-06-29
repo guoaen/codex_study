@@ -4,10 +4,11 @@
   const site = {
     title: "小学知识点",
     subtitle: "静态内容库",
-    footer: "小学知识点静态站 · 当前包含首页、英语清单页、英语课文页和英语单词页",
+    footer: "小学知识点静态站 · 当前包含首页、英语清单页、英语内容页和 Little Fox 分级阅读页",
     nav: [
       { id: "home", label: "首页", href: "/" },
       { id: "english", label: "英语", href: "/subjects/english/" },
+      { id: "little-fox", label: "Little Fox", href: "/subjects/little-fox/" },
     ],
   };
 

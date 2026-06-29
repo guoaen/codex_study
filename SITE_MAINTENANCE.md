@@ -2,7 +2,7 @@
 
 最后更新：2026-06-29
 
-本文档记录本站点的维护细节。若由新的会话或其它 AI Agent 接手，请先读根目录 `AGENTS.md`，再读 `README.md`，最后读本文档。
+本文档记录本站点的维护细节。若由新的会话或其它 AI Agent 接手，请先读根目录 `AGENTS.md`，再读 `README.md`，最后读本文档。当前站点除英语内容外，也包含 Little Fox 分级阅读内容。
 
 每次新增、修改、删除页面或内容后，都要更新本文档的“当前目录”“当前页面”“变更记录”中受影响的部分。
 
@@ -22,23 +22,25 @@
 1. `AGENTS.md`：Agent 操作规则和验证要求。
 2. `README.md`：站点用途、预览方式、部署方式。
 3. `SITE_MAINTENANCE.md`：当前架构、页面约定、变更记录。
-4. `assets/js/site-shell.js`：如涉及公共导航、页头、页脚或英语内容页公共工具栏。
-5. 本次要修改的具体页面。
+4. `.agents/skills/`：如果涉及英语课文、英语词汇或 PDF 故事页面，优先使用仓库内置的对应 skill。
+5. `assets/js/site-shell.js`：如果涉及公共导航、页头、页脚或内容页公共工具栏。
+6. 本次要修改的具体页面。
 
 ## 页面层级
 
 当前信息架构：
 - 一级页面：`/` 首页。
-- 二级页面：`/subjects/english/` 英语。
-- 三级页面：具体英语内容页，例如 `/subjects/english/grade-3/second/words/`。
+- 二级页面：`/subjects/english/` 英语、`/subjects/little-fox/` Little Fox。
+- 三级页面：英语具体内容页、Little Fox 系列页，例如 `/subjects/little-fox/wizard-and-cat/`。
+- 故事正文页：Little Fox 系列页下的具体故事，例如 `/subjects/little-fox/wizard-and-cat/once-upon-a-time/`。
 
-顶部主导航只保留一级/二级入口：`首页` 和 `英语`。不要把具体年级、学期或内容类型页面直接放进顶部主导航。
+顶部主导航只保留一级/二级入口：`首页`、`英语`、`Little Fox`。不要把具体年级、学期、内容类型或单篇故事页面直接放进顶部主导航。
 
 ## 核心约定
 
 - 顶部站点导航的固定定位写在外层 `[data-site-header]` 上，`.site-header` 只负责视觉布局；不要把 sticky 只放回内部 header，否则 Chrome 滚动时会被父容器限制。
 - `primary-knowledge-site` 是站点根目录。
-- 页面资源和站内链接统一使用站点根路径，例如 `/assets/css/site.css`、`/subjects/english/.../`。
+- 页面资源和站内链接统一使用站点根路径，例如 `/assets/css/site.css`、`/subjects/english/.../`、`/subjects/little-fox/.../`。
 - 站点需要通过本地静态服务或 Cloudflare Pages/Worker 访问；不要把双击 `file://` HTML 作为正式预览方式。
 - 页头、主导航、页脚、内容页“返回上级”和朗读工具栏集中在 `assets/js/site-shell.js`。
 - 后续新增或删除主导航入口时，优先修改 `assets/js/site-shell.js` 中的 `site.nav`，不要逐页改导航 HTML。
@@ -47,18 +49,25 @@
 ## 当前目录
 
 - `AGENTS.md`：Agent 接手维护入口。
+- `.agents/skills/english-pdf-story-html/`：从带插画英文 PDF 创建 Little Fox/故事朗读页面的仓库内置 skill。
+- `.agents/skills/english-textbook-html/`：从英语课文文本创建课文朗读页面的仓库内置 skill。
+- `.agents/skills/english-vocabulary-html/`：从单词词汇资料创建词汇页面的仓库内置 skill。
 - `README.md`：项目概览、预览和部署说明。
 - `SITE_MAINTENANCE.md`：维护记录和页面约定。
 - `index.html`：首页。
 - `assets/favicon.svg`：站点图标。
-- `assets/css/site.css`：全站样式与英语内容页样式。
-- `assets/js/site-shell.js`：站点公共模板、导航配置、页脚、英语内容页公共工具栏。
-- `assets/js/textbook-reader.js`：课文页和词汇页朗读、译文显示、返回顶部交互。
+- `assets/css/site.css`：全站样式、英语内容页样式、Little Fox 故事页样式。
+- `assets/js/site-shell.js`：站点公共模板、导航配置、页脚、内容页公共工具栏。
+- `assets/js/textbook-reader.js`：课文页、词汇页和 Little Fox 故事页朗读、译文显示、返回顶部交互。
+- `assets/images/little-fox/wizard-and-cat/once-upon-a-time/`：Once Upon a Time 由 PDF 渲染出的封面和故事页插画。
 - `subjects/english/index.html`：英语二级清单页。
 - `subjects/english/grade-3/second/texts/index.html`：英语三年级下学期课文页。
 - `subjects/english/grade-3/second/words/index.html`：英语三年级下学期单词词汇页。
 - `subjects/english/grade-5/second/texts/index.html`：英语五年级下学期课文页。
 - `subjects/english/grade-5/second/words/index.html`：英语五年级下学期单词词汇页。
+- `subjects/little-fox/index.html`：Little Fox 二级清单页。
+- `subjects/little-fox/wizard-and-cat/index.html`：Wizard and Cat 三级系列页。
+- `subjects/little-fox/wizard-and-cat/once-upon-a-time/index.html`：Once Upon a Time 故事朗读页。
 
 ## 当前页面
 
@@ -68,6 +77,9 @@
 - `/subjects/english/grade-3/second/words/`
 - `/subjects/english/grade-5/second/texts/`
 - `/subjects/english/grade-5/second/words/`
+- `/subjects/little-fox/`
+- `/subjects/little-fox/wizard-and-cat/`
+- `/subjects/little-fox/wizard-and-cat/once-upon-a-time/`
 
 ## 公共模板
 
@@ -75,7 +87,7 @@
 - 站点页头和品牌区。
 - 主导航。
 - 站点页脚。
-- 可选内容页返回上级链接。当前英语课文页和词汇页不使用“返回英语”链接，统一通过顶部主导航进入英语二级页。
+- 可选内容页返回上级链接。当前英语课文页、词汇页和 Little Fox 故事页不使用“返回上级”链接，统一通过顶部主导航进入二级页。
 - 内容页朗读工具栏。
 
 页面通过占位节点接入公共模板：
@@ -86,7 +98,7 @@
 <div data-site-footer></div>
 ```
 
-不是所有页面都需要全部占位节点。首页和英语清单页通常只需要 `data-site-header` 和 `data-site-footer`；英语课文页和词汇页通常使用 `data-site-header`、`data-reader-tools` 和 `data-site-footer`，不再放 `data-section-back`。
+不是所有页面都需要全部占位节点。首页、英语清单页和 Little Fox 清单页通常只需要 `data-site-header` 和 `data-site-footer`；英语课文页、词汇页和 Little Fox 故事页通常使用 `data-site-header`、`data-reader-tools` 和 `data-site-footer`，不再放 `data-section-back`。
 
 ## 普通页面结构
 
@@ -101,7 +113,7 @@
 </body>
 ```
 
-`data-nav` 的值应对应 `assets/js/site-shell.js` 里的 `site.nav[].id`，用于高亮当前导航。当前主要值是 `home` 和 `english`。
+`data-nav` 的值应对应 `assets/js/site-shell.js` 里的 `site.nav[].id`，用于高亮当前导航。当前主要值是 `home`、`english` 和 `little-fox`。
 
 ## 英语课文页和词汇页结构
 
@@ -137,18 +149,31 @@
 - 词汇页不引用额外展开/折叠脚本。
 - 可选听写模式由 `assets/js/textbook-reader.js` 统一处理；只在页面包含 `data-dictation`、`data-dictation-toggle`、`data-dictation-tray` 标记时启用。目前已用于三年级下学期和五年级下学期单词页。听写面板应放在 `reader-unit-nav` 后面，启用后由 CSS 固定在 Unit 单元栏下方。
 
+## Little Fox 故事页结构
+
+Little Fox 故事页复用课文页的朗读工具和译文显示逻辑：
+- 页面使用 `body data-nav="little-fox"`，让顶部主导航高亮 Little Fox。
+- 故事正文页使用 `main.reader-shell.story-shell`。
+- 每个故事页片段使用 `article.reader-unit.story-page`。
+- PDF 插画或页面渲染图放在 `figure.story-figure`，图片路径统一放在 `/assets/images/little-fox/.../`。
+- 英文正文仍使用 `button.read-btn` 的 `data-text` 存朗读文本，中文译文使用 `button.translation`，英文句子和译文通过相同 `data-index` 关联。
+- 如果 PDF 没有中文译文，维护时按英文内容补齐中文译文。
+- 若 PDF 有空白页或版权页，可以不放进正文页；但故事页插画应尽量保留。
+- 使用 `english-pdf-story-html` skill 时，PDF 抽取文本只作为原材料；需要结合页面图片、文本坐标和故事上下文整理阅读顺序，不能直接按抽取顺序随意排放。
+
 ## 新增或修改页面流程
 
-1. 确认内容归属：学科、年级、学期、内容类型。
+1. 确认内容归属：学科、系列、年级、学期、内容类型或故事名称。
 2. 判断是新增页面、更新已有页面，还是只更新首页入口。
 3. 新建或修改对应目录下的 `index.html`。
-4. 使用站点根路径引用 CSS/JS。
+4. 使用站点根路径引用 CSS/JS 和图片资源。
 5. 放置需要的公共模板占位节点。
 6. 如果新增英语三级内容页，更新 `subjects/english/index.html` 的清单。
-7. 如果新增新的二级学科页，更新 `index.html` 的学科入口；必要时修改 `assets/js/site-shell.js` 的 `site.nav`。
-8. 更新 `README.md` 的当前实际页面，若该页面属于主要页面。
-9. 更新本文档的“当前目录”“当前页面”和“变更记录”。
-10. 按“验证清单”检查。
+7. 如果新增 Little Fox 故事页，更新对应系列页；如果新增新系列，也更新 `subjects/little-fox/index.html`。
+8. 如果新增新的二级入口，更新 `index.html` 的入口；必要时修改 `assets/js/site-shell.js` 的 `site.nav`。
+9. 更新 `README.md` 的当前实际页面，若该页面属于主要页面。
+10. 更新本文档的“当前目录”“当前页面”和“变更记录”。
+11. 按“验证清单”检查。
 
 ## 验证清单
 
@@ -159,6 +184,7 @@
 - 本地静态服务下首页和改动页面是否返回 `200 OK`。
 - 如果是英语课文页，检查 Unit 数、朗读按钮数、译文数是否符合预期。
 - 如果是英语词汇页，检查 Unit 数、词汇行数、朗读按钮数是否符合预期。
+- 如果是 Little Fox 故事页，检查故事页数、插画图片引用、朗读按钮数和译文数是否符合预期。
 - 检查中文没有乱码。
 
 ## 本地预览
@@ -185,6 +211,9 @@ http://127.0.0.1:8080/
 
 ### 2026-06-29
 
+- 使用 `english-pdf-story-html` skill 新增 Little Fox 的 Wizard and Cat 三级系列页，以及 Once Upon a Time 故事朗读页；故事页保留 PDF 渲染插画，并按文本坐标和故事上下文整理正文顺序、补齐中文译文。
+- 删除此前 Little Fox 旧系列页、旧故事页和对应图片资源；首页与 Little Fox 清单改为指向 Wizard and Cat。
+- 顶部主导航新增 `Little Fox` 入口，首页新增 Little Fox 内容入口和扩展卡片。
 - 删除英语三年级/五年级课文页和单词词汇页头部的“返回英语”链接，改为依靠顶部主导航返回英语二级页。
 - 调整三年级下学期和五年级下学期单词词汇页听写模式：听写面板移到 Unit 单元栏下方，启用后随滚动固定在顶部区域。
 - 按 `english-vocabulary-html` skill 新规范复检三年级下学期和五年级下学期单词词汇页：补齐所有缺失音标，移除词汇表音标列的 `-` 占位，并修正三年级页 3 处 OCR/拼接残留。

@@ -1,0 +1,4 @@
+interface:
+  display_name: "English Textbook HTML"
+  short_description: "Create textbook pages with TTS and translations"
+  default_prompt: "Use $english-textbook-html to turn English textbook text into an interactive study HTML with TTS, hidden translations, and generated Chinese translations when missing."

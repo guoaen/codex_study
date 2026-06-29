@@ -22,10 +22,10 @@ function normalizeForSpeech(text) {
   return text
     .replace(/[“”]/g, '"')
     .replace(/[‘’]/g, "'")
-    .replace(/\.\.\./g, ", ")
+    .replace(/—/g, ", ")
+    .replace(/\.\s*\.\s*\./g, ", ")
     .replace(/"/g, "");
 }
-
 function getLocalVoiceValue(voice) {
   return `local:${voice.name}`;
 }
