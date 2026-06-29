@@ -25,6 +25,7 @@ This skill is designed for `primary-knowledge-site`, but the extraction and page
 10. Copy final images into a stable asset folder using site-root paths, for example `/assets/images/little-fox/<series>/<story>/page-01.png`.
 11. Update shared navigation, homepage cards, list pages, README, and maintenance docs when the page hierarchy changes.
 12. Validate the result before reporting completion.
+13. After successful validation, delete the `.tmp` scratch directory created for the task. Before deleting, resolve the path and confirm it is inside the current project root and contains only task-specific temporary PDFs, extracted assets, and generation/validation scripts. If `.tmp` contains unrelated user files or shared scratch data, do not delete it; report what remains.
 
 ## PDF Extraction
 
