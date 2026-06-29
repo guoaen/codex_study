@@ -3,6 +3,10 @@ const voiceSelect = document.getElementById("voiceSelect");
 const stopButton = document.getElementById("stopButton");
 const statusEl = document.getElementById("ttsStatus");
 const topButton = document.getElementById("topButton");
+const dictationRoot = document.querySelector("[data-dictation]");
+const dictationToggle = document.querySelector("[data-dictation-toggle]");
+const dictationTray = document.querySelector("[data-dictation-tray]");
+const vocabShell = document.querySelector(".vocab-shell");
 
 let voices = [];
 let activeButton = null;
@@ -173,11 +177,88 @@ function revealLinkedTranslation(chunk) {
   }
 }
 
+
+function isDictationActive() {
+  return Boolean(dictationRoot && dictationRoot.classList.contains("is-active"));
+}
+
+function setDictationMode(active) {
+  if (!dictationRoot || !dictationToggle || !dictationTray) return;
+  dictationRoot.classList.toggle("is-active", active);
+  dictationTray.hidden = !active;
+  dictationToggle.textContent = active ? "关闭听写" : "听写";
+  dictationToggle.setAttribute("aria-expanded", String(active));
+  dictationToggle.setAttribute("aria-pressed", String(active));
+  if (vocabShell) vocabShell.classList.toggle("is-dictation-active", active);
+  if (!active) {
+    dictationTray.innerHTML = "";
+    return;
+  }
+  dictationTray.focus({ preventScroll: true });
+}
+
+
+function getDictationChips() {
+  if (!dictationTray) return [];
+  return Array.from(dictationTray.querySelectorAll("[data-dictation-chip]"));
+}
+
+function renumberDictationWords() {
+  getDictationChips().forEach((chip, index) => {
+    const label = chip.dataset.dictationText || chip.textContent.replace(/^\d+\.\s*/, "").trim();
+    chip.dataset.dictationText = label;
+    chip.textContent = `${index + 1}. ${label}`;
+    chip.title = `\u5220\u9664 ${label}`;
+    chip.setAttribute("aria-label", `\u4ece\u542c\u5199\u533a\u5220\u9664\u7b2c ${index + 1} \u4e2a\uff1a${label}`);
+  });
+}
+function addDictationWord(vocabWord) {
+  if (!dictationTray || dictationTray.hidden) return;
+  const label = vocabWord.querySelector("span")?.textContent.trim();
+  if (!label) return;
+
+  const chip = document.createElement("button");
+  chip.type = "button";
+  chip.className = "dictation-chip";
+  chip.dataset.dictationChip = "";
+  chip.dataset.dictationText = label;
+  dictationTray.appendChild(chip);
+  renumberDictationWords();
+}
+
+function removeDictationWord(chip) {
+  chip.remove();
+  renumberDictationWords();
+  if (dictationTray && !dictationTray.children.length) {
+    dictationTray.focus({ preventScroll: true });
+  }
+}
+
 document.addEventListener("click", (event) => {
   const target = event.target;
+  if (!(target instanceof Element)) return;
+
   const readButton = target.closest(".read-btn");
   if (readButton) {
     speak(readButton.dataset.text, readButton);
+    return;
+  }
+
+  const dictationButton = target.closest("[data-dictation-toggle]");
+  if (dictationButton) {
+    setDictationMode(!isDictationActive());
+    return;
+  }
+
+  const dictationChip = target.closest("[data-dictation-chip]");
+  if (dictationChip) {
+    removeDictationWord(dictationChip);
+    return;
+  }
+
+  const vocabWord = target.closest(".vocab-word");
+  if (vocabWord && isDictationActive()) {
+    addDictationWord(vocabWord);
     return;
   }
 

@@ -26,6 +26,12 @@
     </section>
 
     <div data-reader-tools></div>
+    <section class="dictation-panel" data-dictation aria-label="听写模式">
+      <div class="dictation-toolbar">
+        <button class="dictation-toggle" type="button" data-dictation-toggle aria-expanded="false" aria-pressed="false" aria-controls="dictationTray">听写</button>
+      </div>
+      <div class="dictation-tray" id="dictationTray" data-dictation-tray hidden tabindex="-1" aria-label="听写词汇"></div>
+    </section>
 
     <nav class="reader-unit-nav" aria-label="单元导航">
         <a href="#unit-1">Unit 1</a>
@@ -58,7 +64,7 @@
                   </div>
                 </td>
                 <td>穿衣；连衣裙</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[dres]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -67,7 +73,7 @@
                   </div>
                 </td>
                 <td>刷</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[brʌʃ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -76,7 +82,7 @@
                   </div>
                 </td>
                 <td>牙齿（复数为 teeth）</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[tuːθ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -85,7 +91,7 @@
                   </div>
                 </td>
                 <td>洗</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[wɒʃ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -94,7 +100,7 @@
                   </div>
                 </td>
                 <td>早餐</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈbrekfəst]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -103,7 +109,7 @@
                   </div>
                 </td>
                 <td>在……之后</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈɑːftə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -112,7 +118,7 @@
                   </div>
                 </td>
                 <td>忘记</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[fəˈɡet]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -121,7 +127,7 @@
                   </div>
                 </td>
                 <td>桌子</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈteɪbl]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -130,7 +136,7 @@
                   </div>
                 </td>
                 <td>迟到</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[leɪt]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -139,7 +145,7 @@
                   </div>
                 </td>
                 <td>快的</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[kwɪk]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -148,7 +154,7 @@
                   </div>
                 </td>
                 <td>去</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ɡəʊ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -157,7 +163,7 @@
                   </div>
                 </td>
                 <td>星期六</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈsætədeɪ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -166,7 +172,7 @@
                   </div>
                 </td>
                 <td>今天</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[təˈdeɪ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -175,7 +181,7 @@
                   </div>
                 </td>
                 <td>起床</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ɡet ʌp]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -184,7 +190,7 @@
                   </div>
                 </td>
                 <td>穿衣</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ɡet drest]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -193,7 +199,7 @@
                   </div>
                 </td>
                 <td>刷牙</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[brʌʃ maɪ tiːθ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -202,7 +208,7 @@
                   </div>
                 </td>
                 <td>洗脸</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[wɒʃ maɪ feɪs]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -211,7 +217,7 @@
                   </div>
                 </td>
                 <td>梳头</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[kəʊm maɪ heə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -220,7 +226,7 @@
                   </div>
                 </td>
                 <td>吃早饭</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[hæv ˈbrekfəst]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -229,7 +235,7 @@
                   </div>
                 </td>
                 <td>我……</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[aɪ ...]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -238,7 +244,7 @@
                   </div>
                 </td>
                 <td>然后，我……</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ðen aɪ ...]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -247,7 +253,7 @@
                   </div>
                 </td>
                 <td>那之后，我……</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈɑːftə(r) ðæt aɪ ...]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -256,7 +262,7 @@
                   </div>
                 </td>
                 <td>别忘了……</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[dəʊnt fəˈɡet tə ...]</td>
               </tr>            </tbody>
           </table>
         </div>
@@ -280,7 +286,7 @@
                   </div>
                 </td>
                 <td>十</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ten]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -289,7 +295,7 @@
                   </div>
                 </td>
                 <td>……点钟</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[əˈklɒk]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -298,7 +304,7 @@
                   </div>
                 </td>
                 <td>一半</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[hɑːf]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -307,7 +313,7 @@
                   </div>
                 </td>
                 <td>过了（时间）；过去的</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[pɑːst]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -316,7 +322,7 @@
                   </div>
                 </td>
                 <td>三十</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈθɜːti]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -325,7 +331,7 @@
                   </div>
                 </td>
                 <td>家</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[həʊm]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -334,7 +340,7 @@
                   </div>
                 </td>
                 <td>学校</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[skuːl]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -343,7 +349,7 @@
                   </div>
                 </td>
                 <td>床</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[bed]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -352,7 +358,7 @@
                   </div>
                 </td>
                 <td>时间</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[taɪm]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -361,7 +367,7 @@
                   </div>
                 </td>
                 <td>活动</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ækˈtɪvəti]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -370,7 +376,7 @@
                   </div>
                 </td>
                 <td>不；没有</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[nəʊ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -379,7 +385,7 @@
                   </div>
                 </td>
                 <td>紧接着</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[nekst]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -388,7 +394,7 @@
                   </div>
                 </td>
                 <td>八</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[eɪt]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -397,7 +403,7 @@
                   </div>
                 </td>
                 <td>赶快</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈhʌri]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -406,7 +412,7 @@
                   </div>
                 </td>
                 <td>梦</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[driːm]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -415,7 +421,7 @@
                   </div>
                 </td>
                 <td>十一</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ɪˈlevn]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -424,7 +430,7 @@
                   </div>
                 </td>
                 <td>十二</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[twelv]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -433,7 +439,7 @@
                   </div>
                 </td>
                 <td>十点整</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ten əˈklɒk]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -442,7 +448,7 @@
                   </div>
                 </td>
                 <td>十点半</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[hɑːf pɑːst ten]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -451,7 +457,7 @@
                   </div>
                 </td>
                 <td>十点三十分</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ten ˈθɜːti]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -460,7 +466,7 @@
                   </div>
                 </td>
                 <td>上课</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[hæv klɑːs]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -469,7 +475,7 @@
                   </div>
                 </td>
                 <td>回家</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ɡəʊ həʊm]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -478,7 +484,7 @@
                   </div>
                 </td>
                 <td>去上学</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ɡəʊ tə skuːl]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -487,7 +493,7 @@
                   </div>
                 </td>
                 <td>去睡觉</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ɡəʊ tə bed]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -496,7 +502,7 @@
                   </div>
                 </td>
                 <td>快点</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈhʌri ʌp]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -505,7 +511,7 @@
                   </div>
                 </td>
                 <td>现在几点了？</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[wɒt taɪm ɪz ɪt]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -514,7 +520,7 @@
                   </div>
                 </td>
                 <td>现在……了。</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ɪts ...]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -523,7 +529,7 @@
                   </div>
                 </td>
                 <td>是该……的时候了。</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ɪts taɪm tə ... / fɔː ...]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -531,8 +537,8 @@
                     <button class="read-btn" type="button" title="朗读" aria-label="朗读：I&#39;m late!" data-text="I&#39;m late!"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 3.5v13l11-6.5-11-6.5z"></path></svg></button>
                   </div>
                 </td>
-                <td>我迟到了！3	Plan My Day	plan	计划</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td>我迟到了！</td>
+                <td class="phonetic">[aɪm leɪt]</td>
               </tr>            </tbody>
           </table>
         </div>
@@ -556,7 +562,7 @@
                   </div>
                 </td>
                 <td>计划</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[plæn]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -565,7 +571,7 @@
                   </div>
                 </td>
                 <td>二十</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈtwenti]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -574,7 +580,7 @@
                   </div>
                 </td>
                 <td>四十</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈfɔːti]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -583,7 +589,7 @@
                   </div>
                 </td>
                 <td>五十</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈfɪfti]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -592,7 +598,7 @@
                   </div>
                 </td>
                 <td>晚餐</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈdɪnə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -601,7 +607,7 @@
                   </div>
                 </td>
                 <td>书</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[bʊk]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -610,7 +616,7 @@
                   </div>
                 </td>
                 <td>运动</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[spɔːt]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -619,7 +625,7 @@
                   </div>
                 </td>
                 <td>电视</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˌtiː ˈviː]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -628,7 +634,7 @@
                   </div>
                 </td>
                 <td>社团</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[klʌb]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -637,7 +643,7 @@
                   </div>
                 </td>
                 <td>在……</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[æt]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -646,7 +652,7 @@
                   </div>
                 </td>
                 <td>也许</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈmeɪbi]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -655,7 +661,7 @@
                   </div>
                 </td>
                 <td>想；认为</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[θɪŋk]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -664,7 +670,7 @@
                   </div>
                 </td>
                 <td>关于</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[əˈbaʊt]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -673,7 +679,7 @@
                   </div>
                 </td>
                 <td>收拾</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[pæk]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -682,7 +688,7 @@
                   </div>
                 </td>
                 <td>书包</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈskuːlbæɡ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -691,7 +697,7 @@
                   </div>
                 </td>
                 <td>小时</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈaʊə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -700,7 +706,7 @@
                   </div>
                 </td>
                 <td>每个</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈevri]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -709,7 +715,7 @@
                   </div>
                 </td>
                 <td>一天</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[deɪ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -718,7 +724,7 @@
                   </div>
                 </td>
                 <td>睡觉</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[sliːp]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -727,7 +733,7 @@
                   </div>
                 </td>
                 <td>找到</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[faɪnd]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -736,7 +742,7 @@
                   </div>
                 </td>
                 <td>星期日</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈsʌndeɪ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -745,7 +751,7 @@
                   </div>
                 </td>
                 <td>孩子（复数为 children）</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[tʃaɪld]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -754,7 +760,7 @@
                   </div>
                 </td>
                 <td>母亲</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈmʌðə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -763,7 +769,7 @@
                   </div>
                 </td>
                 <td>父亲</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈfɑːðə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -772,7 +778,7 @@
                   </div>
                 </td>
                 <td>新的</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[njuː]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -781,7 +787,7 @@
                   </div>
                 </td>
                 <td>年</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[jɪə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -790,7 +796,7 @@
                   </div>
                 </td>
                 <td>九点十分</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[naɪn ten]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -799,7 +805,7 @@
                   </div>
                 </td>
                 <td>八点二十分</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[eɪt ˈtwenti]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -808,7 +814,7 @@
                   </div>
                 </td>
                 <td>七点四十分</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈsevn ˈfɔːti]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -817,7 +823,7 @@
                   </div>
                 </td>
                 <td>六点五十分</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[sɪks ˈfɪfti]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -826,7 +832,7 @@
                   </div>
                 </td>
                 <td>吃晚饭</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[hæv ˈdɪnə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -835,7 +841,7 @@
                   </div>
                 </td>
                 <td>看书</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[riːd bʊks]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -844,7 +850,7 @@
                   </div>
                 </td>
                 <td>做运动</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[pleɪ spɔːts]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -853,7 +859,7 @@
                   </div>
                 </td>
                 <td>看电视</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[wɒtʃ ˌtiː ˈviː]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -862,7 +868,7 @@
                   </div>
                 </td>
                 <td>吃午饭</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[hæv lʌntʃ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -871,7 +877,7 @@
                   </div>
                 </td>
                 <td>参加学校社团</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ɡəʊ tə ə skuːl klʌb]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -880,7 +886,7 @@
                   </div>
                 </td>
                 <td>收拾书包</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[pæk maɪ ˈskuːlbæɡ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -889,7 +895,7 @@
                   </div>
                 </td>
                 <td>半小时</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[hɑːf ən ˈaʊə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -898,7 +904,7 @@
                   </div>
                 </td>
                 <td>你几点……？</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[wɒt taɪm duː juː ...]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -907,7 +913,7 @@
                   </div>
                 </td>
                 <td>我在……做……</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[aɪ ... æt ...]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -916,7 +922,7 @@
                   </div>
                 </td>
                 <td>我从……到……之间……</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[aɪ ... frəm ... tə ...]</td>
               </tr>            </tbody>
           </table>
         </div>
@@ -940,7 +946,7 @@
                   </div>
                 </td>
                 <td>加入</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[dʒɔɪn]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -949,7 +955,7 @@
                   </div>
                 </td>
                 <td>当然</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ʃʊə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -958,7 +964,7 @@
                   </div>
                 </td>
                 <td>愿意；喜爱</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[lʌv]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -967,7 +973,7 @@
                   </div>
                 </td>
                 <td>足球</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈfʊtbɔːl]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -976,7 +982,7 @@
                   </div>
                 </td>
                 <td>只是；正好</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[dʒʌst]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -985,7 +991,7 @@
                   </div>
                 </td>
                 <td>东西；事物</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[θɪŋ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -994,7 +1000,7 @@
                   </div>
                 </td>
                 <td>乐趣；有趣的</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[fʌn]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1003,7 +1009,7 @@
                   </div>
                 </td>
                 <td>邀请；询问</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ɑːsk]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1012,7 +1018,7 @@
                   </div>
                 </td>
                 <td>她；她的</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[hɜː(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1021,7 +1027,7 @@
                   </div>
                 </td>
                 <td>主意</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[aɪˈdɪə]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1030,7 +1036,7 @@
                   </div>
                 </td>
                 <td>吃</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[iːt]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1039,7 +1045,7 @@
                   </div>
                 </td>
                 <td>一起</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[təˈɡeðə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1048,7 +1054,7 @@
                   </div>
                 </td>
                 <td>你想加入我们吗？</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[duː juː wɒnt tə dʒɔɪn ʌs]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1057,7 +1063,7 @@
                   </div>
                 </td>
                 <td>你想试试吗？</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[duː juː wɒnt tə traɪ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1066,7 +1072,7 @@
                   </div>
                 </td>
                 <td>我能加入你们吗？</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[kæn aɪ dʒɔɪn juː]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1075,7 +1081,7 @@
                   </div>
                 </td>
                 <td>下一个该你了！</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[jʊə(r) ʌp nekst]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1084,7 +1090,7 @@
                   </div>
                 </td>
                 <td>来玩吧！</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[kʌm ən pleɪ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1093,7 +1099,7 @@
                   </div>
                 </td>
                 <td>我很愿意！</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[aɪd lʌv tə]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1102,7 +1108,7 @@
                   </div>
                 </td>
                 <td>不了，谢谢！我不是很喜欢……</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[nəʊ θæŋks ... ɪz dʒʌst nɒt maɪ θɪŋ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1111,7 +1117,7 @@
                   </div>
                 </td>
                 <td>看起来真有趣。</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ðæt lʊks laɪk fʌn]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1120,7 +1126,7 @@
                   </div>
                 </td>
                 <td>我能玩一次吗？</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[kæn aɪ hæv ə tɜːn]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1128,8 +1134,8 @@
                     <button class="read-btn" type="button" title="朗读" aria-label="朗读：You can go first." data-text="You can go first."><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 3.5v13l11-6.5-11-6.5z"></path></svg></button>
                   </div>
                 </td>
-                <td>你先来。5	Our Classroom, Our Call	run	跑</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td>你先来。</td>
+                <td class="phonetic">[juː kæn ɡəʊ fɜːst]</td>
               </tr>            </tbody>
           </table>
         </div>
@@ -1153,7 +1159,7 @@
                   </div>
                 </td>
                 <td>跑</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[rʌn]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1162,7 +1168,7 @@
                   </div>
                 </td>
                 <td>最好；最好的</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[best]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1171,7 +1177,7 @@
                   </div>
                 </td>
                 <td>规则</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ruːl]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1180,7 +1186,7 @@
                   </div>
                 </td>
                 <td>携带；拿走</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[teɪk]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1189,7 +1195,7 @@
                   </div>
                 </td>
                 <td>（依次轮到的）机会；转动</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[tɜːn]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1198,7 +1204,7 @@
                   </div>
                 </td>
                 <td>说话</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[spiːk]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1207,7 +1213,7 @@
                   </div>
                 </td>
                 <td>给</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ɡɪv]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1216,7 +1222,7 @@
                   </div>
                 </td>
                 <td>离开</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[əˈweɪ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1225,7 +1231,7 @@
                   </div>
                 </td>
                 <td>必须</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[mʌst]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1234,7 +1240,7 @@
                   </div>
                 </td>
                 <td>需要</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[niːd]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1243,7 +1249,7 @@
                   </div>
                 </td>
                 <td>（位置、级别或程度）最高</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[tɒp]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1252,7 +1258,7 @@
                   </div>
                 </td>
                 <td>说话</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[tɔːk]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1261,7 +1267,7 @@
                   </div>
                 </td>
                 <td>锻炼；练习</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈeksəsaɪz]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1270,7 +1276,7 @@
                   </div>
                 </td>
                 <td>干净的；打扫</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[kliːn]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1279,7 +1285,7 @@
                   </div>
                 </td>
                 <td>到达</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[əˈraɪv]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1288,7 +1294,7 @@
                   </div>
                 </td>
                 <td>班规</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈklɑːsruːm ruːlz]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1297,7 +1303,7 @@
                   </div>
                 </td>
                 <td>不要在教室里奔跑</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[dəʊnt rʌn ɪn ðə ˈklɑːsruːm]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1306,7 +1312,7 @@
                   </div>
                 </td>
                 <td>尽自己最大努力</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[duː jɔː(r) best]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1315,7 +1321,7 @@
                   </div>
                 </td>
                 <td>轮流说话</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[teɪk tɜːnz tə spiːk]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1324,7 +1330,7 @@
                   </div>
                 </td>
                 <td>用语得体</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[seɪ naɪs wɜːdz]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1333,7 +1339,7 @@
                   </div>
                 </td>
                 <td>向别人伸出援手</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ɡɪv ə ˈhelpɪŋ hænd]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1342,7 +1348,7 @@
                   </div>
                 </td>
                 <td>收拾好自己的东西</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[pʊt əˈweɪ jɔː(r) θɪŋz]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1351,7 +1357,7 @@
                   </div>
                 </td>
                 <td>仔细听</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈlɪsn ˈkeəfəli]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1360,7 +1366,7 @@
                   </div>
                 </td>
                 <td>你喜欢哪些规则？</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[wɒt ruːlz duː juː laɪk]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1369,7 +1375,7 @@
                   </div>
                 </td>
                 <td>我喜欢“……”。</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[aɪ laɪk ...]</td>
               </tr>            </tbody>
           </table>
         </div>
@@ -1393,7 +1399,7 @@
                   </div>
                 </td>
                 <td>站立</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[stænd]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1402,7 +1408,7 @@
                   </div>
                 </td>
                 <td>排；行</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[laɪn]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1411,7 +1417,7 @@
                   </div>
                 </td>
                 <td>带领</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[liːd]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1420,7 +1426,7 @@
                   </div>
                 </td>
                 <td>路线；方法</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[weɪ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1429,7 +1435,7 @@
                   </div>
                 </td>
                 <td>搬运</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈkæri]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1438,7 +1444,7 @@
                   </div>
                 </td>
                 <td>食物</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[fuːd]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1447,7 +1453,7 @@
                   </div>
                 </td>
                 <td>（拿）出</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[aʊt]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1456,7 +1462,7 @@
                   </div>
                 </td>
                 <td>试卷；纸</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈpeɪpə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1465,7 +1471,7 @@
                   </div>
                 </td>
                 <td>午餐</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[lʌntʃ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1474,7 +1480,7 @@
                   </div>
                 </td>
                 <td>灯；轻的</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[laɪt]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1483,7 +1489,7 @@
                   </div>
                 </td>
                 <td>黑板</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈblækbɔːd]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1492,7 +1498,7 @@
                   </div>
                 </td>
                 <td>门</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[dɔː(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1501,7 +1507,7 @@
                   </div>
                 </td>
                 <td>植物</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[plɑːnt]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1510,7 +1516,7 @@
                   </div>
                 </td>
                 <td>星期一</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈmʌndeɪ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1519,7 +1525,7 @@
                   </div>
                 </td>
                 <td>四月</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈeɪprəl]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1528,7 +1534,7 @@
                   </div>
                 </td>
                 <td>他</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[hiː]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1537,7 +1543,7 @@
                   </div>
                 </td>
                 <td>非常；这样的</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[sʌtʃ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1546,7 +1552,7 @@
                   </div>
                 </td>
                 <td>应该</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ʃʊd]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1555,7 +1561,7 @@
                   </div>
                 </td>
                 <td>一些</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[sʌm]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1564,7 +1570,7 @@
                   </div>
                 </td>
                 <td>西红柿</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[təˈmɑːtəʊ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1573,7 +1579,7 @@
                   </div>
                 </td>
                 <td>工作</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[wɜːk]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1582,7 +1588,7 @@
                   </div>
                 </td>
                 <td>很；所以</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[səʊ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1591,7 +1597,7 @@
                   </div>
                 </td>
                 <td>值日</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ɒn ˈdjuːti]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1600,7 +1606,7 @@
                   </div>
                 </td>
                 <td>列队小帮手</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[laɪn ˈliːdə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1609,7 +1615,7 @@
                   </div>
                 </td>
                 <td>午饭小帮手</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[lʌntʃ ˈhelpə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1618,7 +1624,7 @@
                   </div>
                 </td>
                 <td>老师小帮手</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈtiːtʃə(r) ˈhelpə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1627,7 +1633,7 @@
                   </div>
                 </td>
                 <td>帮助大家站好队</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[help ˈevriwʌn stænd ɪn laɪn]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1636,7 +1642,7 @@
                   </div>
                 </td>
                 <td>在队列中带路</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[liːd ðə weɪ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1645,7 +1651,7 @@
                   </div>
                 </td>
                 <td>搬运餐盒</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈkæri fuːd ˈbɒksɪz]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1654,7 +1660,7 @@
                   </div>
                 </td>
                 <td>分发食物</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[hænd aʊt fuːd]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1663,7 +1669,7 @@
                   </div>
                 </td>
                 <td>分发试卷</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[hænd aʊt ˈpeɪpəz]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1672,7 +1678,7 @@
                   </div>
                 </td>
                 <td>整理书本</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[pʊt əˈweɪ bʊks]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1681,7 +1687,7 @@
                   </div>
                 </td>
                 <td>你想当什么？</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[wɒt duː juː wɒnt tə biː]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1690,7 +1696,7 @@
                   </div>
                 </td>
                 <td>我想当一个……</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[aɪ wɒnt tə biː ə / ən ...]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1699,7 +1705,7 @@
                   </div>
                 </td>
                 <td>你想做什么？</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[wɒt duː juː wɒnt tə duː]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1707,8 +1713,8 @@
                     <button class="read-btn" type="button" title="朗读" aria-label="朗读：I want to ..." data-text="I want to ..."><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 3.5v13l11-6.5-11-6.5z"></path></svg></button>
                   </div>
                 </td>
-                <td>我想做……7	School Rules	hold	使保持；拿着</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td>我想做……</td>
+                <td class="phonetic">[aɪ wɒnt tə ...]</td>
               </tr>            </tbody>
           </table>
         </div>
@@ -1732,7 +1738,7 @@
                   </div>
                 </td>
                 <td>使保持；拿着</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[həʊld]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1741,7 +1747,7 @@
                   </div>
                 </td>
                 <td>原谅</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ɪkˈskjuːz]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1750,7 +1756,7 @@
                   </div>
                 </td>
                 <td>声音</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[vɔɪs]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1759,7 +1765,7 @@
                   </div>
                 </td>
                 <td>减弱；向下</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[daʊn]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1768,7 +1774,7 @@
                   </div>
                 </td>
                 <td>或者</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ɔː(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1777,7 +1783,7 @@
                   </div>
                 </td>
                 <td>喝</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[drɪŋk]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1786,7 +1792,7 @@
                   </div>
                 </td>
                 <td>我们</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[wiː]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1795,7 +1801,7 @@
                   </div>
                 </td>
                 <td>礼貌的</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[pəˈlaɪt]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1804,7 +1810,7 @@
                   </div>
                 </td>
                 <td>那里</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ðeə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1813,7 +1819,7 @@
                   </div>
                 </td>
                 <td>对不起</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈsɒri]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1822,7 +1828,7 @@
                   </div>
                 </td>
                 <td>厕所</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈtɔɪlət]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1831,7 +1837,7 @@
                   </div>
                 </td>
                 <td>敲</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[nɒk]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1840,7 +1846,7 @@
                   </div>
                 </td>
                 <td>关闭</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ɒf]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1849,7 +1855,7 @@
                   </div>
                 </td>
                 <td>水</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈwɔːtə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1858,7 +1864,7 @@
                   </div>
                 </td>
                 <td>挡住</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[blɒk]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1867,7 +1873,7 @@
                   </div>
                 </td>
                 <td>他人；其他的</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈʌðə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1876,7 +1882,7 @@
                   </div>
                 </td>
                 <td>体育</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˌpiː ˈiː]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1885,7 +1891,7 @@
                   </div>
                 </td>
                 <td>数学</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[mæθs]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1894,7 +1900,7 @@
                   </div>
                 </td>
                 <td>靠右行走</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[kiːp tə ðə raɪt]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1903,7 +1909,7 @@
                   </div>
                 </td>
                 <td>排队</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ɡet ɪn laɪn]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1912,7 +1918,7 @@
                   </div>
                 </td>
                 <td>扶住门</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[həʊld ðə dɔː(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1921,7 +1927,7 @@
                   </div>
                 </td>
                 <td>说“不好意思”</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[seɪ ɪkˈskjuːz miː]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1930,7 +1936,7 @@
                   </div>
                 </td>
                 <td>不要在走廊里奔跑</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[dəʊnt rʌn ɪn ðə ˈhɔːlweɪ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1939,7 +1945,7 @@
                   </div>
                 </td>
                 <td>小声说话</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[kiːp jɔː(r) vɔɪs daʊn]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1948,7 +1954,7 @@
                   </div>
                 </td>
                 <td>不要吃喝</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[dəʊnt iːt ɔː(r) drɪŋk]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1957,7 +1963,7 @@
                   </div>
                 </td>
                 <td>在厕所</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ɪn ðə ˈtɔɪlət]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1966,7 +1972,7 @@
                   </div>
                 </td>
                 <td>我们在学校里应该怎么做？</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[wɒt ʃʊd wiː duː æt skuːl]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1975,7 +1981,7 @@
                   </div>
                 </td>
                 <td>我们应该……和……</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[wiː ʃʊd ... ənd ...]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1984,7 +1990,7 @@
                   </div>
                 </td>
                 <td>噢，抱歉！</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[əʊ ˈsɒri]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -1993,7 +1999,7 @@
                   </div>
                 </td>
                 <td>没关系。</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ɪts əʊˈkeɪ]</td>
               </tr>            </tbody>
           </table>
         </div>
@@ -2017,7 +2023,7 @@
                   </div>
                 </td>
                 <td>窗户</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈwɪndəʊ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -2026,7 +2032,7 @@
                   </div>
                 </td>
                 <td>风扇；爱好者</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[fæn]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -2035,7 +2041,7 @@
                   </div>
                 </td>
                 <td>关闭</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[kləʊz]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -2044,7 +2050,7 @@
                   </div>
                 </td>
                 <td>钢琴</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[piˈænəʊ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -2053,7 +2059,7 @@
                   </div>
                 </td>
                 <td>书桌</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[desk]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -2062,7 +2068,7 @@
                   </div>
                 </td>
                 <td>电脑</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[kəmˈpjuːtə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -2071,7 +2077,7 @@
                   </div>
                 </td>
                 <td>使用</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[juːz]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -2080,7 +2086,7 @@
                   </div>
                 </td>
                 <td>小心；照料</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[keə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -2089,7 +2095,7 @@
                   </div>
                 </td>
                 <td>椅子</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[tʃeə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -2098,7 +2104,7 @@
                   </div>
                 </td>
                 <td>教室</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈklɑːsruːm]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -2107,7 +2113,7 @@
                   </div>
                 </td>
                 <td>图书馆</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈlaɪbrəri]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -2116,7 +2122,7 @@
                   </div>
                 </td>
                 <td>任何人</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈeniwʌn]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -2125,7 +2131,7 @@
                   </div>
                 </td>
                 <td>在……之前</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[bɪˈfɔː(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -2134,7 +2140,7 @@
                   </div>
                 </td>
                 <td>地点</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[pleɪs]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -2143,7 +2149,7 @@
                   </div>
                 </td>
                 <td>关上窗户</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[kləʊz ðə ˈwɪndəʊ]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -2152,7 +2158,7 @@
                   </div>
                 </td>
                 <td>开灯</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[tɜːn ɒn ðə laɪts]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -2161,7 +2167,7 @@
                   </div>
                 </td>
                 <td>小心使用电脑</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[juːz ðə kəmˈpjuːtə(r) wɪð keə(r)]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -2170,7 +2176,7 @@
                   </div>
                 </td>
                 <td>洗手</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[wɒʃ jɔː(r) hændz]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -2179,7 +2185,7 @@
                   </div>
                 </td>
                 <td>音乐教室</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[ˈmjuːzɪk ˈklɑːsruːm]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -2188,7 +2194,7 @@
                   </div>
                 </td>
                 <td>电脑教室</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[kəmˈpjuːtə(r) ˈklɑːsruːm]</td>
               </tr>              <tr>
                 <td>
                   <div class="vocab-word">
@@ -2197,7 +2203,7 @@
                   </div>
                 </td>
                 <td>你在……会怎么做？</td>
-                <td class="phonetic"><span class="muted-text">-</span></td>
+                <td class="phonetic">[wɒt duː juː duː ɪn ...]</td>
               </tr>            </tbody>
           </table>
         </div>
