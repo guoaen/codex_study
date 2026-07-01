@@ -19,7 +19,7 @@ This skill is designed for `primary-knowledge-site`, but the extraction and page
 4. Decide which rendered pages belong in the published story. Keep cover and story illustration pages. Skip genuinely blank pages and optional copyright/back-matter pages unless the user asks to keep them.
 5. Reconstruct the article or dialogue order from the rendered page image and story context. Treat extracted text as raw material, not as final order.
 6. Build a story data model before writing HTML: page id, label, title, image filename, ordered English lines, Chinese translations, and alt text.
-7. Generate sizeable HTML with a temporary script file instead of long shell command strings. Prefer `.tmp/<task-name>.py` or a similar local scratch script, execute it, then keep or discard it according to the workspace convention.
+7. For `primary-knowledge-site` Little Fox stories, prefer the bundled JSON-driven builder `scripts/build_little_fox_story_page.py` after extraction. Use a temporary generator script only when the builder cannot express the needed page.
 8. Generate missing Chinese translations from the English text when the PDF does not provide them. Keep translations natural, concise, and suitable for primary-school readers.
 9. Create or update the site hierarchy. For Little Fox content, use a second-level page such as `/subjects/little-fox/`, a series page such as `/subjects/little-fox/wizard-and-cat/`, and a story page below the series.
 10. Copy final images into a stable asset folder using site-root paths, for example `/assets/images/little-fox/<series>/<story>/page-01.png`.
@@ -64,6 +64,20 @@ Use this process for each page:
 
 Before writing HTML, read the ordered English lines aloud mentally. The sequence should sound like a coherent story, not a dump of PDF text objects.
 
+## Primary Knowledge Site Builder
+
+For repeated Little Fox story additions in `primary-knowledge-site`, avoid rewriting a full HTML generator. Create a compact `.tmp/<story>.json` story model and run the bundled builder:
+
+```powershell
+python .agents\skills\english-pdf-story-html\scripts\build_little_fox_story_page.py `
+  --project . `
+  --data .tmp\<story>.json `
+  --asset-source .tmp\<story>-assets\images
+```
+
+The JSON must include `title`, `slug`, `series_title`, `series_slug`, `level`, `story_number`, and `pages`. Each page needs `title` and `lines`, where each line is `[english, chinese]`. The builder copies `page-01.png` as `cover.png`, maps story pages from `page-02.png` onward, writes the story HTML, and updates the homepage, Little Fox list, series page, README, and `SITE_MAINTENANCE.md` idempotently.
+
+Use targeted context reads for unchanged repeated work: inspect the series page, one recent story page header/body sample, and relevant CSS selectors instead of loading full CSS or every existing story page.
 ## HTML Generation On Windows
 
 When generating pages with large HTML strings, avoid passing big templates through `python -c`, long PowerShell command arguments, or nested quoted one-liners. Windows command-line parsing can strip or reinterpret quotes inside HTML attributes, JavaScript, SVG snippets, and apostrophes, causing broken generated files or failed scripts.

@@ -1,6 +1,6 @@
 # 小学知识点站点维护记录
 
-最后更新：2026-06-29
+最后更新：2026-06-30
 
 本文档记录本站点的维护细节。若由新的会话或其它 AI Agent 接手，请先读根目录 `AGENTS.md`，再读 `README.md`，最后读本文档。当前站点除英语内容外，也包含 Little Fox 分级阅读内容。
 
@@ -62,6 +62,10 @@
 - `assets/images/little-fox/wizard-and-cat/once-upon-a-time/`：Once Upon a Time 由 PDF 渲染出的封面和故事页插画。
 - `assets/images/little-fox/wizard-and-cat/toms-gift/`：Tom's Gift 由 PDF 渲染出的封面和故事页插画。
 - `assets/images/little-fox/wizard-and-cat/into-the-dark-forest/`：Into the Dark Forest 由 PDF 渲染出的封面和故事页插画。
+- `assets/images/little-fox/wizard-and-cat/two-new-friends/`：Two New Friends 由 PDF 渲染出的封面和故事页插画。
+- `assets/images/little-fox/wizard-and-cat/the-palace/`：The Palace 由 PDF 渲染出的封面和故事页插画。
+- `assets/images/little-fox/wizard-and-cat/the-king-and-queen/`：The King and Queen 由 PDF 渲染出的封面和故事页插画。
+
 - `subjects/english/index.html`：英语二级清单页。
 - `subjects/english/grade-3/second/texts/index.html`：英语三年级下学期课文页。
 - `subjects/english/grade-3/second/words/index.html`：英语三年级下学期单词词汇页。
@@ -72,6 +76,10 @@
 - `subjects/little-fox/wizard-and-cat/once-upon-a-time/index.html`：Once Upon a Time 故事朗读页。
 - `subjects/little-fox/wizard-and-cat/toms-gift/index.html`：Tom's Gift 故事朗读页。
 - `subjects/little-fox/wizard-and-cat/into-the-dark-forest/index.html`：Into the Dark Forest 故事朗读页。
+- `subjects/little-fox/wizard-and-cat/two-new-friends/index.html`：Two New Friends 故事朗读页。
+- `subjects/little-fox/wizard-and-cat/the-palace/index.html`：The Palace 故事朗读页。
+- `subjects/little-fox/wizard-and-cat/the-king-and-queen/index.html`：The King and Queen 故事朗读页。
+
 
 ## 当前页面
 
@@ -86,6 +94,9 @@
 - `/subjects/little-fox/wizard-and-cat/once-upon-a-time/`
 - `/subjects/little-fox/wizard-and-cat/toms-gift/`
 - `/subjects/little-fox/wizard-and-cat/into-the-dark-forest/`
+- `/subjects/little-fox/wizard-and-cat/two-new-friends/`
+- `/subjects/little-fox/wizard-and-cat/the-palace/`
+- `/subjects/little-fox/wizard-and-cat/the-king-and-queen/`
 
 ## 公共模板
 
@@ -214,6 +225,14 @@ http://127.0.0.1:8080/
 - 输出目录：项目根目录，即 `primary-knowledge-site`。
 
 ## 变更记录
+
+### 2026-06-30
+
+- 使用 `english-pdf-story-html` skill 新增 Little Fox 的 Wizard and Cat 6：The King and Queen 故事朗读页；保留 PDF 封面和 10 页正文插画，跳过版权尾页，并按故事上下文整理正文顺序、补齐中文译文。
+
+- 使用 `english-pdf-story-html` skill 新增 Little Fox 的 Wizard and Cat 5：The Palace 故事朗读页；保留 PDF 封面和 10 页正文插画，跳过版权尾页，并按故事上下文整理正文顺序、补齐中文译文。
+
+- 使用 `english-pdf-story-html` skill 新增 Little Fox 的 Wizard and Cat 4：Two New Friends 故事朗读页；保留 PDF 封面和 10 页正文插画，跳过版权尾页，并按故事上下文整理正文顺序、补齐中文译文。
 
 ### 2026-06-29
 

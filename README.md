@@ -37,6 +37,9 @@
 - `/subjects/little-fox/wizard-and-cat/once-upon-a-time/`：Once Upon a Time 故事朗读页。
 - `/subjects/little-fox/wizard-and-cat/toms-gift/`：Tom's Gift 故事朗读页。
 - `/subjects/little-fox/wizard-and-cat/into-the-dark-forest/`：Into the Dark Forest 故事朗读页。
+- `/subjects/little-fox/wizard-and-cat/two-new-friends/`：Two New Friends 故事朗读页。
+- `/subjects/little-fox/wizard-and-cat/the-palace/`：The Palace 故事朗读页。
+- `/subjects/little-fox/wizard-and-cat/the-king-and-queen/`：The King and Queen 故事朗读页。
 
 ## 关键约定
 
