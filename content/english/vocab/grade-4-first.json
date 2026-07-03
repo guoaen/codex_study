@@ -1,0 +1,1323 @@
+{
+  "schema": "english-vocab-page.v1",
+  "id": "english-grade-4-first-words",
+  "source_note": "Imported from subjects/english/grade-4/first/words/index.html",
+  "route": "/subjects/english/grade-4/first/words/",
+  "output": "subjects/english/grade-4/first/words/index.html",
+  "title": "广州英语四年级上册单词词汇",
+  "page_title": "四年级上学期英语单词 | 小学知识点",
+  "description": "广州英语四年级上册 Unit 1-8 与 Review 单词词汇、短语和句型",
+  "kicker": "四年级 · 上学期 · 单词",
+  "summary": "Unit 1-8 + Review | 单词、短语和句型合并整理 | 支持逐词朗读",
+  "stats": {
+    "unit_label": "8 个 Unit",
+    "item_suffix": "条"
+  },
+  "unit_item_suffix": "条",
+  "dictation": true,
+  "units": [
+    {
+      "id": "unit-1",
+      "label": "Unit 1",
+      "title": "Unit 1",
+      "items": [
+        {
+          "english": "beautiful",
+          "chinese": "美丽的",
+          "phonetic": "/ˈbjuːtɪfl/"
+        },
+        {
+          "english": "flower",
+          "chinese": "花",
+          "phonetic": "/ˈflaʊə(r)/"
+        },
+        {
+          "english": "glad",
+          "chinese": "高兴的",
+          "phonetic": "/ɡlæd/"
+        },
+        {
+          "english": "seat",
+          "chinese": "座位",
+          "phonetic": "/siːt/"
+        },
+        {
+          "english": "fine",
+          "chinese": "很好的",
+          "phonetic": "/faɪn/"
+        },
+        {
+          "english": "bathroom",
+          "chinese": "卫生间；浴室",
+          "phonetic": "/ˈbɑːθruːm/"
+        },
+        {
+          "english": "baby",
+          "chinese": "婴儿",
+          "phonetic": "/ˈbeɪbi/"
+        },
+        {
+          "english": "problem",
+          "chinese": "问题",
+          "phonetic": "/ˈprɒbləm/"
+        },
+        {
+          "english": "tea",
+          "chinese": "茶",
+          "phonetic": "/tiː/"
+        },
+        {
+          "english": "around",
+          "chinese": "周围",
+          "phonetic": "/əˈraʊnd/"
+        },
+        {
+          "english": "great",
+          "chinese": "好极了",
+          "phonetic": "/ɡreɪt/"
+        },
+        {
+          "english": "guest",
+          "chinese": "客人",
+          "phonetic": "/ɡest/"
+        },
+        {
+          "english": "host",
+          "chinese": "主人",
+          "phonetic": "/həʊst/"
+        },
+        {
+          "english": "small",
+          "chinese": "小的",
+          "phonetic": "/smɔːl/"
+        },
+        {
+          "english": "gift",
+          "chinese": "礼物",
+          "phonetic": "/ɡɪft/"
+        },
+        {
+          "english": "Go ahead.",
+          "chinese": "请自便。",
+          "phonetic": "/ɡəʊ əˈhed/"
+        },
+        {
+          "english": "show you around",
+          "chinese": "带你参观",
+          "phonetic": "/ʃəʊ juː əˈraʊnd/"
+        },
+        {
+          "english": "have a look",
+          "chinese": "看一看",
+          "phonetic": "/hæv ə lʊk/"
+        },
+        {
+          "english": "a cup of tea",
+          "chinese": "一杯茶",
+          "phonetic": "/ə kʌp əv tiː/"
+        },
+        {
+          "english": "over there",
+          "chinese": "在那边",
+          "phonetic": "/ˈəʊvə ðeə(r)/"
+        },
+        {
+          "english": "Come on in, please.",
+          "chinese": "请进。",
+          "phonetic": "/kʌm ɒn ɪn pliːz/"
+        },
+        {
+          "english": "Have a seat, please.",
+          "chinese": "请坐。",
+          "phonetic": "/hæv ə siːt pliːz/"
+        },
+        {
+          "english": "These are for you.",
+          "chinese": "这些是给你的。",
+          "phonetic": "/ðiːz ɑː(r) fɔː(r) juː/"
+        },
+        {
+          "english": "Can I get you a drink?",
+          "chinese": "要喝点什么吗？",
+          "phonetic": "/kæn aɪ ɡet juː ə drɪŋk/"
+        },
+        {
+          "english": "Thanks. Water is fine.",
+          "chinese": "谢谢。我喝水就可以。",
+          "phonetic": "/θæŋks ˈwɔːtə(r) ɪz faɪn/"
+        },
+        {
+          "english": "Can I use the bathroom?",
+          "chinese": "我能用一下卫生间吗？",
+          "phonetic": "/kæn aɪ juːz ðə ˈbɑːθruːm/"
+        },
+        {
+          "english": "Sure! The bathroom is over there.",
+          "chinese": "没问题！卫生间在那边。",
+          "phonetic": "/ʃʊə(r) ðə ˈbɑːθruːm ɪz ˈəʊvə ðeə(r)/"
+        },
+        {
+          "english": "May I have a look?",
+          "chinese": "我能看看吗？",
+          "phonetic": "/meɪ aɪ hæv ə lʊk/"
+        },
+        {
+          "english": "Goodbye! / Bye-bye!",
+          "chinese": "再见！",
+          "phonetic": "/ˌɡʊdˈbaɪ/ /ˌbaɪˈbaɪ/"
+        }
+      ]
+    },
+    {
+      "id": "unit-2",
+      "label": "Unit 2",
+      "title": "Unit 2",
+      "items": [
+        {
+          "english": "yourself",
+          "chinese": "你自己",
+          "phonetic": "/jɔːˈself/"
+        },
+        {
+          "english": "rice",
+          "chinese": "米饭",
+          "phonetic": "/raɪs/"
+        },
+        {
+          "english": "soup",
+          "chinese": "汤",
+          "phonetic": "/suːp/"
+        },
+        {
+          "english": "could",
+          "chinese": "可以",
+          "phonetic": "/kʊd/"
+        },
+        {
+          "english": "pass",
+          "chinese": "传递",
+          "phonetic": "/pɑːs/"
+        },
+        {
+          "english": "here",
+          "chinese": "这里",
+          "phonetic": "/hɪə(r)/"
+        },
+        {
+          "english": "house",
+          "chinese": "房子",
+          "phonetic": "/haʊs/"
+        },
+        {
+          "english": "if",
+          "chinese": "如果",
+          "phonetic": "/ɪf/"
+        },
+        {
+          "english": "feel",
+          "chinese": "感觉",
+          "phonetic": "/fiːl/"
+        },
+        {
+          "english": "full",
+          "chinese": "饱的",
+          "phonetic": "/fʊl/"
+        },
+        {
+          "english": "drop",
+          "chinese": "掉落",
+          "phonetic": "/drɒp/"
+        },
+        {
+          "english": "spoon",
+          "chinese": "勺子",
+          "phonetic": "/spuːn/"
+        },
+        {
+          "english": "floor",
+          "chinese": "地板",
+          "phonetic": "/flɔː(r)/"
+        },
+        {
+          "english": "pick",
+          "chinese": "捡起",
+          "phonetic": "/pɪk/"
+        },
+        {
+          "english": "end",
+          "chinese": "结束",
+          "phonetic": "/end/"
+        },
+        {
+          "english": "really",
+          "chinese": "非常；真的",
+          "phonetic": "/ˈriːəli/"
+        },
+        {
+          "english": "any",
+          "chinese": "任何",
+          "phonetic": "/ˈeni/"
+        },
+        {
+          "english": "taste",
+          "chinese": "尝起来",
+          "phonetic": "/teɪst/"
+        },
+        {
+          "english": "pick it up",
+          "chinese": "把它捡起来",
+          "phonetic": "/pɪk ɪt ʌp/"
+        },
+        {
+          "english": "at the end of dinner",
+          "chinese": "在晚餐结束时",
+          "phonetic": "/ət ði end əv ˈdɪnə(r)/"
+        },
+        {
+          "english": "try some fish",
+          "chinese": "尝尝鱼肉",
+          "phonetic": "/traɪ sʌm fɪʃ/"
+        },
+        {
+          "english": "have some rice",
+          "chinese": "盛些米饭",
+          "phonetic": "/hæv sʌm raɪs/"
+        },
+        {
+          "english": "Help yourself.",
+          "chinese": "请自便。",
+          "phonetic": "/help jɔːˈself/"
+        },
+        {
+          "english": "Would you like some rice?",
+          "chinese": "你想来点米饭吗？",
+          "phonetic": "/wʊd juː laɪk sʌm raɪs/"
+        },
+        {
+          "english": "No, thanks. I'm good.",
+          "chinese": "不了，谢谢。我吃饱了。",
+          "phonetic": "/nəʊ θæŋks aɪm ɡʊd/"
+        },
+        {
+          "english": "Can I have some more soup, please?",
+          "chinese": "请问能再给我盛些汤吗？",
+          "phonetic": "/kæn aɪ hæv sʌm mɔː(r) suːp pliːz/"
+        },
+        {
+          "english": "The food is so good.",
+          "chinese": "食物真美味。",
+          "phonetic": "/ðə fuːd ɪz səʊ ɡʊd/"
+        },
+        {
+          "english": "I'm glad you like it.",
+          "chinese": "很高兴你喜欢它。",
+          "phonetic": "/aɪm ɡlæd juː laɪk ɪt/"
+        },
+        {
+          "english": "Could you please pass me the tissues?",
+          "chinese": "能请你把纸巾递给我吗？",
+          "phonetic": "/kʊd juː pliːz pɑːs miː ðə ˈtɪʃuːz/"
+        },
+        {
+          "english": "Here you are.",
+          "chinese": "给你。",
+          "phonetic": "/hɪə(r) juː ɑː(r)/"
+        }
+      ]
+    },
+    {
+      "id": "unit-3",
+      "label": "Unit 3",
+      "title": "Unit 3",
+      "items": [
+        {
+          "english": "noodle",
+          "chinese": "面条",
+          "phonetic": "/ˈnuːdl/"
+        },
+        {
+          "english": "enjoy",
+          "chinese": "享受",
+          "phonetic": "/ɪnˈdʒɔɪ/"
+        },
+        {
+          "english": "then",
+          "chinese": "然后",
+          "phonetic": "/ðen/"
+        },
+        {
+          "english": "last",
+          "chinese": "最后",
+          "phonetic": "/lɑːst/"
+        },
+        {
+          "english": "minute",
+          "chinese": "分钟",
+          "phonetic": "/ˈmɪnɪt/"
+        },
+        {
+          "english": "only",
+          "chinese": "唯一的；只有",
+          "phonetic": "/ˈəʊnli/"
+        },
+        {
+          "english": "cook",
+          "chinese": "烹饪；厨师",
+          "phonetic": "/kʊk/"
+        },
+        {
+          "english": "dumpling",
+          "chinese": "饺子",
+          "phonetic": "/ˈdʌmplɪŋ/"
+        },
+        {
+          "english": "into",
+          "chinese": "到……里面",
+          "phonetic": "/ˈɪntuː/"
+        },
+        {
+          "english": "pot",
+          "chinese": "锅",
+          "phonetic": "/pɒt/"
+        },
+        {
+          "english": "boil",
+          "chinese": "煮沸",
+          "phonetic": "/bɔɪl/"
+        },
+        {
+          "english": "careful",
+          "chinese": "小心的",
+          "phonetic": "/ˈkeəfl/"
+        },
+        {
+          "english": "hot",
+          "chinese": "热的",
+          "phonetic": "/hɒt/"
+        },
+        {
+          "english": "cold",
+          "chinese": "冷的",
+          "phonetic": "/kəʊld/"
+        },
+        {
+          "english": "remember",
+          "chinese": "记得",
+          "phonetic": "/rɪˈmembə(r)/"
+        },
+        {
+          "english": "fire",
+          "chinese": "火",
+          "phonetic": "/ˈfaɪə(r)/"
+        },
+        {
+          "english": "add the greens",
+          "chinese": "加入蔬菜",
+          "phonetic": "/æd ðə ɡriːnz/"
+        },
+        {
+          "english": "add some water",
+          "chinese": "加水",
+          "phonetic": "/æd sʌm ˈwɔːtə(r)/"
+        },
+        {
+          "english": "add the noodles",
+          "chinese": "加入面条",
+          "phonetic": "/æd ðə ˈnuːdlz/"
+        },
+        {
+          "english": "wash the greens",
+          "chinese": "洗菜",
+          "phonetic": "/wɒʃ ðə ɡriːnz/"
+        },
+        {
+          "english": "stir the noodles",
+          "chinese": "搅拌面条",
+          "phonetic": "/stɜː(r) ðə ˈnuːdlz/"
+        },
+        {
+          "english": "come up to the top",
+          "chinese": "浮到表面",
+          "phonetic": "/kʌm ʌp tə ðə tɒp/"
+        },
+        {
+          "english": "be careful with fire",
+          "chinese": "小心用火",
+          "phonetic": "/bi ˈkeəfl wɪð ˈfaɪə(r)/"
+        },
+        {
+          "english": "How do you cook noodles?",
+          "chinese": "你怎么煮面条？",
+          "phonetic": "/haʊ duː juː kʊk ˈnuːdlz/"
+        },
+        {
+          "english": "First, ...",
+          "chinese": "首先，……",
+          "phonetic": "/fɜːst/"
+        },
+        {
+          "english": "Next, ...",
+          "chinese": "接下来，……",
+          "phonetic": "/nekst/"
+        },
+        {
+          "english": "Then, ...",
+          "chinese": "然后，……",
+          "phonetic": "/ðen/"
+        },
+        {
+          "english": "Last, ...",
+          "chinese": "最后，……",
+          "phonetic": "/lɑːst/"
+        },
+        {
+          "english": "What else?",
+          "chinese": "还有别的吗？",
+          "phonetic": "/wɒt els/"
+        },
+        {
+          "english": "How do we do this?",
+          "chinese": "我们该怎么做呢？",
+          "phonetic": "/haʊ duː wiː duː ðɪs/"
+        },
+        {
+          "english": "Let me show you.",
+          "chinese": "看我怎么做。",
+          "phonetic": "/let miː ʃəʊ juː/"
+        }
+      ]
+    },
+    {
+      "id": "unit-4",
+      "label": "Unit 4",
+      "title": "Unit 4",
+      "items": [
+        {
+          "english": "kitchen",
+          "chinese": "厨房",
+          "phonetic": "/ˈkɪtʃɪn/"
+        },
+        {
+          "english": "sweep",
+          "chinese": "清扫",
+          "phonetic": "/swiːp/"
+        },
+        {
+          "english": "dish",
+          "chinese": "盘子；菜肴",
+          "phonetic": "/dɪʃ/"
+        },
+        {
+          "english": "rubbish",
+          "chinese": "垃圾",
+          "phonetic": "/ˈrʌbɪʃ/"
+        },
+        {
+          "english": "clear",
+          "chinese": "清理；清楚的",
+          "phonetic": "/klɪə(r)/"
+        },
+        {
+          "english": "chore",
+          "chinese": "家务",
+          "phonetic": "/tʃɔː(r)/"
+        },
+        {
+          "english": "dirty",
+          "chinese": "脏的",
+          "phonetic": "/ˈdɜːti/"
+        },
+        {
+          "english": "well",
+          "chinese": "（语气词）啊；健康的；好",
+          "phonetic": "/wel/"
+        },
+        {
+          "english": "bin",
+          "chinese": "箱子",
+          "phonetic": "/bɪn/"
+        },
+        {
+          "english": "because",
+          "chinese": "因为",
+          "phonetic": "/bɪˈkɒz/"
+        },
+        {
+          "english": "do",
+          "chinese": "做",
+          "phonetic": "/duː/"
+        },
+        {
+          "english": "agree",
+          "chinese": "同意",
+          "phonetic": "/əˈɡriː/"
+        },
+        {
+          "english": "do chores",
+          "chinese": "做家务",
+          "phonetic": "/duː tʃɔːz/"
+        },
+        {
+          "english": "sweep the floor",
+          "chinese": "扫地",
+          "phonetic": "/swiːp ðə flɔː(r)/"
+        },
+        {
+          "english": "put away the dishes",
+          "chinese": "收盘子",
+          "phonetic": "/pʊt əˈweɪ ðə ˈdɪʃɪz/"
+        },
+        {
+          "english": "clean the table",
+          "chinese": "擦桌子",
+          "phonetic": "/kliːn ðə ˈteɪbl/"
+        },
+        {
+          "english": "wash the dishes",
+          "chinese": "洗碗",
+          "phonetic": "/wɒʃ ðə ˈdɪʃɪz/"
+        },
+        {
+          "english": "take out the rubbish",
+          "chinese": "倒垃圾",
+          "phonetic": "/teɪk aʊt ðə ˈrʌbɪʃ/"
+        },
+        {
+          "english": "clear the table",
+          "chinese": "收拾桌子",
+          "phonetic": "/klɪə(r) ðə ˈteɪbl/"
+        },
+        {
+          "english": "clean up",
+          "chinese": "打扫",
+          "phonetic": "/kliːn ʌp/"
+        },
+        {
+          "english": "look dirty",
+          "chinese": "看起来脏",
+          "phonetic": "/lʊk ˈdɜːti/"
+        },
+        {
+          "english": "put away the leftovers",
+          "chinese": "收拾剩菜",
+          "phonetic": "/pʊt əˈweɪ ðə ˈleftəʊvəz/"
+        },
+        {
+          "english": "How can we clean ... up?",
+          "chinese": "我们如何把……清理干净？",
+          "phonetic": "/haʊ kæn wiː kliːn ... ʌp/"
+        },
+        {
+          "english": "Maybe we can/should ... first, and then ...",
+          "chinese": "也许我们可以/应该先……后……",
+          "phonetic": "/ˈmeɪbi wiː kæn ... fɜːst ənd ðen .../ /ˈmeɪbi wiː ʃʊd ... fɜːst ənd ðen .../"
+        },
+        {
+          "english": "How about ...?",
+          "chinese": "……如何？",
+          "phonetic": "/haʊ əˈbaʊt .../"
+        }
+      ]
+    },
+    {
+      "id": "unit-5",
+      "label": "Unit 5",
+      "title": "Unit 5",
+      "items": [
+        {
+          "english": "smile",
+          "chinese": "微笑",
+          "phonetic": "/smaɪl/"
+        },
+        {
+          "english": "open",
+          "chinese": "开着的；打开",
+          "phonetic": "/ˈəʊpən/"
+        },
+        {
+          "english": "cheer",
+          "chinese": "鼓励",
+          "phonetic": "/tʃɪə(r)/"
+        },
+        {
+          "english": "ready",
+          "chinese": "准备好的",
+          "phonetic": "/ˈredi/"
+        },
+        {
+          "english": "kind",
+          "chinese": "友善的",
+          "phonetic": "/kaɪnd/"
+        },
+        {
+          "english": "lot",
+          "chinese": "许多",
+          "phonetic": "/lɒt/"
+        },
+        {
+          "english": "happy",
+          "chinese": "开心的",
+          "phonetic": "/ˈhæpi/"
+        },
+        {
+          "english": "share",
+          "chinese": "分享",
+          "phonetic": "/ʃeə(r)/"
+        },
+        {
+          "english": "hard",
+          "chinese": "努力地",
+          "phonetic": "/hɑːd/"
+        },
+        {
+          "english": "animal",
+          "chinese": "动物",
+          "phonetic": "/ˈænɪml/"
+        },
+        {
+          "english": "tell",
+          "chinese": "告诉",
+          "phonetic": "/tel/"
+        },
+        {
+          "english": "else",
+          "chinese": "其他的",
+          "phonetic": "/els/"
+        },
+        {
+          "english": "him",
+          "chinese": "他",
+          "phonetic": "/hɪm/"
+        },
+        {
+          "english": "smile and say hi to others",
+          "chinese": "微笑着和别人打招呼",
+          "phonetic": "/smaɪl ənd seɪ haɪ tuː ˈʌðə(r)z/"
+        },
+        {
+          "english": "cheer up a friend",
+          "chinese": "让朋友高兴起来",
+          "phonetic": "/tʃɪə(r) ʌp ə frend/"
+        },
+        {
+          "english": "be ready to help",
+          "chinese": "准备好帮忙",
+          "phonetic": "/bi ˈredi tuː help/"
+        },
+        {
+          "english": "give a helping hand",
+          "chinese": "帮助",
+          "phonetic": "/ɡɪv ə ˈhelpɪŋ hænd/"
+        },
+        {
+          "english": "ask others to join in",
+          "chinese": "邀请他人加入",
+          "phonetic": "/ɑːsk ˈʌðə(r)z tuː dʒɔɪn ɪn/"
+        },
+        {
+          "english": "work hard",
+          "chinese": "努力学习",
+          "phonetic": "/wɜːk hɑːd/"
+        },
+        {
+          "english": "He/She likes to ...",
+          "chinese": "他 / 她喜欢……",
+          "phonetic": "/hiː laɪks tə .../ /ʃiː laɪks tə .../"
+        },
+        {
+          "english": "He/She is always ready to ...",
+          "chinese": "他 / 她总是准备好去……",
+          "phonetic": "/hiː ɪz ˈɔːlweɪz ˈredi tə .../ /ʃiː ɪz ˈɔːlweɪz ˈredi tə .../"
+        },
+        {
+          "english": "I think ... is so kind.",
+          "chinese": "我觉得……很善良。",
+          "phonetic": "/aɪ θɪŋk ... ɪz səʊ kaɪnd/"
+        },
+        {
+          "english": "Why don't you ...?",
+          "chinese": "为什么不……？",
+          "phonetic": "/waɪ dəʊnt juː .../"
+        },
+        {
+          "english": "I think you can ...",
+          "chinese": "我觉得你可以……",
+          "phonetic": "/aɪ θɪŋk juː kæn .../"
+        },
+        {
+          "english": "Maybe you ...",
+          "chinese": "也许你可以……",
+          "phonetic": "/ˈmeɪbi juː .../"
+        }
+      ]
+    },
+    {
+      "id": "unit-6",
+      "label": "Unit 6",
+      "title": "Unit 6",
+      "items": [
+        {
+          "english": "birthday",
+          "chinese": "生日",
+          "phonetic": "/ˈbɜːθdeɪ/"
+        },
+        {
+          "english": "cake",
+          "chinese": "蛋糕",
+          "phonetic": "/keɪk/"
+        },
+        {
+          "english": "spend",
+          "chinese": "度过",
+          "phonetic": "/spend/"
+        },
+        {
+          "english": "sweet",
+          "chinese": "体贴的；甜的",
+          "phonetic": "/swiːt/"
+        },
+        {
+          "english": "laugh",
+          "chinese": "笑",
+          "phonetic": "/lɑːf/"
+        },
+        {
+          "english": "all",
+          "chinese": "全部的",
+          "phonetic": "/ɔːl/"
+        },
+        {
+          "english": "surprise",
+          "chinese": "使惊奇；惊喜",
+          "phonetic": "/səˈpraɪz/"
+        },
+        {
+          "english": "funny",
+          "chinese": "有趣的",
+          "phonetic": "/ˈfʌni/"
+        },
+        {
+          "english": "story",
+          "chinese": "故事",
+          "phonetic": "/ˈstɔːri/"
+        },
+        {
+          "english": "picture",
+          "chinese": "画；照片",
+          "phonetic": "/ˈpɪktʃə(r)/"
+        },
+        {
+          "english": "a baby sister",
+          "chinese": "一个小妹妹",
+          "phonetic": "/ə ˈbeɪbi ˈsɪstə(r)/"
+        },
+        {
+          "english": "say nice words",
+          "chinese": "说赞美的语言",
+          "phonetic": "/seɪ naɪs wɜːdz/"
+        },
+        {
+          "english": "give a gift",
+          "chinese": "送礼物",
+          "phonetic": "/ɡɪv ə ɡɪft/"
+        },
+        {
+          "english": "spend one-on-one time",
+          "chinese": "花时间单独相处",
+          "phonetic": "/spend ˈwʌn ɒn ˈwʌn taɪm/"
+        },
+        {
+          "english": "help out",
+          "chinese": "帮忙",
+          "phonetic": "/help aʊt/"
+        },
+        {
+          "english": "buy a birthday cake",
+          "chinese": "买一个生日蛋糕",
+          "phonetic": "/baɪ ə ˈbɜːθdeɪ keɪk/"
+        },
+        {
+          "english": "read a book",
+          "chinese": "读一本书",
+          "phonetic": "/riːd ə bʊk/"
+        },
+        {
+          "english": "cook together",
+          "chinese": "一起做饭",
+          "phonetic": "/kʊk təˈɡeðə(r)/"
+        },
+        {
+          "english": "cook birthday noodles",
+          "chinese": "煮生日面",
+          "phonetic": "/kʊk ˈbɜːθdeɪ ˈnuːdlz/"
+        },
+        {
+          "english": "take a walk",
+          "chinese": "散步",
+          "phonetic": "/teɪk ə wɔːk/"
+        },
+        {
+          "english": "say “Happy birthday!”",
+          "chinese": "说“生日快乐！”",
+          "phonetic": "/seɪ ˈhæpi ˈbɜːθdeɪ/"
+        },
+        {
+          "english": "sing a song",
+          "chinese": "唱歌",
+          "phonetic": "/sɪŋ ə sɒŋ/"
+        },
+        {
+          "english": "What can I do?",
+          "chinese": "我可以做什么呢？",
+          "phonetic": "/wɒt kæn aɪ duː/"
+        },
+        {
+          "english": "Why don't you ...?",
+          "chinese": "为什么不……？",
+          "phonetic": "/waɪ dəʊnt juː .../"
+        },
+        {
+          "english": "I think you can ...",
+          "chinese": "我觉得你可以……",
+          "phonetic": "/aɪ θɪŋk juː kæn .../"
+        },
+        {
+          "english": "Maybe you ...",
+          "chinese": "也许你可以……",
+          "phonetic": "/ˈmeɪbi juː .../"
+        }
+      ]
+    },
+    {
+      "id": "unit-7",
+      "label": "Unit 7",
+      "title": "Unit 7",
+      "items": [
+        {
+          "english": "grandpa",
+          "chinese": "爷爷；外公",
+          "phonetic": "/ˈɡrænpɑː/"
+        },
+        {
+          "english": "uncle",
+          "chinese": "叔叔；舅舅",
+          "phonetic": "/ˈʌŋkl/"
+        },
+        {
+          "english": "aunt",
+          "chinese": "姑妈；姨妈",
+          "phonetic": "/ɑːnt/"
+        },
+        {
+          "english": "sister",
+          "chinese": "姐姐；妹妹",
+          "phonetic": "/ˈsɪstə(r)/"
+        },
+        {
+          "english": "leave",
+          "chinese": "留下；离开",
+          "phonetic": "/liːv/"
+        },
+        {
+          "english": "note",
+          "chinese": "便条；笔记",
+          "phonetic": "/nəʊt/"
+        },
+        {
+          "english": "sing",
+          "chinese": "唱歌",
+          "phonetic": "/sɪŋ/"
+        },
+        {
+          "english": "song",
+          "chinese": "歌曲",
+          "phonetic": "/sɒŋ/"
+        },
+        {
+          "english": "warm",
+          "chinese": "温暖的",
+          "phonetic": "/wɔːm/"
+        },
+        {
+          "english": "who",
+          "chinese": "谁",
+          "phonetic": "/huː/"
+        },
+        {
+          "english": "date",
+          "chinese": "日期",
+          "phonetic": "/deɪt/"
+        },
+        {
+          "english": "policeman",
+          "chinese": "男警察",
+          "phonetic": "/pəˈliːsmən/"
+        },
+        {
+          "english": "policewoman",
+          "chinese": "女警察",
+          "phonetic": "/pəˈliːswʊmən/"
+        },
+        {
+          "english": "afternoon",
+          "chinese": "下午",
+          "phonetic": "/ˌɑːftəˈnuːn/"
+        },
+        {
+          "english": "night",
+          "chinese": "夜晚",
+          "phonetic": "/naɪt/"
+        },
+        {
+          "english": "long",
+          "chinese": "长的",
+          "phonetic": "/lɒŋ/"
+        },
+        {
+          "english": "game",
+          "chinese": "游戏",
+          "phonetic": "/ɡeɪm/"
+        },
+        {
+          "english": "sound",
+          "chinese": "听起来",
+          "phonetic": "/saʊnd/"
+        },
+        {
+          "english": "dear",
+          "chinese": "亲爱的",
+          "phonetic": "/dɪə(r)/"
+        },
+        {
+          "english": "once",
+          "chinese": "一次",
+          "phonetic": "/wʌns/"
+        },
+        {
+          "english": "weekend",
+          "chinese": "周末",
+          "phonetic": "/ˌwiːkˈend/"
+        },
+        {
+          "english": "sit",
+          "chinese": "坐",
+          "phonetic": "/sɪt/"
+        },
+        {
+          "english": "wish",
+          "chinese": "愿望；祝愿",
+          "phonetic": "/wɪʃ/"
+        },
+        {
+          "english": "back",
+          "chinese": "以前；后面的",
+          "phonetic": "/bæk/"
+        },
+        {
+          "english": "through",
+          "chinese": "穿过",
+          "phonetic": "/θruː/"
+        },
+        {
+          "english": "forward",
+          "chinese": "向前",
+          "phonetic": "/ˈfɔːwəd/"
+        },
+        {
+          "english": "part",
+          "chinese": "部分",
+          "phonetic": "/pɑːt/"
+        },
+        {
+          "english": "hope",
+          "chinese": "希望",
+          "phonetic": "/həʊp/"
+        },
+        {
+          "english": "during",
+          "chinese": "在……期间",
+          "phonetic": "/ˈdjʊərɪŋ/"
+        },
+        {
+          "english": "tree",
+          "chinese": "树",
+          "phonetic": "/triː/"
+        },
+        {
+          "english": "never",
+          "chinese": "永不",
+          "phonetic": "/ˈnevə(r)/"
+        },
+        {
+          "english": "old",
+          "chinese": "老的",
+          "phonetic": "/əʊld/"
+        },
+        {
+          "english": "dance",
+          "chinese": "跳舞",
+          "phonetic": "/dɑːns/"
+        },
+        {
+          "english": "He/She is ...",
+          "chinese": "他 / 她是……（职业）",
+          "phonetic": "/hiː ɪz .../ /ʃiː ɪz .../"
+        },
+        {
+          "english": "When does he/she ...?",
+          "chinese": "他 / 她什么时候……（活动）？",
+          "phonetic": "/wen dʌz hiː .../ /wen dʌz ʃiː .../"
+        },
+        {
+          "english": "He/She ... at ...",
+          "chinese": "他 / 她在……（时间）……（活动）",
+          "phonetic": "/hiː ... æt .../ /ʃiː ... æt .../"
+        },
+        {
+          "english": "IT worker",
+          "chinese": "信息技术工作者",
+          "phonetic": "/ˌaɪ ˈtiː ˈwɜːkə(r)/"
+        },
+        {
+          "english": "taxi driver",
+          "chinese": "出租车司机",
+          "phonetic": "/ˈtæksi ˈdraɪvə(r)/"
+        },
+        {
+          "english": "go to work/school",
+          "chinese": "去上班 / 上学",
+          "phonetic": "/ɡəʊ tə wɜːk/ /ɡəʊ tə skuːl/"
+        },
+        {
+          "english": "come home",
+          "chinese": "回家",
+          "phonetic": "/kʌm həʊm/"
+        },
+        {
+          "english": "in the morning",
+          "chinese": "在早晨",
+          "phonetic": "/ɪn ðə ˈmɔːnɪŋ/"
+        },
+        {
+          "english": "in the afternoon",
+          "chinese": "在下午",
+          "phonetic": "/ɪn ði ˌɑːftəˈnuːn/"
+        },
+        {
+          "english": "in the evening",
+          "chinese": "在晚上",
+          "phonetic": "/ɪn ði ˈiːvnɪŋ/"
+        },
+        {
+          "english": "exercise together",
+          "chinese": "一起锻炼",
+          "phonetic": "/ˈeksəsaɪz təˈɡeðə(r)/"
+        },
+        {
+          "english": "play a game",
+          "chinese": "玩游戏",
+          "phonetic": "/pleɪ ə ɡeɪm/"
+        },
+        {
+          "english": "go for a walk",
+          "chinese": "外出散步",
+          "phonetic": "/ɡəʊ fɔː(r) ə wɔːk/"
+        },
+        {
+          "english": "What does ... do?",
+          "chinese": "……（谁）是做什么工作的？",
+          "phonetic": "/wɒt dʌz ... duː/"
+        }
+      ]
+    },
+    {
+      "id": "unit-8",
+      "label": "Unit 8",
+      "title": "Unit 8",
+      "items": [
+        {
+          "english": "firework",
+          "chinese": "烟花",
+          "phonetic": "/ˈfaɪəwɜːk/"
+        },
+        {
+          "english": "mooncake",
+          "chinese": "月饼",
+          "phonetic": "/ˈmuːnkeɪk/"
+        },
+        {
+          "english": "visit",
+          "chinese": "拜访",
+          "phonetic": "/ˈvɪzɪt/"
+        },
+        {
+          "english": "meal",
+          "chinese": "一餐",
+          "phonetic": "/miːl/"
+        },
+        {
+          "english": "favourite",
+          "chinese": "最喜欢的",
+          "phonetic": "/ˈfeɪvərɪt/"
+        },
+        {
+          "english": "festival",
+          "chinese": "节日",
+          "phonetic": "/ˈfestɪvl/"
+        },
+        {
+          "english": "far",
+          "chinese": "远的",
+          "phonetic": "/fɑː(r)/"
+        },
+        {
+          "english": "near",
+          "chinese": "近的；附近的",
+          "phonetic": "/nɪə(r)/"
+        },
+        {
+          "english": "watch fireworks",
+          "chinese": "看烟花",
+          "phonetic": "/wɒtʃ ˈfaɪəwɜːks/"
+        },
+        {
+          "english": "eat mooncakes",
+          "chinese": "吃月饼",
+          "phonetic": "/iːt ˈmuːnkeɪks/"
+        },
+        {
+          "english": "visit family and friends",
+          "chinese": "拜访家人和朋友",
+          "phonetic": "/ˈvɪzɪt ˈfæməli ənd frendz/"
+        },
+        {
+          "english": "give out gifts",
+          "chinese": "分发礼物",
+          "phonetic": "/ɡɪv aʊt ɡɪfts/"
+        },
+        {
+          "english": "make rice dumplings",
+          "chinese": "包粽子",
+          "phonetic": "/meɪk raɪs ˈdʌmplɪŋz/"
+        },
+        {
+          "english": "have a big meal",
+          "chinese": "吃大餐",
+          "phonetic": "/hæv ə bɪɡ miːl/"
+        },
+        {
+          "english": "best wishes",
+          "chinese": "最好的祝愿",
+          "phonetic": "/best ˈwɪʃɪz/"
+        },
+        {
+          "english": "Dragon Boat Festival",
+          "chinese": "端午节",
+          "phonetic": "/ˈdræɡən bəʊt ˈfestɪvl/"
+        },
+        {
+          "english": "Mid-Autumn Festival",
+          "chinese": "中秋节",
+          "phonetic": "/mɪd ˈɔːtəm ˈfestɪvl/"
+        },
+        {
+          "english": "New Year",
+          "chinese": "新年",
+          "phonetic": "/njuː jɪə(r)/"
+        },
+        {
+          "english": "Spring Festival",
+          "chinese": "春节",
+          "phonetic": "/sprɪŋ ˈfestɪvl/"
+        },
+        {
+          "english": "Lantern Festival",
+          "chinese": "元宵节",
+          "phonetic": "/ˈlæntən ˈfestɪvl/"
+        },
+        {
+          "english": "Water Festival",
+          "chinese": "泼水节",
+          "phonetic": "/ˈwɔːtə(r) ˈfestɪvl/"
+        },
+        {
+          "english": "Happy New Year!",
+          "chinese": "新年快乐！",
+          "phonetic": "/ˈhæpi njuː jɪə(r)/"
+        },
+        {
+          "english": "Wish you all the best!",
+          "chinese": "祝你一切顺利！",
+          "phonetic": "/wɪʃ juː ɔːl ðə best/"
+        },
+        {
+          "english": "My favourite festival is ... On that day, we ...",
+          "chinese": "我最喜欢的节日是……那一天，我们……",
+          "phonetic": "/maɪ ˈfeɪvərɪt ˈfestɪvl ɪz ... ɒn ðæt deɪ wiː .../"
+        },
+        {
+          "english": "I like ... the most.",
+          "chinese": "我最喜欢……",
+          "phonetic": "/aɪ laɪk ... ðə məʊst/"
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "label": "Review",
+      "title": "Review",
+      "items": [
+        {
+          "english": "party",
+          "chinese": "派对",
+          "phonetic": "/ˈpɑːti/"
+        },
+        {
+          "english": "elephant",
+          "chinese": "大象",
+          "phonetic": "/ˈelɪfənt/"
+        },
+        {
+          "english": "most",
+          "chinese": "最",
+          "phonetic": "/məʊst/"
+        },
+        {
+          "english": "Africa",
+          "chinese": "非洲",
+          "phonetic": "/ˈæfrɪkə/"
+        },
+        {
+          "english": "a baby elephant",
+          "chinese": "一个大象宝宝",
+          "phonetic": "/ə ˈbeɪbi ˈelɪfənt/"
+        },
+        {
+          "english": "take photos of animals",
+          "chinese": "给动物摄影",
+          "phonetic": "/teɪk ˈfəʊtəʊz ɒv ˈænɪmlz/"
+        },
+        {
+          "english": "a big playground",
+          "chinese": "一个大操场",
+          "phonetic": "/ə bɪɡ ˈpleɪɡraʊnd/"
+        },
+        {
+          "english": "add seasoning",
+          "chinese": "添加调料",
+          "phonetic": "/æd ˈsiːzənɪŋ/"
+        },
+        {
+          "english": "What classes do you have?",
+          "chinese": "你们有什么课？",
+          "phonetic": "/wɒt ˈklɑːsɪz duː juː hæv/"
+        },
+        {
+          "english": "What's your favourite subject?",
+          "chinese": "你最喜欢的科目是什么？",
+          "phonetic": "/wɒts jɔː(r) ˈfeɪvərɪt ˈsʌbdʒɪkt/"
+        }
+      ]
+    }
+  ]
+}

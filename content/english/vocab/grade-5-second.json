@@ -1,0 +1,854 @@
+{
+  "schema": "english-vocab-page.v1",
+  "id": "english-grade-5-second-words",
+  "source_note": "Imported from subjects/english/grade-5/second/words/index.html",
+  "route": "/subjects/english/grade-5/second/words/",
+  "output": "subjects/english/grade-5/second/words/index.html",
+  "title": "广州英语五年级下册单词词汇",
+  "page_title": "五年级下学期英语单词 | 小学知识点",
+  "description": "广州英语五年级下册 Unit 1-12 单词词汇",
+  "kicker": "五年级 · 下学期 · 单词",
+  "summary": "Unit 1-12 | 按单元整理 | 支持逐词朗读",
+  "stats": {
+    "unit_label": "12 个 Unit",
+    "item_suffix": "个词汇"
+  },
+  "unit_item_suffix": "个词汇",
+  "dictation": true,
+  "units": [
+    {
+      "id": "unit-1",
+      "label": "Unit 1",
+      "title": "What’s your favourite season?",
+      "items": [
+        {
+          "english": "colourful",
+          "chinese": "多彩的",
+          "phonetic": "['kʌləfl]"
+        },
+        {
+          "english": "prefer",
+          "chinese": "选择；宁愿要",
+          "phonetic": "[prɪ'fɜ:(r)]"
+        },
+        {
+          "english": "winter",
+          "chinese": "冬天",
+          "phonetic": "['wɪntə(r)]"
+        },
+        {
+          "english": "either",
+          "chinese": "或",
+          "phonetic": "['aɪðə(r)] 或 [ˈiːðər]"
+        },
+        {
+          "english": "autumn",
+          "chinese": "秋天",
+          "phonetic": "['ɔ:təm]"
+        },
+        {
+          "english": "ski",
+          "chinese": "滑雪",
+          "phonetic": "[ski:]"
+        },
+        {
+          "english": "plant",
+          "chinese": "种植",
+          "phonetic": "[plɑ:nt]"
+        },
+        {
+          "english": "camp",
+          "chinese": "野营",
+          "phonetic": "[kæmp]"
+        },
+        {
+          "english": "go camping",
+          "chinese": "去野营",
+          "phonetic": "[ɡəʊ ˈkæmpɪŋ]"
+        }
+      ]
+    },
+    {
+      "id": "unit-2",
+      "label": "Unit 2",
+      "title": "It’s the middle of winter",
+      "items": [
+        {
+          "english": "middle",
+          "chinese": "中间,中间的",
+          "phonetic": "[ˈmɪdl]"
+        },
+        {
+          "english": "classmate",
+          "chinese": "同班同学",
+          "phonetic": "[ˈklɑ:smeɪt]"
+        },
+        {
+          "english": "Australia",
+          "chinese": "澳大利亚",
+          "phonetic": "[ɒ'streɪlɪə]"
+        },
+        {
+          "english": "answer",
+          "chinese": "回答; 答案",
+          "phonetic": "[ˈɑ:nsə(r)]"
+        },
+        {
+          "english": "China",
+          "chinese": "中国",
+          "phonetic": "['tʃaɪnə]"
+        },
+        {
+          "english": "too…to…",
+          "chinese": "太……以致不……",
+          "phonetic": "[tuː…tuː]"
+        },
+        {
+          "english": "if",
+          "chinese": "如果",
+          "phonetic": "[ɪf]"
+        }
+      ]
+    },
+    {
+      "id": "unit-3",
+      "label": "Unit 3",
+      "title": "We are going to have an English test",
+      "items": [
+        {
+          "english": "plan",
+          "chinese": "计划",
+          "phonetic": "[plæn]"
+        },
+        {
+          "english": "test",
+          "chinese": "考试",
+          "phonetic": "[test]"
+        },
+        {
+          "english": "date",
+          "chinese": "日期",
+          "phonetic": "[deɪt]"
+        },
+        {
+          "english": "Why?",
+          "chinese": "怎么啦？",
+          "phonetic": "[waɪ]"
+        },
+        {
+          "english": "be going to",
+          "chinese": "打算；将",
+          "phonetic": "[bi ˈɡəʊɪŋ tə]"
+        },
+        {
+          "english": "forget",
+          "chinese": "忘记",
+          "phonetic": "[fəˈget]"
+        },
+        {
+          "english": "important",
+          "chinese": "重要的",
+          "phonetic": "[ɪmˈpɔ:tnt]"
+        },
+        {
+          "english": "month",
+          "chinese": "月",
+          "phonetic": "[mʌnθ]"
+        },
+        {
+          "english": "museum",
+          "chinese": "博物馆",
+          "phonetic": "[mjuˈzi:əm]"
+        },
+        {
+          "english": "meeting",
+          "chinese": "会议",
+          "phonetic": "[ˈmi:tɪŋ]"
+        },
+        {
+          "english": "open day",
+          "chinese": "开放日",
+          "phonetic": "[ˈəʊpən deɪ]"
+        },
+        {
+          "english": "farm",
+          "chinese": "农场",
+          "phonetic": "[fɑ:m]"
+        },
+        {
+          "english": "second",
+          "chinese": "第二",
+          "phonetic": "[ˈsekənd]"
+        },
+        {
+          "english": "third",
+          "chinese": "第三",
+          "phonetic": "[θɜ:d]"
+        },
+        {
+          "english": "fifth",
+          "chinese": "第五",
+          "phonetic": "[fɪfθ]"
+        },
+        {
+          "english": "eighth",
+          "chinese": "第八",
+          "phonetic": "[eɪtθ]"
+        },
+        {
+          "english": "ninth",
+          "chinese": "第九",
+          "phonetic": "[naɪnθ]"
+        }
+      ]
+    },
+    {
+      "id": "unit-4",
+      "label": "Unit 4",
+      "title": "Have a good time in Hainan",
+      "items": [
+        {
+          "english": "have a good time",
+          "chinese": "过得愉快",
+          "phonetic": "[hæv ə ɡʊd taɪm]"
+        },
+        {
+          "english": "travel",
+          "chinese": "旅行",
+          "phonetic": "[ˈtrævl]"
+        },
+        {
+          "english": "mountain",
+          "chinese": "大山",
+          "phonetic": "[ˈmaʊntən]"
+        },
+        {
+          "english": "climb",
+          "chinese": "爬",
+          "phonetic": "[klaɪm]"
+        },
+        {
+          "english": "mountain climbing",
+          "chinese": "爬山",
+          "phonetic": "[ˈmaʊntən ˈklaɪmɪŋ]"
+        },
+        {
+          "english": "beach",
+          "chinese": "海滨",
+          "phonetic": "[bi:tʃ]"
+        },
+        {
+          "english": "deer",
+          "chinese": "鹿（单复数一样）",
+          "phonetic": "[dɪə(r)]"
+        },
+        {
+          "english": "noon",
+          "chinese": "中午",
+          "phonetic": "[nu:n]"
+        }
+      ]
+    },
+    {
+      "id": "unit-5",
+      "label": "Unit 5",
+      "title": "Would you like to go with us?",
+      "items": [
+        {
+          "english": "invitation",
+          "chinese": "邀请",
+          "phonetic": "[ˌɪnvɪˈteɪʃn]"
+        },
+        {
+          "english": "would",
+          "chinese": "会; 愿意",
+          "phonetic": "[wʊd]"
+        },
+        {
+          "english": "Would you like…?",
+          "chinese": "你愿意……吗？",
+          "phonetic": "[wʊd juː laɪk]"
+        },
+        {
+          "english": "hey",
+          "chinese": "嗨",
+          "phonetic": "[heɪ]"
+        },
+        {
+          "english": "guy",
+          "chinese": "小伙子；家伙",
+          "phonetic": "[gaɪ]"
+        },
+        {
+          "english": "nothing",
+          "chinese": "没有东西;没有事情",
+          "phonetic": "[ˈnʌθɪŋ]"
+        },
+        {
+          "english": "sound",
+          "chinese": "听起来",
+          "phonetic": "[saʊnd]"
+        },
+        {
+          "english": "gate",
+          "chinese": "大门",
+          "phonetic": "[geɪt]"
+        },
+        {
+          "english": "a.m.",
+          "chinese": "上午；午前",
+          "phonetic": "[eɪˈɛm]"
+        },
+        {
+          "english": "cool",
+          "chinese": "太妙了；酷",
+          "phonetic": "[ku:l]"
+        },
+        {
+          "english": "Oh dear!",
+          "chinese": "天啊！",
+          "phonetic": "[əʊ dɪə(r)]"
+        },
+        {
+          "english": "problem",
+          "chinese": "问题",
+          "phonetic": "[ˈprɒbləm]"
+        },
+        {
+          "english": "No problem.",
+          "chinese": "没问题。",
+          "phonetic": "[nəʊ ˈprɒbləm]"
+        },
+        {
+          "english": "match",
+          "chinese": "比赛",
+          "phonetic": "[mætʃ]"
+        },
+        {
+          "english": "centre",
+          "chinese": "中心",
+          "phonetic": "[ˈsentə(r)]"
+        },
+        {
+          "english": "supermarket",
+          "chinese": "超市",
+          "phonetic": "[ˈsu:pəmɑ:kɪt]"
+        }
+      ]
+    },
+    {
+      "id": "unit-6",
+      "label": "Unit 6",
+      "title": "See you at the party",
+      "items": [
+        {
+          "english": "I’d like to…",
+          "chinese": "我想（做）……",
+          "phonetic": "[aɪd laɪk tə]"
+        },
+        {
+          "english": "invite",
+          "chinese": "邀请",
+          "phonetic": "[ɪnˈvaɪt]"
+        },
+        {
+          "english": "special",
+          "chinese": "特别的",
+          "phonetic": "[ˈspeʃl]"
+        },
+        {
+          "english": "surprise",
+          "chinese": "惊奇；使惊奇",
+          "phonetic": "[səˈpraɪz]"
+        },
+        {
+          "english": "begin",
+          "chinese": "开始",
+          "phonetic": "[bɪˈgɪn]"
+        },
+        {
+          "english": "arrive",
+          "chinese": "到达",
+          "phonetic": "[əˈraɪv]"
+        },
+        {
+          "english": "call",
+          "chinese": "叫；打电话",
+          "phonetic": "[kɔ:l]"
+        }
+      ]
+    },
+    {
+      "id": "unit-7",
+      "label": "Unit 7",
+      "title": "We will go by train",
+      "items": [
+        {
+          "english": "by",
+          "chinese": "乘；由",
+          "phonetic": "[baɪ]"
+        },
+        {
+          "english": "train",
+          "chinese": "火车",
+          "phonetic": "[treɪn]"
+        },
+        {
+          "english": "leave",
+          "chinese": "离开",
+          "phonetic": "[li:v]"
+        },
+        {
+          "english": "exciting",
+          "chinese": "激动的；兴奋的",
+          "phonetic": "[ɪkˈsaɪtɪŋ]"
+        },
+        {
+          "english": "valley",
+          "chinese": "山谷",
+          "phonetic": "[ˈvæli]"
+        },
+        {
+          "english": "island",
+          "chinese": "岛",
+          "phonetic": "[ˈaɪlənd]"
+        },
+        {
+          "english": "taxi",
+          "chinese": "出租汽车",
+          "phonetic": "[ˈtæksi]"
+        },
+        {
+          "english": "London",
+          "chinese": "伦敦",
+          "phonetic": "['lʌndən]"
+        },
+        {
+          "english": "New York",
+          "chinese": "纽约",
+          "phonetic": "[njuː jɔːk]"
+        },
+        {
+          "english": "America",
+          "chinese": "美国；美洲",
+          "phonetic": "[ə'merɪkə]"
+        },
+        {
+          "english": "Hong Kong",
+          "chinese": "香港",
+          "phonetic": "[ˌhɒŋ ˈkɒŋ]"
+        },
+        {
+          "english": "American",
+          "chinese": "美国的；美国人",
+          "phonetic": "[əˈmerɪkən]"
+        },
+        {
+          "english": "Australian",
+          "chinese": "澳大利亚的；澳大利亚人",
+          "phonetic": "[ɒˈstreɪliən]"
+        }
+      ]
+    },
+    {
+      "id": "unit-8",
+      "label": "Unit 8",
+      "title": "Ben’s first trip to Beijing",
+      "items": [
+        {
+          "english": "trip",
+          "chinese": "旅行；远足",
+          "phonetic": "[trɪp]"
+        },
+        {
+          "english": "excited",
+          "chinese": "激动的",
+          "phonetic": "[ɪkˈsaɪtɪd]"
+        },
+        {
+          "english": "hotel",
+          "chinese": "旅店",
+          "phonetic": "[həʊˈtel]"
+        },
+        {
+          "english": "on foot",
+          "chinese": "步行",
+          "phonetic": "[ɒn fʊt]"
+        },
+        {
+          "english": "the Great Wall",
+          "chinese": "长城",
+          "phonetic": "[ðə ɡreɪt wɔːl]"
+        },
+        {
+          "english": "the Summer Palace",
+          "chinese": "颐和园",
+          "phonetic": "[ðə ˈsʌmə(r) ˈpæləs]"
+        },
+        {
+          "english": "take a walk",
+          "chinese": "散步",
+          "phonetic": "[teɪk ə wɔːk]"
+        },
+        {
+          "english": "around",
+          "chinese": "围绕着; 在...的周围",
+          "phonetic": "[əˈraʊnd]"
+        },
+        {
+          "english": "lake",
+          "chinese": "湖",
+          "phonetic": "[leɪk]"
+        },
+        {
+          "english": "street",
+          "chinese": "大街；马路",
+          "phonetic": "[stri:t]"
+        },
+        {
+          "english": "underground",
+          "chinese": "地铁",
+          "phonetic": "[ˈʌndəgraʊnd]"
+        }
+      ]
+    },
+    {
+      "id": "unit-9",
+      "label": "Unit 9",
+      "title": "Be careful",
+      "items": [
+        {
+          "english": "safety",
+          "chinese": "安全",
+          "phonetic": "[ˈseɪfti]"
+        },
+        {
+          "english": "careful",
+          "chinese": "小心的",
+          "phonetic": "[ˈkeəfl]"
+        },
+        {
+          "english": "kid",
+          "chinese": "小孩子",
+          "phonetic": "[kɪd]"
+        },
+        {
+          "english": "oops",
+          "chinese": "哎呀",
+          "phonetic": "[ʊps]"
+        },
+        {
+          "english": "hurt",
+          "chinese": "伤害",
+          "phonetic": "[hɜ:t]"
+        },
+        {
+          "english": "get hurt",
+          "chinese": "被伤害",
+          "phonetic": "[ɡet hɜːt]"
+        },
+        {
+          "english": "must",
+          "chinese": "必须",
+          "phonetic": "[məst]"
+        },
+        {
+          "english": "cut",
+          "chinese": "割",
+          "phonetic": "[kʌt]"
+        },
+        {
+          "english": "sharp",
+          "chinese": "锐利的",
+          "phonetic": "[ʃɑ:p]"
+        },
+        {
+          "english": "yourself",
+          "chinese": "你自己",
+          "phonetic": "[jɔ:ˈself]"
+        },
+        {
+          "english": "watch out",
+          "chinese": "注意",
+          "phonetic": "[wɒtʃ aʊt]"
+        },
+        {
+          "english": "fall",
+          "chinese": "落",
+          "phonetic": "[fɔ:l]"
+        },
+        {
+          "english": "down",
+          "chinese": "向下",
+          "phonetic": "[daʊn]"
+        },
+        {
+          "english": "fall down",
+          "chinese": "跌倒",
+          "phonetic": "[fɔːl daʊn]"
+        },
+        {
+          "english": "dry",
+          "chinese": "弄干",
+          "phonetic": "[draɪ]"
+        },
+        {
+          "english": "bad",
+          "chinese": "坏的",
+          "phonetic": "[bæd]"
+        },
+        {
+          "english": "fan",
+          "chinese": "扇子",
+          "phonetic": "[fæn]"
+        },
+        {
+          "english": "feed",
+          "chinese": "喂养",
+          "phonetic": "[fi:d]"
+        },
+        {
+          "english": "dangerous",
+          "chinese": "危险的",
+          "phonetic": "[ˈdeɪndʒərəs]"
+        }
+      ]
+    },
+    {
+      "id": "unit-10",
+      "label": "Unit 10",
+      "title": "How to stay safe - Children’s Safety Dos and Don’ts",
+      "items": [
+        {
+          "english": "safe",
+          "chinese": "安全的",
+          "phonetic": "[seɪf]"
+        },
+        {
+          "english": "cross",
+          "chinese": "横过",
+          "phonetic": "[krɒs]"
+        },
+        {
+          "english": "traffic",
+          "chinese": "交通",
+          "phonetic": "[ˈtræfɪk]"
+        },
+        {
+          "english": "light",
+          "chinese": "灯",
+          "phonetic": "[laɪt]"
+        },
+        {
+          "english": "crossing",
+          "chinese": "人行横道",
+          "phonetic": "[ˈkrɒsɪŋ]"
+        },
+        {
+          "english": "road",
+          "chinese": "路",
+          "phonetic": "[rəʊd]"
+        },
+        {
+          "english": "stair",
+          "chinese": "楼梯",
+          "phonetic": "[steə(r)]"
+        },
+        {
+          "english": "money",
+          "chinese": "钱",
+          "phonetic": "[ˈmʌni]"
+        },
+        {
+          "english": "candy",
+          "chinese": "糖果",
+          "phonetic": "[ˈkændi]"
+        },
+        {
+          "english": "stranger",
+          "chinese": "陌生人",
+          "phonetic": "[ˈstreɪndʒə(r)]"
+        },
+        {
+          "english": "trouble",
+          "chinese": "麻烦",
+          "phonetic": "[ˈtrʌbl]"
+        },
+        {
+          "english": "in trouble",
+          "chinese": "遇到麻烦",
+          "phonetic": "[ɪn ˈtrʌbl]"
+        },
+        {
+          "english": "hour",
+          "chinese": "小时",
+          "phonetic": "[ˈaʊə(r)]"
+        },
+        {
+          "english": "without",
+          "chinese": "没有",
+          "phonetic": "[wɪˈðaʊt]"
+        }
+      ]
+    },
+    {
+      "id": "unit-11",
+      "label": "Unit 11",
+      "title": "Can you tell me the way?",
+      "items": [
+        {
+          "english": "direction",
+          "chinese": "方向；方位",
+          "phonetic": "[dəˈrekʃn]"
+        },
+        {
+          "english": "way",
+          "chinese": "路；方法",
+          "phonetic": "[weɪ]"
+        },
+        {
+          "english": "lost",
+          "chinese": "迷路的；遗失",
+          "phonetic": "[lɒst]"
+        },
+        {
+          "english": "excuse me.",
+          "chinese": "劳驾；请原谅。",
+          "phonetic": "[ɪkˈskjuːz miː]"
+        },
+        {
+          "english": "hospital",
+          "chinese": "医院",
+          "phonetic": "[ˈhɒspɪtl]"
+        },
+        {
+          "english": "straight",
+          "chinese": "笔直地；直的",
+          "phonetic": "[streɪt]"
+        },
+        {
+          "english": "ahead",
+          "chinese": "向前",
+          "phonetic": "[əˈhed]"
+        },
+        {
+          "english": "right",
+          "chinese": "右；右边的；正好",
+          "phonetic": "[raɪt]"
+        },
+        {
+          "english": "left",
+          "chinese": "左；左边的",
+          "phonetic": "[left]"
+        },
+        {
+          "english": "miss",
+          "chinese": "错过；想念",
+          "phonetic": "[mɪs]"
+        },
+        {
+          "english": "bank",
+          "chinese": "银行",
+          "phonetic": "[bæŋk]"
+        },
+        {
+          "english": "post office",
+          "chinese": "邮局",
+          "phonetic": "[pəust ˈɔfis]"
+        },
+        {
+          "english": "zoo",
+          "chinese": "动物园",
+          "phonetic": "[zu:]"
+        },
+        {
+          "english": "restaurant",
+          "chinese": "饭店;酒楼",
+          "phonetic": "[ˈrestrɒnt]"
+        },
+        {
+          "english": "police station",
+          "chinese": "警察局",
+          "phonetic": "[pəˈli:s ˈsteiʃən]"
+        }
+      ]
+    },
+    {
+      "id": "unit-12",
+      "label": "Unit 12",
+      "title": "I know a short cut",
+      "items": [
+        {
+          "english": "short cut",
+          "chinese": "捷径",
+          "phonetic": "[ʃɔ:t kʌt]"
+        },
+        {
+          "english": "were",
+          "chinese": "是 (are的过去式)",
+          "phonetic": "[wə(r)]"
+        },
+        {
+          "english": "stand",
+          "chinese": "站；立",
+          "phonetic": "[stænd]"
+        },
+        {
+          "english": "watch",
+          "chinese": "手表",
+          "phonetic": "[wɒtʃ]"
+        },
+        {
+          "english": "late",
+          "chinese": "迟的",
+          "phonetic": "[leɪt]"
+        },
+        {
+          "english": "out of...",
+          "chinese": "在......的外面",
+          "phonetic": "[aʊt əv]"
+        },
+        {
+          "english": "took",
+          "chinese": "走(计划); 带 (take的过去式)",
+          "phonetic": "[tʊk]"
+        },
+        {
+          "english": "take the first right",
+          "chinese": "在第一个路口右转",
+          "phonetic": "[teɪk ðə fɜːst raɪt]"
+        },
+        {
+          "english": "through",
+          "chinese": "通过",
+          "phonetic": "[θru:]"
+        },
+        {
+          "english": "suddenly",
+          "chinese": "突然",
+          "phonetic": "[ˈsʌdənli]"
+        },
+        {
+          "english": "believe",
+          "chinese": "相信",
+          "phonetic": "[bɪˈli:v]"
+        },
+        {
+          "english": "on time",
+          "chinese": "按时",
+          "phonetic": "[ɒn taɪm]"
+        },
+        {
+          "english": "did",
+          "chinese": "助动词(没有实际意义) (do, does的过去式)",
+          "phonetic": "[dɪd]"
+        },
+        {
+          "english": "how long",
+          "chinese": "多长时间；多久",
+          "phonetic": "[haʊ lɒŋ]"
+        }
+      ]
+    }
+  ]
+}

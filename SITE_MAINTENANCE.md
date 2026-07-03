@@ -1,6 +1,6 @@
 # 小学知识点站点维护记录
 
-最后更新：2026-06-30
+最后更新：2026-07-03
 
 本文档记录本站点的维护细节。若由新的会话或其它 AI Agent 接手，请先读根目录 `AGENTS.md`，再读 `README.md`，最后读本文档。当前站点除英语内容外，也包含 Little Fox 分级阅读内容。
 
@@ -8,7 +8,7 @@
 
 ## 当前方案
 
-当前站点是最基础的 HTML/CSS/JS 静态站，不使用 Astro、Node 构建、打包器或组件框架。
+当前站点是最基础的 HTML/CSS/JS 静态站，不使用 Astro、Node 构建、打包器或组件框架。项目内新增了一层给 AI Agent 使用的轻量维护框架，当前只覆盖英语单词词汇页；它只生成静态 HTML，不改变部署方式。
 
 选择原因：
 - 当前实际页面较少，但后续会逐步增加。
@@ -22,9 +22,10 @@
 1. `AGENTS.md`：Agent 操作规则和验证要求。
 2. `README.md`：站点用途、预览方式、部署方式。
 3. `SITE_MAINTENANCE.md`：当前架构、页面约定、变更记录。
-4. `.agents/skills/`：如果涉及英语课文、英语词汇或 PDF 故事页面，优先使用仓库内置的对应 skill。
-5. `assets/js/site-shell.js`：如果涉及公共导航、页头、页脚或内容页公共工具栏。
-6. 本次要修改的具体页面。
+4. `SITE_FRAMEWORK.md`：如果涉及英语单词词汇页，先确认 JSON 源数据和生成工具约定。
+5. `.agents/skills/`：如果涉及英语课文、英语词汇或 PDF 故事页面，优先使用仓库内置的对应 skill。
+6. `assets/js/site-shell.js`：如果涉及公共导航、页头、页脚或内容页公共工具栏。
+7. 本次要修改的具体页面。
 
 ## 页面层级
 
@@ -54,6 +55,13 @@
 - `.agents/skills/english-vocabulary-html/`：从单词词汇资料创建词汇页面的仓库内置 skill。
 - `README.md`：项目概览、预览和部署说明。
 - `SITE_MAINTENANCE.md`：维护记录和页面约定。
+- `SITE_FRAMEWORK.md`：AI Agent 轻量维护框架说明。
+- `site-manifest.json`：站点页面清单和英语清单页卡片数据。
+- `content/english/vocab/`：英语单词词汇页源数据。
+- `tools/build_vocab_page.py`：从词汇 JSON 生成英语单词词汇页。
+- `tools/build_indexes.py`：从 `site-manifest.json` 生成英语二级清单页。
+- `tools/validate_site.py`：校验页面路径、词汇 JSON 和生成页结构。
+- `tools/import_vocab_from_html.py`：从旧词汇页 HTML 抽取 JSON 的迁移辅助工具。
 - `index.html`：首页。
 - `assets/favicon.svg`：站点图标。
 - `assets/css/site.css`：全站样式、英语内容页样式、Little Fox 故事页样式。
@@ -69,6 +77,7 @@
 - `subjects/english/index.html`：英语二级清单页。
 - `subjects/english/grade-3/second/texts/index.html`：英语三年级下学期课文页。
 - `subjects/english/grade-3/second/words/index.html`：英语三年级下学期单词词汇页。
+- `subjects/english/grade-4/first/words/index.html`：英语四年级上学期单词词汇页。
 - `subjects/english/grade-5/second/texts/index.html`：英语五年级下学期课文页。
 - `subjects/english/grade-5/second/words/index.html`：英语五年级下学期单词词汇页。
 - `subjects/little-fox/index.html`：Little Fox 二级清单页。
@@ -87,6 +96,7 @@
 - `/subjects/english/`
 - `/subjects/english/grade-3/second/texts/`
 - `/subjects/english/grade-3/second/words/`
+- `/subjects/english/grade-4/first/words/`
 - `/subjects/english/grade-5/second/texts/`
 - `/subjects/english/grade-5/second/words/`
 - `/subjects/little-fox/`
@@ -159,6 +169,7 @@
 - 英文句子和译文通过相同的 `data-index` 关联。
 
 英语词汇页正文约定：
+- 已纳入框架的英语词汇页以 `content/english/vocab/*.json` 为源数据，HTML 由 `tools/build_vocab_page.py` 生成。
 - 每个 Unit 使用 `article.reader-unit.vocab-unit`，默认直接展开展示，不使用折叠。
 - 词汇表使用 `table.vocab-table`，表头固定为 `English`、`中文`、`音标` 三列。
 - 每个词汇行使用 `button.read-btn`，并在 `data-text` 中保存朗读文本。
@@ -182,15 +193,16 @@ Little Fox 故事页复用课文页的朗读工具和译文显示逻辑：
 
 1. 确认内容归属：学科、系列、年级、学期、内容类型或故事名称。
 2. 判断是新增页面、更新已有页面，还是只更新首页入口。
-3. 新建或修改对应目录下的 `index.html`。
-4. 使用站点根路径引用 CSS/JS 和图片资源。
-5. 放置需要的公共模板占位节点。
-6. 如果新增英语三级内容页，更新 `subjects/english/index.html` 的清单。
-7. 如果新增 Little Fox 故事页，更新对应系列页；如果新增新系列，也更新 `subjects/little-fox/index.html`。
-8. 如果新增新的二级入口，更新 `index.html` 的入口；必要时修改 `assets/js/site-shell.js` 的 `site.nav`。
-9. 更新 `README.md` 的当前实际页面，若该页面属于主要页面。
-10. 更新本文档的“当前目录”“当前页面”和“变更记录”。
-11. 按“验证清单”检查。
+3. 如果是英语单词词汇页，优先修改或新增 `content/english/vocab/*.json`，必要时同步 `site-manifest.json`。
+4. 如果是其它暂未纳入框架的页面，新建或修改对应目录下的 `index.html`。
+5. 使用站点根路径引用 CSS/JS 和图片资源。
+6. 放置需要的公共模板占位节点。
+7. 如果新增英语三级内容页，更新 `subjects/english/index.html` 的清单；英语单词词汇页通过 `tools/build_indexes.py` 生成该清单。
+8. 如果新增 Little Fox 故事页，更新对应系列页；如果新增新系列，也更新 `subjects/little-fox/index.html`。
+9. 如果新增新的二级入口，更新 `index.html` 的入口；必要时修改 `assets/js/site-shell.js` 的 `site.nav`。
+10. 更新 `README.md` 的当前实际页面，若该页面属于主要页面。
+11. 更新本文档的“当前目录”“当前页面”和“变更记录”。
+12. 按“验证清单”检查。
 
 ## 验证清单
 
@@ -203,6 +215,7 @@ Little Fox 故事页复用课文页的朗读工具和译文显示逻辑：
 - 如果是英语词汇页，检查 Unit 数、词汇行数、朗读按钮数是否符合预期。
 - 如果是 Little Fox 故事页，检查故事页数、插画图片引用、朗读按钮数和译文数是否符合预期。
 - 检查中文没有乱码。
+- 如果改动英语单词词汇页或 manifest，执行 `python tools/build_vocab_page.py --all`、`python tools/build_indexes.py` 和 `python tools/validate_site.py`。
 
 ## 本地预览
 
@@ -225,6 +238,11 @@ http://127.0.0.1:8080/
 - 输出目录：项目根目录，即 `primary-knowledge-site`。
 
 ## 变更记录
+
+### 2026-07-03
+
+- 新增 AI Agent 轻量维护框架第一阶段：英语单词词汇页源数据迁移到 `content/english/vocab/`，新增 `SITE_FRAMEWORK.md`、`site-manifest.json`、`tools/build_vocab_page.py`、`tools/build_indexes.py` 和 `tools/validate_site.py`；三、四、五年级单词页和英语清单页改为可由项目内工具生成。
+- 使用 `english-vocabulary-html` skill 新增广州英语四年级上册单词词汇页：Unit 1-8 与 Review，共 248 条词汇、短语和句型；单词与短语按同一 Unit 合并，英语清单页增加对应入口。
 
 ### 2026-06-30
 

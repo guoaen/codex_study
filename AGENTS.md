@@ -4,14 +4,16 @@
 
 1. `README.md`：确认站点用途、预览方式和部署方式。
 2. `SITE_MAINTENANCE.md`：确认当前架构、路径约定、页面结构和历史变更。
-3. `.agents/skills/`：如果任务涉及英语课文、英语词汇或 PDF 故事页面，优先使用仓库内置的对应 skill。
-4. `assets/js/site-shell.js`：如果涉及页头、导航、页脚、内容页公共朗读工具栏，必须先看这里。
-5. 相关页面文件：例如 `index.html`、`subjects/english/index.html`、`subjects/little-fox/index.html` 或 `subjects/.../index.html`。
+3. `SITE_FRAMEWORK.md`：如果任务涉及英语单词词汇页，先确认当前 AI Agent 轻量生成框架。
+4. `.agents/skills/`：如果任务涉及英语课文、英语词汇或 PDF 故事页面，优先使用仓库内置的对应 skill。
+5. `assets/js/site-shell.js`：如果涉及页头、导航、页脚、内容页公共朗读工具栏，必须先看这里。
+6. 相关页面文件：例如 `index.html`、`subjects/english/index.html`、`subjects/little-fox/index.html` 或 `subjects/.../index.html`。
 
 ## 当前项目判断
 
 - 本站点是纯静态 HTML/CSS/JS，不使用 Astro、Node 构建、打包器或组件框架。
 - `primary-knowledge-site` 是部署根目录，也是本地预览时的站点根目录。
+- 项目内已有 AI Agent 轻量维护框架；英语单词词汇页优先维护 `content/english/vocab/*.json`，再用 `tools/build_vocab_page.py` 生成 HTML。
 - 当前页面层级是：首页为一级页面；英语和 Little Fox 为二级页面；具体英语内容页、Little Fox 系列页和故事正文页继续向下组织。
 - 顶部主导航只保留一级/二级入口：`首页`、`英语`、`Little Fox`。
 - 页面资源和站内链接统一使用站点根路径，例如 `/assets/css/site.css`。
@@ -25,6 +27,7 @@
   - `subjects/english/index.html` 的英语清单。
   - `SITE_MAINTENANCE.md` 的当前目录、当前页面和变更记录。
   - `README.md` 的当前实际页面，若新增的是主要页面。
+- 新增或修改英语单词词汇页时，先按 `SITE_FRAMEWORK.md` 维护 JSON 源数据和 `site-manifest.json`，再运行 `tools/build_vocab_page.py`、`tools/build_indexes.py` 和 `tools/validate_site.py`。
 - 新增 Little Fox 故事页后，通常需要同步更新：
   - 对应系列页，例如 `subjects/little-fox/wizard-and-cat/index.html`。
   - `subjects/little-fox/index.html`，如果新增了新系列。

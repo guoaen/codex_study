@@ -1,0 +1,116 @@
+{
+  "schema": "primary-knowledge-site-manifest.v1",
+  "updated": "2026-07-03",
+  "pages": [
+    {
+      "id": "home",
+      "type": "home",
+      "title": "小学知识点",
+      "route": "/",
+      "output": "index.html",
+      "managed": "manual"
+    },
+    {
+      "id": "english-index",
+      "type": "subject-index",
+      "title": "英语",
+      "route": "/subjects/english/",
+      "output": "subjects/english/index.html",
+      "managed": "tools/build_indexes.py"
+    },
+    {
+      "id": "english-grade-3-second-texts",
+      "type": "english-textbook",
+      "subject": "english",
+      "title": "广州英语三年级下册课文朗读",
+      "route": "/subjects/english/grade-3/second/texts/",
+      "output": "subjects/english/grade-3/second/texts/index.html",
+      "managed": "manual",
+      "order": 310,
+      "card": {
+        "eyebrow": "三年级下学期 · 课文",
+        "title": "广州英语三年级下册课文朗读",
+        "summary": "Unit 1-8 · 逐句朗读 · 中文译文点击显示"
+      }
+    },
+    {
+      "id": "english-grade-3-second-words",
+      "type": "english-vocab",
+      "subject": "english",
+      "title": "广州英语三年级下册单词词汇",
+      "route": "/subjects/english/grade-3/second/words/",
+      "output": "subjects/english/grade-3/second/words/index.html",
+      "source": "content/english/vocab/grade-3-second.json",
+      "managed": "tools/build_vocab_page.py",
+      "order": 320,
+      "card": {
+        "eyebrow": "三年级下学期 · 单词",
+        "title": "广州英语三年级下册单词词汇",
+        "summary": "Unit 1-8 · 227 条词汇/短语 · 支持逐词朗读"
+      }
+    },
+    {
+      "id": "english-grade-4-first-words",
+      "type": "english-vocab",
+      "subject": "english",
+      "title": "广州英语四年级上册单词词汇",
+      "route": "/subjects/english/grade-4/first/words/",
+      "output": "subjects/english/grade-4/first/words/index.html",
+      "source": "content/english/vocab/grade-4-first.json",
+      "managed": "tools/build_vocab_page.py",
+      "order": 410,
+      "card": {
+        "eyebrow": "四年级上学期 · 单词",
+        "title": "广州英语四年级上册单词词汇",
+        "summary": "Unit 1-8 + Review · 248 条词汇/短语/句型 · 支持逐词朗读"
+      }
+    },
+    {
+      "id": "english-grade-5-second-texts",
+      "type": "english-textbook",
+      "subject": "english",
+      "title": "广州英语五年级下册课文朗读",
+      "route": "/subjects/english/grade-5/second/texts/",
+      "output": "subjects/english/grade-5/second/texts/index.html",
+      "managed": "manual",
+      "order": 510,
+      "card": {
+        "eyebrow": "五年级下学期 · 课文",
+        "title": "广州英语五年级下册课文朗读",
+        "summary": "Unit 1-12 · 逐句朗读 · 中文译文点击显示"
+      }
+    },
+    {
+      "id": "english-grade-5-second-words",
+      "type": "english-vocab",
+      "subject": "english",
+      "title": "广州英语五年级下册单词词汇",
+      "route": "/subjects/english/grade-5/second/words/",
+      "output": "subjects/english/grade-5/second/words/index.html",
+      "source": "content/english/vocab/grade-5-second.json",
+      "managed": "tools/build_vocab_page.py",
+      "order": 520,
+      "card": {
+        "eyebrow": "五年级下学期 · 单词",
+        "title": "广州英语五年级下册单词词汇",
+        "summary": "Unit 1-12 · 150 个词汇 · 支持逐词朗读"
+      }
+    },
+    {
+      "id": "little-fox-index",
+      "type": "subject-index",
+      "title": "Little Fox",
+      "route": "/subjects/little-fox/",
+      "output": "subjects/little-fox/index.html",
+      "managed": "manual"
+    },
+    {
+      "id": "little-fox-wizard-and-cat",
+      "type": "little-fox-series",
+      "title": "Wizard and Cat",
+      "route": "/subjects/little-fox/wizard-and-cat/",
+      "output": "subjects/little-fox/wizard-and-cat/index.html",
+      "managed": "english-pdf-story-html builder"
+    }
+  ]
+}
