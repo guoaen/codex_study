@@ -30,6 +30,7 @@ primary-knowledge-site/
         grade-3-second.json
         grade-4-first.json
         grade-5-second.json
+        grade-6-first.json
   tools/
     build_vocab_page.py
     build_indexes.py
@@ -67,6 +68,7 @@ primary-knowledge-site/
 三年级下学期单词：content/english/vocab/grade-3-second.json
 四年级上学期单词：content/english/vocab/grade-4-first.json
 五年级下学期单词：content/english/vocab/grade-5-second.json
+六年级上学期单词：content/english/vocab/grade-6-first.json
 ```
 
 如果不确定目标文件，可以先看 `site-manifest.json` 中对应页面的 `source` 字段。
@@ -266,6 +268,26 @@ http://127.0.0.1:8080/
 4. 运行 `python tools/build_indexes.py`。
 5. 运行 `python tools/validate_site.py`。
 6. 更新 `README.md` 和 `SITE_MAINTENANCE.md` 的当前页面与变更记录。
+
+## 新增词汇页执行经验
+
+复盘六年级上学期单词页新增过程后，后续新增同类页面优先按下面方式执行：
+
+1. 先整理并写入 `content/english/vocab/*.json`，确认 `units` 数和 `items` 总数正确。
+2. 再更新 `site-manifest.json`，用 `source` 指向新增 JSON，用 `output` 指向生成页。
+3. 运行 `python tools/build_vocab_page.py --all`，再运行 `python tools/build_indexes.py`。
+4. 更新 `README.md`、`SITE_MAINTENANCE.md` 和本文件中受影响的页面清单、源数据清单、变更记录。
+5. 最后运行 `python tools/validate_site.py`、必要的 `node --check`、本地 HTTP `200 OK` 检查。
+
+Windows/PowerShell 下注意：
+
+- 修改 JSON 或文档时，优先使用 UTF-8 读写，并避免在命令行参数里直接塞大段中文。
+- 如果需要用 Python 做结构化改写，优先使用 PowerShell 单引号 here-string，把 Python 代码赋给 `$code` 后执行 `python -c $code`。
+- 不要把带 `\n` 的多行 Python 代码硬塞进一行 `python -c ...`；这次六年级页面新增时，这种写法导致过几次无效重跑。
+- 如果文档正文需要展示 PowerShell here-string 示例，不要在外层 here-string 脚本里直接放单独一行结束符，避免脚本字符串被提前截断。
+- 如果只是检查中文内容，必要时先设置 PowerShell UTF-8 输出：`$OutputEncoding=[Console]::OutputEncoding=[System.Text.Encoding]::UTF8`。
+- 更新文档或 manifest 时，脚本应先判断目标 `route`、`source` 或 `id` 是否已存在，避免重复插入。
+- 如果 `git status` 遇到 `.git/index.lock` 警告，先使用 `git --no-optional-locks status --short` 查看差异；不要在未确认没有其它 Git 进程时直接删除锁文件。
 
 ## 迁移说明
 

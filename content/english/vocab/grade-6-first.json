@@ -1,0 +1,246 @@
+{
+  "schema": "english-vocab-page.v1",
+  "id": "english-grade-6-first-words",
+  "source_note": "Imported from pasted Unit 1-12 vocabulary text",
+  "route": "/subjects/english/grade-6/first/words/",
+  "output": "subjects/english/grade-6/first/words/index.html",
+  "title": "广州英语六年级上册单词词汇",
+  "page_title": "六年级上学期英语单词 | 小学知识点",
+  "description": "广州英语六年级上册 Unit 1-12 单词词汇、短语和句型",
+  "kicker": "六年级 · 上学期 · 单词",
+  "summary": "Unit 1-12 | 按单元整理 | 支持逐词朗读",
+  "stats": {
+    "unit_label": "12 个 Unit",
+    "item_suffix": "条"
+  },
+  "unit_item_suffix": "条",
+  "dictation": true,
+  "units": [
+    {
+      "id": "unit-1",
+      "label": "Unit 1",
+      "title": "What are those farmers doing?",
+      "items": [
+        { "english": "country", "chinese": "农村", "phonetic": "[ˈkʌntrɪ]" },
+        { "english": "field", "chinese": "田", "phonetic": "[fiːld]" },
+        { "english": "pick", "chinese": "摘", "phonetic": "[pɪk]" },
+        { "english": "grass", "chinese": "草", "phonetic": "[ɡrɑːs]" },
+        { "english": "cow", "chinese": "奶牛；母牛", "phonetic": "[kaʊ]" },
+        { "english": "sheep", "chinese": "绵羊", "phonetic": "[ʃiːp]" },
+        { "english": "other", "chinese": "其他的；别的", "phonetic": "[ˈʌðə]" },
+        { "english": "few", "chinese": "极少；几乎没有", "phonetic": "[fjuː]" },
+        { "english": "a few", "chinese": "几个/条……", "phonetic": "[ə fjuː]" },
+        { "english": "goat", "chinese": "山羊", "phonetic": "[ɡəʊt]" },
+        { "english": "goose", "chinese": "鹅", "phonetic": "[ɡuːs]" },
+        { "english": "geese", "chinese": "鹅（goose 的复数）", "phonetic": "[ɡiːs]" },
+        { "english": "river", "chinese": "河；江", "phonetic": "[ˈrɪvə]" }
+      ]
+    },
+    {
+      "id": "unit-2",
+      "label": "Unit 2",
+      "title": "A country life is a healthy life",
+      "items": [
+        { "english": "grandparent", "chinese": "祖父；祖母", "phonetic": "[ˈɡrænpeərənt]" },
+        { "english": "milk", "chinese": "挤奶", "phonetic": "[mɪlk]" },
+        { "english": "ride", "chinese": "骑", "phonetic": "[raɪd]" },
+        { "english": "rode", "chinese": "骑（ride 的过去式）", "phonetic": "[rəʊd]" },
+        { "english": "take", "chinese": "花费", "phonetic": "[teɪk]" },
+        { "english": "took", "chinese": "花费（take 的过去式）", "phonetic": "[tʊk]" },
+        { "english": "still", "chinese": "仍然", "phonetic": "[stɪl]" },
+        { "english": "help ... with ...", "chinese": "在……方面帮助", "phonetic": "[help wɪð]" },
+        { "english": "air", "chinese": "空气", "phonetic": "[eə]" }
+      ]
+    },
+    {
+      "id": "unit-3",
+      "label": "Unit 3",
+      "title": "Where are you from?",
+      "items": [
+        { "english": "city", "chinese": "城市", "phonetic": "[ˈsɪtɪ]" },
+        { "english": "student", "chinese": "学生", "phonetic": "[ˈstjuːd(ə)nt]" },
+        { "english": "quiet", "chinese": "安静的", "phonetic": "[ˈkwaɪət]" },
+        { "english": "cheap", "chinese": "便宜的", "phonetic": "[tʃiːp]" },
+        { "english": "modern", "chinese": "现代的；现代化的", "phonetic": "[ˈmɒd(ə)n]" },
+        { "english": "noisy", "chinese": "吵闹的", "phonetic": "[ˈnɔɪzɪ]" },
+        { "english": "wide", "chinese": "宽阔的", "phonetic": "[waɪd]" },
+        { "english": "crowded", "chinese": "拥挤的", "phonetic": "[ˈkraʊdɪd]" },
+        { "english": "comfortable", "chinese": "舒适的", "phonetic": "[ˈkʌmftəbl]" },
+        { "english": "heavy", "chinese": "拥挤的；大量的", "phonetic": "[ˈhevɪ]" },
+        { "english": "slow", "chinese": "慢的；缓慢的", "phonetic": "[sləʊ]" }
+      ]
+    },
+    {
+      "id": "unit-4",
+      "label": "Unit 4",
+      "title": "I like the city very much",
+      "items": [
+        { "english": "postcard", "chinese": "明信片", "phonetic": "[ˈpəʊs(t)kɑːd]" },
+        { "english": "different to ...", "chinese": "与……不同", "phonetic": "[ˈdɪfrənt tuː]" },
+        { "english": "dirty", "chinese": "脏的", "phonetic": "[ˈdɜːtɪ]" },
+        { "english": "afraid", "chinese": "害怕", "phonetic": "[əˈfreɪd]" },
+        { "english": "be afraid ...", "chinese": "害怕……", "phonetic": "[biː əˈfreɪd]" },
+        { "english": "because", "chinese": "因为", "phonetic": "[bɪˈkɒz]" },
+        { "english": "sell", "chinese": "出售", "phonetic": "[sel]" },
+        { "english": "countryside", "chinese": "农村", "phonetic": "[ˈkʌntrɪsaɪd]" },
+        { "english": "theatre", "chinese": "剧院", "phonetic": "[ˈθɪətə]" },
+        { "english": "all day", "chinese": "整天", "phonetic": "[ɔːl deɪ]" }
+      ]
+    },
+    {
+      "id": "unit-5",
+      "label": "Unit 5",
+      "title": "What’s the matter with you?",
+      "items": [
+        { "english": "health", "chinese": "健康", "phonetic": "[helθ]" },
+        { "english": "matter", "chinese": "事情", "phonetic": "[ˈmætə]" },
+        { "english": "What’s the matter?", "chinese": "怎么回事？", "phonetic": "[wɒts ðə ˈmætə]" },
+        { "english": "ill", "chinese": "病的", "phonetic": "[ɪl]" },
+        { "english": "stomachache", "chinese": "肚子疼", "phonetic": "[ˈstʌməkeɪk]" },
+        { "english": "ate", "chinese": "吃（eat 的过去式）", "phonetic": "[eɪt]" },
+        { "english": "hear", "chinese": "听到", "phonetic": "[hɪə]" },
+        { "english": "I’m sorry to hear that.", "chinese": "听到这个我很难过。", "phonetic": "[aɪm ˈsɒrɪ tə hɪə ðæt]" },
+        { "english": "gave", "chinese": "给（give 的过去式）", "phonetic": "[ɡeɪv]" },
+        { "english": "check-up", "chinese": "检查", "phonetic": "[ˈtʃek ʌp]" },
+        { "english": "take", "chinese": "服（药）", "phonetic": "[teɪk]" },
+        { "english": "took", "chinese": "服用（take 的过去式）", "phonetic": "[tʊk]" },
+        { "english": "medicine", "chinese": "药", "phonetic": "[ˈmedsn]" },
+        { "english": "time", "chinese": "次", "phonetic": "[taɪm]" },
+        { "english": "toothache", "chinese": "牙疼", "phonetic": "[ˈtuːθeɪk]" },
+        { "english": "brush", "chinese": "刷", "phonetic": "[brʌʃ]" },
+        { "english": "twice", "chinese": "两次", "phonetic": "[twaɪs]" },
+        { "english": "broken", "chinese": "折断的", "phonetic": "[ˈbrəʊk(ə)n]" },
+        { "english": "finger", "chinese": "手指", "phonetic": "[ˈfɪŋɡə]" },
+        { "english": "rest", "chinese": "休息", "phonetic": "[rest]" },
+        { "english": "take a rest", "chinese": "休息", "phonetic": "[teɪk ə rest]" },
+        { "english": "have a cold", "chinese": "感冒", "phonetic": "[hæv ə kəʊld]" },
+        { "english": "wore", "chinese": "穿（wear 的过去式）", "phonetic": "[wɔː(r)]" },
+        { "english": "headache", "chinese": "头疼", "phonetic": "[ˈhedeɪk]" },
+        { "english": "could", "chinese": "能够（can 的过去式）", "phonetic": "[kʊd]" },
+        { "english": "fever", "chinese": "发烧", "phonetic": "[ˈfiːvə]" }
+      ]
+    },
+    {
+      "id": "unit-6",
+      "label": "Unit 6",
+      "title": "The secret to good health",
+      "items": [
+        { "english": "secret", "chinese": "秘密", "phonetic": "[ˈsiːkrɪt]" },
+        { "english": "simple", "chinese": "简单的", "phonetic": "[ˈsɪmp(ə)l]" },
+        { "english": "least", "chinese": "最少；最小", "phonetic": "[liːst]" },
+        { "english": "at least", "chinese": "至少", "phonetic": "[ət liːst]" },
+        { "english": "diet", "chinese": "节食", "phonetic": "[ˈdaɪət]" },
+        { "english": "keep a good diet", "chinese": "保持一个良好的饮食习惯", "phonetic": "[kiːp ə ɡʊd ˈdaɪət]" },
+        { "english": "less", "chinese": "较少的", "phonetic": "[les]" },
+        { "english": "oily", "chinese": "多油的；油腻的", "phonetic": "[ˈɔɪlɪ]" },
+        { "english": "finally", "chinese": "最后地", "phonetic": "[ˈfaɪnəlɪ]" },
+        { "english": "smile", "chinese": "微笑", "phonetic": "[smaɪl]" },
+        { "english": "even", "chinese": "甚至", "phonetic": "[ˈiːv(ə)n]" }
+      ]
+    },
+    {
+      "id": "unit-7",
+      "label": "Unit 7",
+      "title": "What did you do yesterday?",
+      "items": [
+        { "english": "past", "chinese": "过去", "phonetic": "[pɑːst]" },
+        { "english": "experience", "chinese": "经历；经验", "phonetic": "[ɪkˈspɪərɪəns]" },
+        { "english": "yesterday", "chinese": "昨天", "phonetic": "[ˈjestədeɪ]" },
+        { "english": "bought", "chinese": "买（buy 的过去式）", "phonetic": "[bɔːt]" },
+        { "english": "angry", "chinese": "生气；愤怒", "phonetic": "[ˈæŋɡrɪ]" },
+        { "english": "came", "chinese": "来（come 的过去式）", "phonetic": "[keɪm]" },
+        { "english": "no/not ... at all", "chinese": "一点都不……", "phonetic": "[nəʊ nɒt æt ɔːl]" },
+        { "english": "poor", "chinese": "可怜的", "phonetic": "[pɔː(r)]" },
+        { "english": "last", "chinese": "上一个的", "phonetic": "[lɑːst]" },
+        { "english": "year", "chinese": "年", "phonetic": "[jɪə]" },
+        { "english": "met", "chinese": "遇见；聚集（meet 的过去式）", "phonetic": "[met]" },
+        { "english": "saw", "chinese": "看见；明白（see 的过去式）", "phonetic": "[sɔː]" },
+        { "english": "read", "chinese": "读（read 的过去式）", "phonetic": "[red]" }
+      ]
+    },
+    {
+      "id": "unit-8",
+      "label": "Unit 8",
+      "title": "A trip to Hong Kong",
+      "items": [
+        { "english": "diary", "chinese": "日记", "phonetic": "[ˈdaɪərɪ]" },
+        { "english": "Disneyland", "chinese": "迪斯尼乐园", "phonetic": "[ˈdɪznilænd]" },
+        { "english": "Mickey Mouse", "chinese": "米老鼠", "phonetic": "[ˌmɪki ˈmaʊs]" },
+        { "english": "Donald Duck", "chinese": "唐老鸭", "phonetic": "[ˌdɒnəld ˈdʌk]" },
+        { "english": "a little", "chinese": "一点", "phonetic": "[ə ˈlɪtl]" },
+        { "english": "later", "chinese": "后来", "phonetic": "[ˈleɪtə]" },
+        { "english": "felt", "chinese": "感觉；觉得（feel 的过去式）", "phonetic": "[felt]" },
+        { "english": "sat", "chinese": "坐（sit 的过去式）", "phonetic": "[sæt]" },
+        { "english": "until", "chinese": "直到", "phonetic": "[ənˈtɪl]" },
+        { "english": "better", "chinese": "更好", "phonetic": "[ˈbetə]" },
+        { "english": "surprised", "chinese": "惊讶的", "phonetic": "[səˈpraɪzd]" }
+      ]
+    },
+    {
+      "id": "unit-9",
+      "label": "Unit 9",
+      "title": "Was I a good girl back then?",
+      "items": [
+        { "english": "back then", "chinese": "当时；过去那个时候", "phonetic": "[bæk ðen]" },
+        { "english": "polite", "chinese": "有礼貌的", "phonetic": "[pəˈlaɪt]" },
+        { "english": "surf", "chinese": "浏览", "phonetic": "[sɜːf]" },
+        { "english": "Internet", "chinese": "因特网", "phonetic": "[ˈɪntənet]" },
+        { "english": "surf the Internet", "chinese": "上网", "phonetic": "[sɜːf ði ˈɪntənet]" },
+        { "english": "fat", "chinese": "胖的", "phonetic": "[fæt]" },
+        { "english": "cry", "chinese": "哭", "phonetic": "[kraɪ]" }
+      ]
+    },
+    {
+      "id": "unit-10",
+      "label": "Unit 10",
+      "title": "Then and now",
+      "items": [
+        { "english": "ago", "chinese": "……之前", "phonetic": "[əˈɡəʊ]" },
+        { "english": "village", "chinese": "村子；村庄", "phonetic": "[ˈvɪlɪdʒ]" },
+        { "english": "nearby", "chinese": "附近", "phonetic": "[ˈnɪəbaɪ]" },
+        { "english": "far away", "chinese": "遥远", "phonetic": "[fɑːr əˈweɪ]" },
+        { "english": "office", "chinese": "办公室", "phonetic": "[ˈɒfɪs]" },
+        { "english": "store", "chinese": "商店", "phonetic": "[stɔː]" },
+        { "english": "department store", "chinese": "百货公司", "phonetic": "[dɪˈpɑːtmənt stɔː]" }
+      ]
+    },
+    {
+      "id": "unit-11",
+      "label": "Unit 11",
+      "title": "I like the Spring Festival best",
+      "items": [
+        { "english": "each other", "chinese": "互相", "phonetic": "[iːtʃ ˈʌðə]" },
+        { "english": "gift", "chinese": "礼物", "phonetic": "[ɡɪft]" },
+        { "english": "lucky", "chinese": "幸运", "phonetic": "[ˈlʌkɪ]" },
+        { "english": "lucky money", "chinese": "压岁钱", "phonetic": "[ˈlʌkɪ ˈmʌni]" },
+        { "english": "wish", "chinese": "希望", "phonetic": "[wɪʃ]" },
+        { "english": "jiaozi", "chinese": "饺子", "phonetic": "[ˈdʒaʊdzə]" },
+        { "english": "Mid-Autumn Festival", "chinese": "中秋节", "phonetic": "[ˌmɪd ˈɔːtəm ˈfestɪvl]" },
+        { "english": "moon", "chinese": "月亮", "phonetic": "[muːn]" },
+        { "english": "mooncake", "chinese": "月饼", "phonetic": "[ˈmuːnkeɪk]" },
+        { "english": "dragon", "chinese": "龙", "phonetic": "[ˈdræɡ(ə)n]" },
+        { "english": "Dragon Boat Festival", "chinese": "端午节", "phonetic": "[ˈdræɡən bəʊt ˈfestɪvl]" },
+        { "english": "zongzi", "chinese": "粽子", "phonetic": "[ˈzɒŋdzə]" },
+        { "english": "race", "chinese": "比赛", "phonetic": "[reɪs]" },
+        { "english": "Chongyang Festival", "chinese": "重阳节", "phonetic": "[ˈtʃɒŋjæŋ ˈfestɪvl]" }
+      ]
+    },
+    {
+      "id": "unit-12",
+      "label": "Unit 12",
+      "title": "Other festivals in China",
+      "items": [
+        { "english": "lunar", "chinese": "月亮的", "phonetic": "[ˈluːnə(r)]" },
+        { "english": "celebrate", "chinese": "庆祝", "phonetic": "[ˈselɪbreɪt]" },
+        { "english": "remember", "chinese": "记住", "phonetic": "[rɪˈmembə(r)]" },
+        { "english": "ancient", "chinese": "古代的", "phonetic": "[ˈeɪnʃənt]" },
+        { "english": "poet", "chinese": "诗人", "phonetic": "[ˈpəʊɪt]" },
+        { "english": "bean", "chinese": "豆", "phonetic": "[biːn]" },
+        { "english": "bamboo", "chinese": "竹", "phonetic": "[ˌbæmˈbuː]" },
+        { "english": "cheer", "chinese": "欢呼", "phonetic": "[tʃɪə(r)]" },
+        { "english": "reunion", "chinese": "重聚", "phonetic": "[ˌriːˈjuːniən]" },
+        { "english": "lantern", "chinese": "灯笼", "phonetic": "[ˈlæntən]" }
+      ]
+    }
+  ]
+}

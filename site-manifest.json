@@ -97,6 +97,22 @@
       }
     },
     {
+      "id": "english-grade-6-first-words",
+      "type": "english-vocab",
+      "subject": "english",
+      "title": "广州英语六年级上册单词词汇",
+      "route": "/subjects/english/grade-6/first/words/",
+      "output": "subjects/english/grade-6/first/words/index.html",
+      "source": "content/english/vocab/grade-6-first.json",
+      "managed": "tools/build_vocab_page.py",
+      "order": 610,
+      "card": {
+        "eyebrow": "六年级 · 上学期 · 单词",
+        "title": "广州英语六年级上册单词词汇",
+        "summary": "Unit 1-12 · 142 条词汇/短语/句型 · 支持逐词朗读"
+      }
+    },
+    {
       "id": "little-fox-index",
       "type": "subject-index",
       "title": "Little Fox",

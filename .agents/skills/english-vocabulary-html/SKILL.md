@@ -14,7 +14,7 @@ Use this skill for vocabulary, word, phrase, and sentence-pattern pages. Use bro
 ## Workflow
 
 1. Inspect the project before editing.
-   - Read `README.md`, `SITE_MAINTENANCE.md`, and the target subject page such as `subjects/english/index.html`.
+   - Read `README.md`, `SITE_MAINTENANCE.md`, `SITE_FRAMEWORK.md`, and the target subject page such as `subjects/english/index.html`.
    - Read an existing vocabulary page first, preferably `subjects/english/grade-5/second/words/index.html`.
    - Read `assets/js/textbook-reader.js` and `assets/css/site.css` if changing shared behavior or styles.
 
@@ -33,6 +33,7 @@ Use this skill for vocabulary, word, phrase, and sentence-pattern pages. Use bro
    - Mention materially generated or uncertain Chinese/phonetic additions in the final response.
 
 3. Create or update the page.
+   - In `primary-knowledge-site`, prefer the source-first framework: create or update `content/english/vocab/*.json`, then generate HTML with `tools/build_vocab_page.py`; do not hand-edit generated vocabulary HTML as the source of truth.
    - Use site-root asset paths such as `/assets/css/site.css` and `/assets/js/textbook-reader.js`.
    - Use the shared site shell instead of copying header/footer HTML.
    - Do not add a `data-section-back` “返回英语” link on English content pages; the top navigation already links to `/subjects/english/`.
@@ -41,7 +42,8 @@ Use this skill for vocabulary, word, phrase, and sentence-pattern pages. Use bro
    - Keep Google TTS/local TTS handled by `assets/js/textbook-reader.js`; do not embed duplicate TTS scripts in the page.
 
 4. Integrate the page.
-   - Add the page link to `subjects/english/index.html` when creating a new vocabulary page.
+   - If `site-manifest.json` is present, add the new `english-vocab` entry there and run `tools/build_indexes.py` instead of manually editing the generated English index page.
+   - Add the page link to `subjects/english/index.html` when creating a new vocabulary page only if the project has not adopted the manifest/index generator.
    - Update `README.md` if the current actual page list changes.
    - Always update `SITE_MAINTENANCE.md` for new pages, structure changes, shared JS/CSS changes, and count changes.
 
@@ -52,12 +54,24 @@ Use this skill for vocabulary, word, phrase, and sentence-pattern pages. Use bro
    - Check site-root paths.
    - Check local HTTP `200 OK` if a local static server is available.
 
+## Primary-Knowledge-Site Framework Notes
+
+When this skill is used inside `primary-knowledge-site`, follow the repository framework before hand-writing HTML:
+
+1. Write normalized vocabulary data to `content/english/vocab/*.json`.
+2. Add or update the corresponding `english-vocab` entry in `site-manifest.json`.
+3. Run `python tools/build_vocab_page.py --all` and `python tools/build_indexes.py`.
+4. Update `README.md`, `SITE_MAINTENANCE.md`, and `SITE_FRAMEWORK.md` only where the page list or workflow record changes.
+5. Run `python tools/validate_site.py` before final response.
+
+On Windows/PowerShell, avoid passing large Chinese or multi-line Python snippets directly inside one-line `python -c ...` commands. Prefer a single-quoted PowerShell here-string assigned to `$code`, then run `python -c $code`. If Chinese output is needed for inspection, set `$OutputEncoding=[Console]::OutputEncoding=[System.Text.Encoding]::UTF8` first. If Git reports `.git/index.lock`, use `git --no-optional-locks status --short` for inspection and do not delete the lock unless no other Git process is active.
+
 ## Page Contract
 
 For `primary-knowledge-site`, place vocabulary pages at:
 
 ```text
-subjects/english/grade-{grade}/second/words/index.html
+subjects/english/grade-{grade}/{first|second}/words/index.html
 ```
 
 Use this head/body shell:
@@ -207,6 +221,14 @@ Do not add a concrete grade/semester page to the top site nav. Top nav should re
 ## Validation Checklist
 
 Run practical checks before final response:
+
+For `primary-knowledge-site` source-first vocabulary pages, run the framework checks first:
+
+```powershell
+python tools\build_vocab_page.py --all
+python tools\build_indexes.py
+python tools\validate_site.py
+```
 
 ```powershell
 node --check assets\js\site-shell.js

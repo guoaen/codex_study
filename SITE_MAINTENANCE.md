@@ -80,6 +80,7 @@
 - `subjects/english/grade-4/first/words/index.html`：英语四年级上学期单词词汇页。
 - `subjects/english/grade-5/second/texts/index.html`：英语五年级下学期课文页。
 - `subjects/english/grade-5/second/words/index.html`：英语五年级下学期单词词汇页。
+- `subjects/english/grade-6/first/words/index.html`：英语六年级上学期单词词汇页。
 - `subjects/little-fox/index.html`：Little Fox 二级清单页。
 - `subjects/little-fox/wizard-and-cat/index.html`：Wizard and Cat 三级系列页。
 - `subjects/little-fox/wizard-and-cat/once-upon-a-time/index.html`：Once Upon a Time 故事朗读页。
@@ -99,6 +100,7 @@
 - `/subjects/english/grade-4/first/words/`
 - `/subjects/english/grade-5/second/texts/`
 - `/subjects/english/grade-5/second/words/`
+- `/subjects/english/grade-6/first/words/`
 - `/subjects/little-fox/`
 - `/subjects/little-fox/wizard-and-cat/`
 - `/subjects/little-fox/wizard-and-cat/once-upon-a-time/`
@@ -175,7 +177,7 @@
 - 每个词汇行使用 `button.read-btn`，并在 `data-text` 中保存朗读文本。
 - 每个词汇行的三列内容都应非空；如果原始资料未提供中文或音标，维护时需要按英文内容补齐，不再使用 `-` 占位。
 - 词汇页不引用额外展开/折叠脚本。
-- 可选听写模式由 `assets/js/textbook-reader.js` 统一处理；只在页面包含 `data-dictation`、`data-dictation-toggle`、`data-dictation-tray` 标记时启用。目前已用于三年级下学期和五年级下学期单词页。听写面板应放在 `reader-unit-nav` 后面，启用后由 CSS 固定在 Unit 单元栏下方。
+- 可选听写模式由 `assets/js/textbook-reader.js` 统一处理；只在页面包含 `data-dictation`、`data-dictation-toggle`、`data-dictation-tray` 标记时启用。目前已用于三年级下学期、四年级上学期、五年级下学期和六年级上学期单词页。听写面板应放在 `reader-unit-nav` 后面，启用后由 CSS 固定在 Unit 单元栏下方。
 
 ## Little Fox 故事页结构
 
@@ -241,6 +243,8 @@ http://127.0.0.1:8080/
 
 ### 2026-07-03
 
+- 复盘六年级上学期单词词汇页新增过程，并在 `SITE_FRAMEWORK.md` 记录后续新增词汇页的高效执行顺序、Windows/PowerShell 编码注意事项、幂等插入要求和 Git 锁文件处理建议。
+- 使用 `english-vocabulary-html` skill 和站点轻量维护框架新增广州英语六年级上册单词词汇页：Unit 1-12，共 142 条词汇、短语和句型；英语清单页增加对应入口。
 - 新增 AI Agent 轻量维护框架第一阶段：英语单词词汇页源数据迁移到 `content/english/vocab/`，新增 `SITE_FRAMEWORK.md`、`site-manifest.json`、`tools/build_vocab_page.py`、`tools/build_indexes.py` 和 `tools/validate_site.py`；三、四、五年级单词页和英语清单页改为可由项目内工具生成。
 - 使用 `english-vocabulary-html` skill 新增广州英语四年级上册单词词汇页：Unit 1-8 与 Review，共 248 条词汇、短语和句型；单词与短语按同一 Unit 合并，英语清单页增加对应入口。
 
