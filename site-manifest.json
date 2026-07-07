@@ -1,6 +1,6 @@
 {
   "schema": "primary-knowledge-site-manifest.v1",
-  "updated": "2026-07-03",
+  "updated": "2026-07-07",
   "pages": [
     {
       "id": "home",
@@ -110,6 +110,21 @@
         "eyebrow": "六年级 · 上学期 · 单词",
         "title": "广州英语六年级上册单词词汇",
         "summary": "Unit 1-12 · 142 条词汇/短语/句型 · 支持逐词朗读"
+      }
+    },
+    {
+      "id": "english-grammar-tenses",
+      "type": "english-grammar",
+      "subject": "english",
+      "title": "小学英语四大常用时态",
+      "route": "/subjects/english/grammar/tenses/",
+      "output": "subjects/english/grammar/tenses/index.html",
+      "managed": "manual",
+      "order": 100,
+      "card": {
+        "eyebrow": "语法专题 · 时态",
+        "title": "小学英语四大常用时态",
+        "summary": "现在进行时、一般现在时、一般将来时、一般过去时 · 对照表与例文"
       }
     },
     {

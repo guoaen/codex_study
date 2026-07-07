@@ -1,6 +1,6 @@
 # 小学知识点站点维护记录
 
-最后更新：2026-07-03
+最后更新：2026-07-07
 
 本文档记录本站点的维护细节。若由新的会话或其它 AI Agent 接手，请先读根目录 `AGENTS.md`，再读 `README.md`，最后读本文档。当前站点除英语内容外，也包含 Little Fox 分级阅读内容。
 
@@ -81,6 +81,7 @@
 - `subjects/english/grade-5/second/texts/index.html`：英语五年级下学期课文页。
 - `subjects/english/grade-5/second/words/index.html`：英语五年级下学期单词词汇页。
 - `subjects/english/grade-6/first/words/index.html`：英语六年级上学期单词词汇页。
+- `subjects/english/grammar/tenses/index.html`：小学英语四大常用时态语法专题页。
 - `subjects/little-fox/index.html`：Little Fox 二级清单页。
 - `subjects/little-fox/wizard-and-cat/index.html`：Wizard and Cat 三级系列页。
 - `subjects/little-fox/wizard-and-cat/once-upon-a-time/index.html`：Once Upon a Time 故事朗读页。
@@ -101,6 +102,7 @@
 - `/subjects/english/grade-5/second/texts/`
 - `/subjects/english/grade-5/second/words/`
 - `/subjects/english/grade-6/first/words/`
+- `/subjects/english/grammar/tenses/`
 - `/subjects/little-fox/`
 - `/subjects/little-fox/wizard-and-cat/`
 - `/subjects/little-fox/wizard-and-cat/once-upon-a-time/`
@@ -144,7 +146,7 @@
 
 `data-nav` 的值应对应 `assets/js/site-shell.js` 里的 `site.nav[].id`，用于高亮当前导航。当前主要值是 `home`、`english` 和 `little-fox`。
 
-## 英语课文页和词汇页结构
+## 英语课文页、语法页和词汇页结构
 
 ```html
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
@@ -169,6 +171,11 @@
 - 每句英文朗读按钮使用 `button.read-btn`，并在 `data-text` 中保存朗读文本。
 - 中文译文使用 `button.translation`。
 - 英文句子和译文通过相同的 `data-index` 关联。
+
+英语语法专题页正文约定：
+- 语法专题页复用 `reader-shell`、`data-reader-tools`、`reader-unit-nav`、`reader-unit`、`button.read-btn` 和 `button.translation` 等公共结构，不复制来源页面的内联 CSS/JS。
+- 讲解表格使用 `table.grammar-table`，提示、技巧和易错点使用 `div.grammar-callout`，例句和例文使用课文页同款 `reader-line` 朗读与译文显示结构。
+- 如果用户要求去掉习练内容，不保留 `exercise`、综合练习、`details` 答案折叠、`textarea` 小作文输入框或来源页面的练习脚本。
 
 英语词汇页正文约定：
 - 已纳入框架的英语词汇页以 `content/english/vocab/*.json` 为源数据，HTML 由 `tools/build_vocab_page.py` 生成。
@@ -240,6 +247,12 @@ http://127.0.0.1:8080/
 - 输出目录：项目根目录，即 `primary-knowledge-site`。
 
 ## 变更记录
+
+### 2026-07-07
+
+- 根据“小孩自学”场景补充时态页：新增自学路线、关键词小词典、四个时态“三件事速记”和带答案判断示范，保持无习练输入和无答案折叠。
+- 调整英语二级页面排序，将语法专题“时态”放在内容清单第一位；补充时态页“四步判断法”“同一个动作换四种时态”和易混提醒，仍不恢复习练内容。
+- 新增英语语法专题页“小学英语四大常用时态”：按站点公共模板重组来源 HTML，保留讲解、表格、例句、例文和复习内容，删除习练、综合练习、小作文输入与答案折叠区，并接入英语清单页。
 
 ### 2026-07-03
 

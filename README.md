@@ -1,6 +1,6 @@
 # 小学知识点静态站
 
-这是一个纯 HTML/CSS/JS 静态站点，用来展示小学知识点内容。当前主要内容是英语课文朗读、英语单词词汇和 Little Fox 分级阅读故事页面。
+这是一个纯 HTML/CSS/JS 静态站点，用来展示小学知识点内容。当前主要内容是英语课文朗读、英语单词词汇、英语语法专题和 Little Fox 分级阅读故事页面。
 
 `primary-knowledge-site` 是站点根目录，也是部署到 Cloudflare Pages/Worker 时使用的输出目录；本项目不需要构建命令。
 
@@ -35,6 +35,7 @@
 - `/subjects/english/grade-5/second/texts/`：英语五年级下学期课文。
 - `/subjects/english/grade-5/second/words/`：英语五年级下学期单词词汇。
 - `/subjects/english/grade-6/first/words/`：英语六年级上学期单词词汇。
+- `/subjects/english/grammar/tenses/`：小学英语四大常用时态语法专题。
 - `/subjects/little-fox/`：Little Fox 分级阅读清单。
 - `/subjects/little-fox/wizard-and-cat/`：Wizard and Cat 系列清单。
 - `/subjects/little-fox/wizard-and-cat/once-upon-a-time/`：Once Upon a Time 故事朗读页。
