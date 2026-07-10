@@ -1,6 +1,6 @@
 {
   "schema": "primary-knowledge-site-manifest.v1",
-  "updated": "2026-07-07",
+  "updated": "2026-07-10",
   "pages": [
     {
       "id": "home",
@@ -97,6 +97,22 @@
       }
     },
     {
+      "id": "english-grade-6-first-texts",
+      "type": "english-textbook",
+      "subject": "english",
+      "title": "广州英语六年级上册课文朗读",
+      "route": "/subjects/english/grade-6/first/texts/",
+      "output": "subjects/english/grade-6/first/texts/index.html",
+      "source": "content/english/texts/grade-6-first.json",
+      "managed": "tools/build_textbook_page.py",
+      "order": 600,
+      "card": {
+        "eyebrow": "六年级 · 上学期 · 课文",
+        "title": "广州英语六年级上册课文朗读",
+        "summary": "Unit 1-7 + Review · 283 句/项 · 逐句朗读"
+      }
+    },
+    {
       "id": "english-grade-6-first-words",
       "type": "english-vocab",
       "subject": "english",
@@ -109,7 +125,7 @@
       "card": {
         "eyebrow": "六年级 · 上学期 · 单词",
         "title": "广州英语六年级上册单词词汇",
-        "summary": "Unit 1-12 · 142 条词汇/短语/句型 · 支持逐词朗读"
+        "summary": "Unit 1-7 + Review · 196 条词汇/短语/句型 · 支持逐词朗读"
       }
     },
     {

@@ -25,7 +25,6 @@ This skill is designed for `primary-knowledge-site`, but the extraction and page
 10. Copy final images into a stable asset folder using site-root paths, for example `/assets/images/little-fox/<series>/<story>/page-01.png`.
 11. Update shared navigation, homepage cards, list pages, README, and maintenance docs when the page hierarchy changes.
 12. Validate the result before reporting completion.
-13. After successful validation, delete the `.tmp` scratch directory created for the task. Before deleting, resolve the path and confirm it is inside the current project root and contains only task-specific temporary PDFs, extracted assets, and generation/validation scripts. If `.tmp` contains unrelated user files or shared scratch data, do not delete it; report what remains.
 
 ## PDF Extraction
 
@@ -87,7 +86,7 @@ Use this safer pattern:
 1. Put the page data and HTML-generation code in a temporary script file such as `.tmp/generate_<story_slug>_site.py`.
 2. Write output files from that script using UTF-8 without BOM and explicit newline handling.
 3. Execute the script as a file: `python .tmp\generate_<story_slug>_site.py`.
-4. Run validation after generation before deleting or ignoring the temporary script.
+4. Run validation after generation.
 
 This rule is especially important when the generated HTML contains:
 
@@ -166,4 +165,4 @@ Run these checks before finishing:
 - Verify changed pages return `200 OK` under a local static server.
 - When practical, render a browser screenshot to confirm images, sticky nav, and layout appear.
 
-Final replies should summarize changed files, output URLs, validation results, and any limitations such as OCR uncertainty, ambiguous dialogue order, skipped blank/copyright pages, or temporary generation scripts left in the workspace. Do not paste the full copyrighted story text into chat; point to the local page instead.
+Final replies should summarize changed files, output URLs, validation results, and any limitations such as OCR uncertainty, ambiguous dialogue order, or skipped blank/copyright pages. Do not paste the full copyrighted story text into chat; point to the local page instead.

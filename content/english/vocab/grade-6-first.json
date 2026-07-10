@@ -1,16 +1,16 @@
 {
   "schema": "english-vocab-page.v1",
   "id": "english-grade-6-first-words",
-  "source_note": "Imported from pasted Unit 1-12 vocabulary text",
+  "source_note": "Rebuilt from provided Guangzhou Grade 6 first-semester Unit 1-7 vocabulary HTML, including Review supplement, 2026-07-10",
   "route": "/subjects/english/grade-6/first/words/",
   "output": "subjects/english/grade-6/first/words/index.html",
   "title": "广州英语六年级上册单词词汇",
   "page_title": "六年级上学期英语单词 | 小学知识点",
-  "description": "广州英语六年级上册 Unit 1-12 单词词汇、短语和句型",
+  "description": "广州英语六年级上册 Unit 1-7 与 Review 单词词汇、短语和句型",
   "kicker": "六年级 · 上学期 · 单词",
-  "summary": "Unit 1-12 | 按单元整理 | 支持逐词朗读",
+  "summary": "Unit 1-7 + Review | 单词、短语和句型合并整理 | 支持逐词朗读",
   "stats": {
-    "unit_label": "12 个 Unit",
+    "unit_label": "7 个 Unit + Review",
     "item_suffix": "条"
   },
   "unit_item_suffix": "条",
@@ -19,227 +19,1037 @@
     {
       "id": "unit-1",
       "label": "Unit 1",
-      "title": "What are those farmers doing?",
+      "title": "I Am Angry",
       "items": [
-        { "english": "country", "chinese": "农村", "phonetic": "[ˈkʌntrɪ]" },
-        { "english": "field", "chinese": "田", "phonetic": "[fiːld]" },
-        { "english": "pick", "chinese": "摘", "phonetic": "[pɪk]" },
-        { "english": "grass", "chinese": "草", "phonetic": "[ɡrɑːs]" },
-        { "english": "cow", "chinese": "奶牛；母牛", "phonetic": "[kaʊ]" },
-        { "english": "sheep", "chinese": "绵羊", "phonetic": "[ʃiːp]" },
-        { "english": "other", "chinese": "其他的；别的", "phonetic": "[ˈʌðə]" },
-        { "english": "few", "chinese": "极少；几乎没有", "phonetic": "[fjuː]" },
-        { "english": "a few", "chinese": "几个/条……", "phonetic": "[ə fjuː]" },
-        { "english": "goat", "chinese": "山羊", "phonetic": "[ɡəʊt]" },
-        { "english": "goose", "chinese": "鹅", "phonetic": "[ɡuːs]" },
-        { "english": "geese", "chinese": "鹅（goose 的复数）", "phonetic": "[ɡiːs]" },
-        { "english": "river", "chinese": "河；江", "phonetic": "[ˈrɪvə]" }
+        {
+          "english": "breath",
+          "chinese": "呼吸",
+          "phonetic": "/breθ/"
+        },
+        {
+          "english": "throw",
+          "chinese": "扔，抛",
+          "phonetic": "/θrəʊ/"
+        },
+        {
+          "english": "count",
+          "chinese": "数，计数",
+          "phonetic": "/kaʊnt/"
+        },
+        {
+          "english": "will",
+          "chinese": "将要；会",
+          "phonetic": "/wɪl/"
+        },
+        {
+          "english": "music",
+          "chinese": "音乐",
+          "phonetic": "/ˈmjuːzɪk/"
+        },
+        {
+          "english": "try",
+          "chinese": "尝试",
+          "phonetic": "/traɪ/"
+        },
+        {
+          "english": "with",
+          "chinese": "和……一起",
+          "phonetic": "/wɪð/"
+        },
+        {
+          "english": "why",
+          "chinese": "为什么",
+          "phonetic": "/waɪ/"
+        },
+        {
+          "english": "yell and cry",
+          "chinese": "边哭边喊",
+          "phonetic": "/jel ænd kraɪ/"
+        },
+        {
+          "english": "go for a walk",
+          "chinese": "出去走走",
+          "phonetic": "/ɡəʊ fɔː ə wɔːk/"
+        },
+        {
+          "english": "shout bad words",
+          "chinese": "大声骂人",
+          "phonetic": "/ʃaʊt bæd wɜːdz/"
+        },
+        {
+          "english": "take a deep breath",
+          "chinese": "深呼吸",
+          "phonetic": "/teɪk ə diːp breθ/"
+        },
+        {
+          "english": "throw things",
+          "chinese": "扔东西",
+          "phonetic": "/θrəʊ θɪŋz/"
+        },
+        {
+          "english": "count to ten",
+          "chinese": "数到十",
+          "phonetic": "/kaʊnt tuː ten/"
+        },
+        {
+          "english": "very angry",
+          "chinese": "非常生气",
+          "phonetic": "/ˈveri ˈæŋɡri/"
+        },
+        {
+          "english": "eat a lot",
+          "chinese": "吃很多",
+          "phonetic": "/iːt ə lɒt/"
+        },
+        {
+          "english": "listen to some music",
+          "chinese": "听一点音乐",
+          "phonetic": "/ˈlɪsn tuː sʌm ˈmjuːzɪk/"
+        },
+        {
+          "english": "yell out loud",
+          "chinese": "大声喊叫",
+          "phonetic": "/jel aʊt laʊd/"
+        },
+        {
+          "english": "talk with friends on the phone",
+          "chinese": "与朋友通电话",
+          "phonetic": "/tɔːk wɪð frendz ɒn ðə fəʊn/"
+        },
+        {
+          "english": "calm down",
+          "chinese": "冷静，平静下来",
+          "phonetic": "/kɑːm daʊn/"
+        },
+        {
+          "english": "solve the problem",
+          "chinese": "解决问题",
+          "phonetic": "/sɒlv ðə ˈprɒbləm/"
+        },
+        {
+          "english": "I feel ...",
+          "chinese": "我觉得……",
+          "phonetic": "/aɪ fiːl .../"
+        },
+        {
+          "english": "I don't like it because ...",
+          "chinese": "我不喜欢它，因为……",
+          "phonetic": "/aɪ dəʊnt laɪk ɪt bɪˈkɒz .../"
+        },
+        {
+          "english": "I get ... when ...",
+          "chinese": "每当……时，我就会……",
+          "phonetic": "/aɪ ɡet ... wen .../"
+        },
+        {
+          "english": "I got really ... because ...",
+          "chinese": "我真的很……，因为……",
+          "phonetic": "/aɪ ɡɒt ˈrɪəli ... bɪˈkɒz .../"
+        }
       ]
     },
     {
       "id": "unit-2",
       "label": "Unit 2",
-      "title": "A country life is a healthy life",
+      "title": "Talk It Out",
       "items": [
-        { "english": "grandparent", "chinese": "祖父；祖母", "phonetic": "[ˈɡrænpeərənt]" },
-        { "english": "milk", "chinese": "挤奶", "phonetic": "[mɪlk]" },
-        { "english": "ride", "chinese": "骑", "phonetic": "[raɪd]" },
-        { "english": "rode", "chinese": "骑（ride 的过去式）", "phonetic": "[rəʊd]" },
-        { "english": "take", "chinese": "花费", "phonetic": "[teɪk]" },
-        { "english": "took", "chinese": "花费（take 的过去式）", "phonetic": "[tʊk]" },
-        { "english": "still", "chinese": "仍然", "phonetic": "[stɪl]" },
-        { "english": "help ... with ...", "chinese": "在……方面帮助", "phonetic": "[help wɪð]" },
-        { "english": "air", "chinese": "空气", "phonetic": "[eə]" }
+        {
+          "english": "lion",
+          "chinese": "狮子",
+          "phonetic": "/ˈlaɪən/"
+        },
+        {
+          "english": "call",
+          "chinese": "称呼；喊",
+          "phonetic": "/kɔːl/"
+        },
+        {
+          "english": "stop",
+          "chinese": "停止",
+          "phonetic": "/stɒp/"
+        },
+        {
+          "english": "joke",
+          "chinese": "玩笑",
+          "phonetic": "/dʒəʊk/"
+        },
+        {
+          "english": "worse",
+          "chinese": "更糟糕的，更差的",
+          "phonetic": "/wɜːs/"
+        },
+        {
+          "english": "mad",
+          "chinese": "生气的",
+          "phonetic": "/mæd/"
+        },
+        {
+          "english": "also",
+          "chinese": "也；此外",
+          "phonetic": "/ˈɔːlsəʊ/"
+        },
+        {
+          "english": "make",
+          "chinese": "制作",
+          "phonetic": "/meɪk/"
+        },
+        {
+          "english": "proud",
+          "chinese": "骄傲的，自豪的",
+          "phonetic": "/praʊd/"
+        },
+        {
+          "english": "talk it out",
+          "chinese": "谈话和解",
+          "phonetic": "/tɔːk ɪt aʊt/"
+        },
+        {
+          "english": "have a new haircut",
+          "chinese": "剪了个新发型",
+          "phonetic": "/hæv ə njuː ˈheəkʌt/"
+        },
+        {
+          "english": "make fun of ...",
+          "chinese": "开某人的玩笑",
+          "phonetic": "/meɪk fʌn əv .../"
+        },
+        {
+          "english": "call ... names",
+          "chinese": "给……起外号",
+          "phonetic": "/kɔːl ... neɪmz/"
+        },
+        {
+          "english": "yell at ...",
+          "chinese": "对……喊叫",
+          "phonetic": "/jel æt .../"
+        },
+        {
+          "english": "fight with each other",
+          "chinese": "双方争吵",
+          "phonetic": "/faɪt wɪð iːtʃ ˈʌðə/"
+        },
+        {
+          "english": "I feel ... when you ...",
+          "chinese": "当你……时，我觉得……",
+          "phonetic": "/aɪ fiːl ... wen juː .../"
+        }
       ]
     },
     {
       "id": "unit-3",
       "label": "Unit 3",
-      "title": "Where are you from?",
+      "title": "Work It Out Together",
       "items": [
-        { "english": "city", "chinese": "城市", "phonetic": "[ˈsɪtɪ]" },
-        { "english": "student", "chinese": "学生", "phonetic": "[ˈstjuːd(ə)nt]" },
-        { "english": "quiet", "chinese": "安静的", "phonetic": "[ˈkwaɪət]" },
-        { "english": "cheap", "chinese": "便宜的", "phonetic": "[tʃiːp]" },
-        { "english": "modern", "chinese": "现代的；现代化的", "phonetic": "[ˈmɒd(ə)n]" },
-        { "english": "noisy", "chinese": "吵闹的", "phonetic": "[ˈnɔɪzɪ]" },
-        { "english": "wide", "chinese": "宽阔的", "phonetic": "[waɪd]" },
-        { "english": "crowded", "chinese": "拥挤的", "phonetic": "[ˈkraʊdɪd]" },
-        { "english": "comfortable", "chinese": "舒适的", "phonetic": "[ˈkʌmftəbl]" },
-        { "english": "heavy", "chinese": "拥挤的；大量的", "phonetic": "[ˈhevɪ]" },
-        { "english": "slow", "chinese": "慢的；缓慢的", "phonetic": "[sləʊ]" }
+        {
+          "english": "bring",
+          "chinese": "提出；带来",
+          "phonetic": "/brɪŋ/"
+        },
+        {
+          "english": "might",
+          "chinese": "可能",
+          "phonetic": "/maɪt/"
+        },
+        {
+          "english": "cup",
+          "chinese": "杯子",
+          "phonetic": "/kʌp/"
+        },
+        {
+          "english": "dangerous",
+          "chinese": "危险的",
+          "phonetic": "/ˈdeɪndʒərəs/"
+        },
+        {
+          "english": "homework",
+          "chinese": "作业",
+          "phonetic": "/ˈhəʊmwɜːk/"
+        },
+        {
+          "english": "lie",
+          "chinese": "欺骗，撒谎",
+          "phonetic": "/laɪ/"
+        },
+        {
+          "english": "finish",
+          "chinese": "完成",
+          "phonetic": "/ˈfɪnɪʃ/"
+        },
+        {
+          "english": "record",
+          "chinese": "录制；记录",
+          "phonetic": "/rɪˈkɔːd/"
+        },
+        {
+          "english": "choose",
+          "chinese": "选择",
+          "phonetic": "/tʃuːz/"
+        },
+        {
+          "english": "their",
+          "chinese": "他们的",
+          "phonetic": "/ðeə/"
+        },
+        {
+          "english": "bring up the problem",
+          "chinese": "提出问题",
+          "phonetic": "/brɪŋ ʌp ðə ˈprɒbləm/"
+        },
+        {
+          "english": "listen to each other",
+          "chinese": "彼此倾听",
+          "phonetic": "/ˈlɪsn tuː iːtʃ ˈʌðə/"
+        },
+        {
+          "english": "take turns to talk",
+          "chinese": "轮流交谈",
+          "phonetic": "/teɪk tɜːnz tuː tɔːk/"
+        },
+        {
+          "english": "come up with ideas",
+          "chinese": "提出想法",
+          "phonetic": "/kʌm ʌp wɪð aɪˈdɪəz/"
+        },
+        {
+          "english": "work it out together",
+          "chinese": "一起想办法解决",
+          "phonetic": "/wɜːk ɪt aʊt təˈɡeðə/"
+        },
+        {
+          "english": "finish homework",
+          "chinese": "完成作业",
+          "phonetic": "/ˈfɪnɪʃ ˈhəʊmwɜːk/"
+        },
+        {
+          "english": "Can I talk to you?",
+          "chinese": "我可以和你谈谈吗？",
+          "phonetic": "/kæn aɪ tɔːk tuː juː/"
+        },
+        {
+          "english": "I understand.",
+          "chinese": "我明白。",
+          "phonetic": "/aɪ ˌʌndəˈstænd/"
+        },
+        {
+          "english": "But it will help me ...",
+          "chinese": "但它会帮我……",
+          "phonetic": "/bʌt ɪt wɪl help miː .../"
+        },
+        {
+          "english": "Maybe I can ... first?",
+          "chinese": "也许我可以先……？",
+          "phonetic": "/ˈmeɪbi aɪ kæn ... fɜːst/"
+        },
+        {
+          "english": "Good idea!",
+          "chinese": "好主意！",
+          "phonetic": "/ɡʊd aɪˈdɪə/"
+        },
+        {
+          "english": "Do you have a minute?",
+          "chinese": "你有时间吗？",
+          "phonetic": "/duː juː hæv ə ˈmɪnɪt/"
+        },
+        {
+          "english": "I understand your worries, but ...",
+          "chinese": "我理解你的担心，但是……",
+          "phonetic": "/aɪ ˌʌndəˈstænd jɔː ˈwʌriz bʌt .../"
+        },
+        {
+          "english": "That makes sense.",
+          "chinese": "那有道理。",
+          "phonetic": "/ðæt meɪks sens/"
+        },
+        {
+          "english": "Maybe we can ...",
+          "chinese": "或许我们可以……",
+          "phonetic": "/ˈmeɪbi wiː kæn .../"
+        },
+        {
+          "english": "Or ... is that okay?",
+          "chinese": "或许……可以吗？",
+          "phonetic": "/ɔː ... ɪz ðæt əʊˈkeɪ/"
+        }
       ]
     },
     {
       "id": "unit-4",
       "label": "Unit 4",
-      "title": "I like the city very much",
+      "title": "Cat or Dog?",
       "items": [
-        { "english": "postcard", "chinese": "明信片", "phonetic": "[ˈpəʊs(t)kɑːd]" },
-        { "english": "different to ...", "chinese": "与……不同", "phonetic": "[ˈdɪfrənt tuː]" },
-        { "english": "dirty", "chinese": "脏的", "phonetic": "[ˈdɜːtɪ]" },
-        { "english": "afraid", "chinese": "害怕", "phonetic": "[əˈfreɪd]" },
-        { "english": "be afraid ...", "chinese": "害怕……", "phonetic": "[biː əˈfreɪd]" },
-        { "english": "because", "chinese": "因为", "phonetic": "[bɪˈkɒz]" },
-        { "english": "sell", "chinese": "出售", "phonetic": "[sel]" },
-        { "english": "countryside", "chinese": "农村", "phonetic": "[ˈkʌntrɪsaɪd]" },
-        { "english": "theatre", "chinese": "剧院", "phonetic": "[ˈθɪətə]" },
-        { "english": "all day", "chinese": "整天", "phonetic": "[ɔːl deɪ]" }
+        {
+          "english": "play",
+          "chinese": "玩",
+          "phonetic": "/pleɪ/"
+        },
+        {
+          "english": "stay",
+          "chinese": "停留；保持",
+          "phonetic": "/steɪ/"
+        },
+        {
+          "english": "toy",
+          "chinese": "玩具",
+          "phonetic": "/tɔɪ/"
+        },
+        {
+          "english": "dig",
+          "chinese": "挖掘",
+          "phonetic": "/dɪɡ/"
+        },
+        {
+          "english": "least",
+          "chinese": "至少，最少",
+          "phonetic": "/liːst/"
+        },
+        {
+          "english": "habit",
+          "chinese": "习性，习惯",
+          "phonetic": "/ˈhæbɪt/"
+        },
+        {
+          "english": "between",
+          "chinese": "在……之间",
+          "phonetic": "/bɪˈtwiːn/"
+        },
+        {
+          "english": "building",
+          "chinese": "建筑物",
+          "phonetic": "/ˈbɪldɪŋ/"
+        },
+        {
+          "english": "much",
+          "chinese": "许多，大量",
+          "phonetic": "/mʌtʃ/"
+        },
+        {
+          "english": "orange",
+          "chinese": "橙色的；橙子",
+          "phonetic": "/ˈɒrɪndʒ/"
+        },
+        {
+          "english": "push",
+          "chinese": "推",
+          "phonetic": "/pʊʃ/"
+        },
+        {
+          "english": "play during the night",
+          "chinese": "在夜间玩耍",
+          "phonetic": "/pleɪ ˈdjʊərɪŋ ðə naɪt/"
+        },
+        {
+          "english": "stay inside",
+          "chinese": "待在室内",
+          "phonetic": "/steɪ ɪnˈsaɪd/"
+        },
+        {
+          "english": "sleep during the day",
+          "chinese": "白天睡觉",
+          "phonetic": "/sliːp ˈdjʊərɪŋ ðə deɪ/"
+        },
+        {
+          "english": "don't like to be alone",
+          "chinese": "不喜欢独处",
+          "phonetic": "/dəʊnt laɪk tuː biː əˈləʊn/"
+        },
+        {
+          "english": "lose hair",
+          "chinese": "掉毛",
+          "phonetic": "/luːz heə/"
+        },
+        {
+          "english": "love playing with toys",
+          "chinese": "喜欢玩玩具",
+          "phonetic": "/lʌv ˈpleɪɪŋ wɪð tɔɪz/"
+        },
+        {
+          "english": "very busy at work",
+          "chinese": "工作很忙",
+          "phonetic": "/ˈveri ˈbɪzi æt wɜːk/"
+        },
+        {
+          "english": "an animal lover",
+          "chinese": "一个动物爱好者",
+          "phonetic": "/ən ˈænɪml ˈlʌvə/"
+        },
+        {
+          "english": "a light sleeper",
+          "chinese": "一个睡得浅的人",
+          "phonetic": "/ə laɪt ˈsliːpə/"
+        },
+        {
+          "english": "like to go to the park",
+          "chinese": "喜欢去公园",
+          "phonetic": "/laɪk tuː ɡəʊ tuː ðə pɑːk/"
+        },
+        {
+          "english": "go to school early",
+          "chinese": "上学很早",
+          "phonetic": "/ɡəʊ tuː skuːl ˈɜːli/"
+        },
+        {
+          "english": "far away",
+          "chinese": "很远",
+          "phonetic": "/fɑː əˈweɪ/"
+        },
+        {
+          "english": "... and ... are different because ...",
+          "chinese": "……和……不同，因为……",
+          "phonetic": "/... ænd ... ɑː ˈdɪfrənt bɪˈkɒz .../"
+        },
+        {
+          "english": "Good point!",
+          "chinese": "说得对！",
+          "phonetic": "/ɡʊd pɔɪnt/"
+        },
+        {
+          "english": "They both love ...",
+          "chinese": "他们都喜欢……",
+          "phonetic": "/ðeɪ bəʊθ lʌv .../"
+        },
+        {
+          "english": "They are both ...",
+          "chinese": "他们都……",
+          "phonetic": "/ðeɪ ɑː bəʊθ .../"
+        },
+        {
+          "english": "... are ..., while ... are ...",
+          "chinese": "……是……样的，但……却是……",
+          "phonetic": "/... ɑː ... waɪl ... ɑː .../"
+        },
+        {
+          "english": "I agree.",
+          "chinese": "我同意。",
+          "phonetic": "/aɪ əˈɡriː/"
+        },
+        {
+          "english": "I don't agree because ...",
+          "chinese": "我不同意，因为……",
+          "phonetic": "/aɪ dəʊnt əˈɡriː bɪˈkɒz .../"
+        },
+        {
+          "english": "I think it's better to ...",
+          "chinese": "我认为……更好。",
+          "phonetic": "/aɪ θɪŋk ɪts ˈbetə tuː .../"
+        }
       ]
     },
     {
       "id": "unit-5",
       "label": "Unit 5",
-      "title": "What’s the matter with you?",
+      "title": "Shop Smart",
       "items": [
-        { "english": "health", "chinese": "健康", "phonetic": "[helθ]" },
-        { "english": "matter", "chinese": "事情", "phonetic": "[ˈmætə]" },
-        { "english": "What’s the matter?", "chinese": "怎么回事？", "phonetic": "[wɒts ðə ˈmætə]" },
-        { "english": "ill", "chinese": "病的", "phonetic": "[ɪl]" },
-        { "english": "stomachache", "chinese": "肚子疼", "phonetic": "[ˈstʌməkeɪk]" },
-        { "english": "ate", "chinese": "吃（eat 的过去式）", "phonetic": "[eɪt]" },
-        { "english": "hear", "chinese": "听到", "phonetic": "[hɪə]" },
-        { "english": "I’m sorry to hear that.", "chinese": "听到这个我很难过。", "phonetic": "[aɪm ˈsɒrɪ tə hɪə ðæt]" },
-        { "english": "gave", "chinese": "给（give 的过去式）", "phonetic": "[ɡeɪv]" },
-        { "english": "check-up", "chinese": "检查", "phonetic": "[ˈtʃek ʌp]" },
-        { "english": "take", "chinese": "服（药）", "phonetic": "[teɪk]" },
-        { "english": "took", "chinese": "服用（take 的过去式）", "phonetic": "[tʊk]" },
-        { "english": "medicine", "chinese": "药", "phonetic": "[ˈmedsn]" },
-        { "english": "time", "chinese": "次", "phonetic": "[taɪm]" },
-        { "english": "toothache", "chinese": "牙疼", "phonetic": "[ˈtuːθeɪk]" },
-        { "english": "brush", "chinese": "刷", "phonetic": "[brʌʃ]" },
-        { "english": "twice", "chinese": "两次", "phonetic": "[twaɪs]" },
-        { "english": "broken", "chinese": "折断的", "phonetic": "[ˈbrəʊk(ə)n]" },
-        { "english": "finger", "chinese": "手指", "phonetic": "[ˈfɪŋɡə]" },
-        { "english": "rest", "chinese": "休息", "phonetic": "[rest]" },
-        { "english": "take a rest", "chinese": "休息", "phonetic": "[teɪk ə rest]" },
-        { "english": "have a cold", "chinese": "感冒", "phonetic": "[hæv ə kəʊld]" },
-        { "english": "wore", "chinese": "穿（wear 的过去式）", "phonetic": "[wɔː(r)]" },
-        { "english": "headache", "chinese": "头疼", "phonetic": "[ˈhedeɪk]" },
-        { "english": "could", "chinese": "能够（can 的过去式）", "phonetic": "[kʊd]" },
-        { "english": "fever", "chinese": "发烧", "phonetic": "[ˈfiːvə]" }
+        {
+          "english": "wait",
+          "chinese": "等待",
+          "phonetic": "/weɪt/"
+        },
+        {
+          "english": "learn",
+          "chinese": "学习",
+          "phonetic": "/lɜːn/"
+        },
+        {
+          "english": "bike",
+          "chinese": "自行车",
+          "phonetic": "/baɪk/"
+        },
+        {
+          "english": "money",
+          "chinese": "钱",
+          "phonetic": "/ˈmʌni/"
+        },
+        {
+          "english": "online",
+          "chinese": "在线的，网上的",
+          "phonetic": "/ˌɒnˈlaɪn/"
+        },
+        {
+          "english": "free",
+          "chinese": "免费的；空闲的；自由的",
+          "phonetic": "/friː/"
+        },
+        {
+          "english": "clock",
+          "chinese": "钟表",
+          "phonetic": "/klɒk/"
+        },
+        {
+          "english": "notebook",
+          "chinese": "笔记本",
+          "phonetic": "/ˈnəʊtbʊk/"
+        },
+        {
+          "english": "cost",
+          "chinese": "花费",
+          "phonetic": "/kɒst/"
+        },
+        {
+          "english": "cheap",
+          "chinese": "便宜",
+          "phonetic": "/tʃiːp/"
+        },
+        {
+          "english": "glove",
+          "chinese": "手套",
+          "phonetic": "/ɡlʌv/"
+        },
+        {
+          "english": "sometimes",
+          "chinese": "有时候",
+          "phonetic": "/ˈsʌmtaɪmz/"
+        },
+        {
+          "english": "little",
+          "chinese": "少量的；小的",
+          "phonetic": "/ˈlɪtl/"
+        },
+        {
+          "english": "shop smart",
+          "chinese": "理智购物",
+          "phonetic": "/ʃɒp smɑːt/"
+        },
+        {
+          "english": "think about it more",
+          "chinese": "多考虑一下",
+          "phonetic": "/θɪŋk əˈbaʊt ɪt mɔː/"
+        },
+        {
+          "english": "wait a few days",
+          "chinese": "等几天",
+          "phonetic": "/weɪt ə fjuː deɪz/"
+        },
+        {
+          "english": "learn about it",
+          "chinese": "了解它",
+          "phonetic": "/lɜːn əˈbaʊt ɪt/"
+        },
+        {
+          "english": "look for a better deal",
+          "chinese": "寻找更划算的交易",
+          "phonetic": "/lʊk fɔː ə ˈbetə diːl/"
+        },
+        {
+          "english": "give it a try",
+          "chinese": "试一试",
+          "phonetic": "/ɡɪv ɪt ə traɪ/"
+        },
+        {
+          "english": "compare and choose",
+          "chinese": "比较并选择",
+          "phonetic": "/kəmˈpeə ænd tʃuːz/"
+        },
+        {
+          "english": "buy one get one free",
+          "chinese": "买一送一",
+          "phonetic": "/baɪ wʌn ɡet wʌn friː/"
+        },
+        {
+          "english": "a jump rope",
+          "chinese": "一个跳绳",
+          "phonetic": "/ə dʒʌmp rəʊp/"
+        },
+        {
+          "english": "Wait a minute.",
+          "chinese": "等一下。",
+          "phonetic": "/weɪt ə ˈmɪnɪt/"
+        },
+        {
+          "english": "Do I really need it?",
+          "chinese": "我真的需要它吗？",
+          "phonetic": "/duː aɪ ˈrɪəli niːd ɪt/"
+        },
+        {
+          "english": "Do I just want it?",
+          "chinese": "我是否只是想要它？",
+          "phonetic": "/duː aɪ dʒʌst wɒnt ɪt/"
+        },
+        {
+          "english": "Do I need that thing right now?",
+          "chinese": "我现在需要那个东西吗？",
+          "phonetic": "/duː aɪ niːd ðæt θɪŋ raɪt naʊ/"
+        },
+        {
+          "english": "Is it the best deal?",
+          "chinese": "这是最好的交易吗？",
+          "phonetic": "/ɪz ɪt ðə best diːl/"
+        }
       ]
     },
     {
       "id": "unit-6",
       "label": "Unit 6",
-      "title": "The secret to good health",
+      "title": "Keep It Green",
       "items": [
-        { "english": "secret", "chinese": "秘密", "phonetic": "[ˈsiːkrɪt]" },
-        { "english": "simple", "chinese": "简单的", "phonetic": "[ˈsɪmp(ə)l]" },
-        { "english": "least", "chinese": "最少；最小", "phonetic": "[liːst]" },
-        { "english": "at least", "chinese": "至少", "phonetic": "[ət liːst]" },
-        { "english": "diet", "chinese": "节食", "phonetic": "[ˈdaɪət]" },
-        { "english": "keep a good diet", "chinese": "保持一个良好的饮食习惯", "phonetic": "[kiːp ə ɡʊd ˈdaɪət]" },
-        { "english": "less", "chinese": "较少的", "phonetic": "[les]" },
-        { "english": "oily", "chinese": "多油的；油腻的", "phonetic": "[ˈɔɪlɪ]" },
-        { "english": "finally", "chinese": "最后地", "phonetic": "[ˈfaɪnəlɪ]" },
-        { "english": "smile", "chinese": "微笑", "phonetic": "[smaɪl]" },
-        { "english": "even", "chinese": "甚至", "phonetic": "[ˈiːv(ə)n]" }
+        {
+          "english": "please",
+          "chinese": "请",
+          "phonetic": "/pliːz/"
+        },
+        {
+          "english": "waste",
+          "chinese": "垃圾；浪费",
+          "phonetic": "/weɪst/"
+        },
+        {
+          "english": "snack",
+          "chinese": "零食，小吃",
+          "phonetic": "/snæk/"
+        },
+        {
+          "english": "noon",
+          "chinese": "中午",
+          "phonetic": "/nuːn/"
+        },
+        {
+          "english": "change",
+          "chinese": "改变",
+          "phonetic": "/tʃeɪndʒ/"
+        },
+        {
+          "english": "menu",
+          "chinese": "菜单",
+          "phonetic": "/ˈmenjuː/"
+        },
+        {
+          "english": "classmate",
+          "chinese": "同学",
+          "phonetic": "/ˈklɑːsmeɪt/"
+        },
+        {
+          "english": "helpful",
+          "chinese": "有帮助的，有益的",
+          "phonetic": "/ˈhelpfl/"
+        },
+        {
+          "english": "fourth",
+          "chinese": "第四",
+          "phonetic": "/fɔːθ/"
+        },
+        {
+          "english": "fifth",
+          "chinese": "第五",
+          "phonetic": "/fɪfθ/"
+        },
+        {
+          "english": "difference",
+          "chinese": "不同",
+          "phonetic": "/ˈdɪfrəns/"
+        },
+        {
+          "english": "give too much food",
+          "chinese": "给太多食物",
+          "phonetic": "/ɡɪv tuː mʌtʃ fuːd/"
+        },
+        {
+          "english": "food waste",
+          "chinese": "厨余垃圾",
+          "phonetic": "/fuːd weɪst/"
+        },
+        {
+          "english": "take too much food",
+          "chinese": "拿太多食物",
+          "phonetic": "/teɪk tuː mʌtʃ fuːd/"
+        },
+        {
+          "english": "be picky about food",
+          "chinese": "挑食",
+          "phonetic": "/biː ˈpɪki əˈbaʊt fuːd/"
+        },
+        {
+          "english": "eat snacks",
+          "chinese": "吃零食",
+          "phonetic": "/iːt snæks/"
+        },
+        {
+          "english": "rush out to play",
+          "chinese": "冲出去玩",
+          "phonetic": "/rʌʃ aʊt tuː pleɪ/"
+        },
+        {
+          "english": "canteen staff",
+          "chinese": "食堂员工",
+          "phonetic": "/kænˈtiːn stɑːf/"
+        },
+        {
+          "english": "have a good breakfast",
+          "chinese": "早餐吃得好",
+          "phonetic": "/hæv ə ɡʊd ˈbrekfəst/"
+        },
+        {
+          "english": "take less food",
+          "chinese": "少拿点食物",
+          "phonetic": "/teɪk les fuːd/"
+        },
+        {
+          "english": "change the menu",
+          "chinese": "更换菜单",
+          "phonetic": "/tʃeɪndʒ ðə ˈmenjuː/"
+        },
+        {
+          "english": "try all kinds of foods",
+          "chinese": "尝试各种食物",
+          "phonetic": "/traɪ ɔːl kaɪndz əv fuːdz/"
+        },
+        {
+          "english": "save food for later",
+          "chinese": "留些食物晚些吃",
+          "phonetic": "/seɪv fuːd fɔː ˈleɪtə/"
+        },
+        {
+          "english": "It's not good to ...",
+          "chinese": "……是很不好的。",
+          "phonetic": "/ɪts nɒt ɡʊd tuː .../"
+        },
+        {
+          "english": "We found that ...",
+          "chinese": "我们发现……",
+          "phonetic": "/wiː faʊnd ðæt .../"
+        },
+        {
+          "english": "The reason is ...",
+          "chinese": "原因是……",
+          "phonetic": "/ðə ˈriːzn ɪz .../"
+        },
+        {
+          "english": "This happens because ...",
+          "chinese": "发生这种情况是因为……",
+          "phonetic": "/ðɪs ˈhæpənz bɪˈkɒz .../"
+        }
       ]
     },
     {
       "id": "unit-7",
       "label": "Unit 7",
-      "title": "What did you do yesterday?",
+      "title": "Play It Safe",
       "items": [
-        { "english": "past", "chinese": "过去", "phonetic": "[pɑːst]" },
-        { "english": "experience", "chinese": "经历；经验", "phonetic": "[ɪkˈspɪərɪəns]" },
-        { "english": "yesterday", "chinese": "昨天", "phonetic": "[ˈjestədeɪ]" },
-        { "english": "bought", "chinese": "买（buy 的过去式）", "phonetic": "[bɔːt]" },
-        { "english": "angry", "chinese": "生气；愤怒", "phonetic": "[ˈæŋɡrɪ]" },
-        { "english": "came", "chinese": "来（come 的过去式）", "phonetic": "[keɪm]" },
-        { "english": "no/not ... at all", "chinese": "一点都不……", "phonetic": "[nəʊ nɒt æt ɔːl]" },
-        { "english": "poor", "chinese": "可怜的", "phonetic": "[pɔː(r)]" },
-        { "english": "last", "chinese": "上一个的", "phonetic": "[lɑːst]" },
-        { "english": "year", "chinese": "年", "phonetic": "[jɪə]" },
-        { "english": "met", "chinese": "遇见；聚集（meet 的过去式）", "phonetic": "[met]" },
-        { "english": "saw", "chinese": "看见；明白（see 的过去式）", "phonetic": "[sɔː]" },
-        { "english": "read", "chinese": "读（read 的过去式）", "phonetic": "[red]" }
+        {
+          "english": "break",
+          "chinese": "休息，间歇；打破",
+          "phonetic": "/breɪk/"
+        },
+        {
+          "english": "right",
+          "chinese": "恰当的；对的；右边的",
+          "phonetic": "/raɪt/"
+        },
+        {
+          "english": "playground",
+          "chinese": "操场",
+          "phonetic": "/ˈpleɪɡraʊnd/"
+        },
+        {
+          "english": "yesterday",
+          "chinese": "昨天",
+          "phonetic": "/ˈjestədeɪ/"
+        },
+        {
+          "english": "important",
+          "chinese": "重要的",
+          "phonetic": "/ɪmˈpɔːtnt/"
+        },
+        {
+          "english": "without",
+          "chinese": "没有",
+          "phonetic": "/wɪˈðaʊt/"
+        },
+        {
+          "english": "hospital",
+          "chinese": "医院",
+          "phonetic": "/ˈhɒspɪtl/"
+        },
+        {
+          "english": "rest",
+          "chinese": "休息",
+          "phonetic": "/rest/"
+        },
+        {
+          "english": "another",
+          "chinese": "另一个",
+          "phonetic": "/əˈnʌðə/"
+        },
+        {
+          "english": "team",
+          "chinese": "团队",
+          "phonetic": "/tiːm/"
+        },
+        {
+          "english": "watch",
+          "chinese": "观察；看",
+          "phonetic": "/wɒtʃ/"
+        },
+        {
+          "english": "drink enough water",
+          "chinese": "喝足量的水",
+          "phonetic": "/drɪŋk ɪˈnʌf ˈwɔːtə/"
+        },
+        {
+          "english": "take water breaks",
+          "chinese": "休息下，喝点水",
+          "phonetic": "/teɪk ˈwɔːtə breɪks/"
+        },
+        {
+          "english": "warm up",
+          "chinese": "热身",
+          "phonetic": "/wɔːm ʌp/"
+        },
+        {
+          "english": "wear the right shoes",
+          "chinese": "穿合适的鞋子",
+          "phonetic": "/weə ðə raɪt ʃuːz/"
+        },
+        {
+          "english": "work with your teammates",
+          "chinese": "和队友合作",
+          "phonetic": "/wɜːk wɪð jɔː ˈtiːmmeɪts/"
+        },
+        {
+          "english": "watch out for others on the playground",
+          "chinese": "在操场上小心他人",
+          "phonetic": "/wɒtʃ aʊt fɔː ˈʌðəz ɒn ðə ˈpleɪɡraʊnd/"
+        },
+        {
+          "english": "don't play if you are hurt",
+          "chinese": "受伤了就别运动",
+          "phonetic": "/dəʊnt pleɪ ɪf juː ɑː hɜːt/"
+        },
+        {
+          "english": "follow the rules",
+          "chinese": "遵守规则",
+          "phonetic": "/ˈfɒləʊ ðə ruːlz/"
+        },
+        {
+          "english": "learn a lesson",
+          "chinese": "得到教训；获得经验",
+          "phonetic": "/lɜːn ə ˈlesn/"
+        },
+        {
+          "english": "We should ... before ...",
+          "chinese": "在……之前，我们应该……",
+          "phonetic": "/wiː ʃʊd ... bɪˈfɔː .../"
+        },
+        {
+          "english": "Tell me what happened.",
+          "chinese": "告诉我发生了什么。",
+          "phonetic": "/tel miː wɒt ˈhæpənd/"
+        },
+        {
+          "english": "First things first, make sure to ...",
+          "chinese": "首先，一定确保……",
+          "phonetic": "/fɜːst θɪŋz fɜːst meɪk ʃʊə tuː .../"
+        },
+        {
+          "english": "Also, don't forget to ...",
+          "chinese": "还有，别忘了……",
+          "phonetic": "/ˈɔːlsəʊ dəʊnt fəˈɡet tuː .../"
+        },
+        {
+          "english": "What's more, it's a good idea to ...",
+          "chinese": "另外，……也是个好办法。",
+          "phonetic": "/wɒts mɔː ɪts ə ɡʊd aɪˈdɪə tuː .../"
+        },
+        {
+          "english": "One last thing, ...",
+          "chinese": "最后一件事，……",
+          "phonetic": "/wʌn lɑːst θɪŋ .../"
+        },
+        {
+          "english": "How are you feeling?",
+          "chinese": "你感觉怎么样？",
+          "phonetic": "/haʊ ɑː juː ˈfiːlɪŋ/"
+        },
+        {
+          "english": "How did this happen?",
+          "chinese": "这是怎么发生的？",
+          "phonetic": "/haʊ dɪd ðɪs ˈhæpən/"
+        },
+        {
+          "english": "Does it hurt?",
+          "chinese": "疼吗？",
+          "phonetic": "/dʌz ɪt hɜːt/"
+        },
+        {
+          "english": "Don't worry.",
+          "chinese": "别担心。",
+          "phonetic": "/dəʊnt ˈwʌri/"
+        },
+        {
+          "english": "Let me see.",
+          "chinese": "让我看看。",
+          "phonetic": "/let miː siː/"
+        },
+        {
+          "english": "Let me take a closer look.",
+          "chinese": "让我仔细看看。",
+          "phonetic": "/let miː teɪk ə ˈkləʊsə lʊk/"
+        }
       ]
     },
     {
-      "id": "unit-8",
-      "label": "Unit 8",
-      "title": "A trip to Hong Kong",
+      "id": "review",
+      "label": "Review",
+      "title": "A Gift for Grandpa",
       "items": [
-        { "english": "diary", "chinese": "日记", "phonetic": "[ˈdaɪərɪ]" },
-        { "english": "Disneyland", "chinese": "迪斯尼乐园", "phonetic": "[ˈdɪznilænd]" },
-        { "english": "Mickey Mouse", "chinese": "米老鼠", "phonetic": "[ˌmɪki ˈmaʊs]" },
-        { "english": "Donald Duck", "chinese": "唐老鸭", "phonetic": "[ˌdɒnəld ˈdʌk]" },
-        { "english": "a little", "chinese": "一点", "phonetic": "[ə ˈlɪtl]" },
-        { "english": "later", "chinese": "后来", "phonetic": "[ˈleɪtə]" },
-        { "english": "felt", "chinese": "感觉；觉得（feel 的过去式）", "phonetic": "[felt]" },
-        { "english": "sat", "chinese": "坐（sit 的过去式）", "phonetic": "[sæt]" },
-        { "english": "until", "chinese": "直到", "phonetic": "[ənˈtɪl]" },
-        { "english": "better", "chinese": "更好", "phonetic": "[ˈbetə]" },
-        { "english": "surprised", "chinese": "惊讶的", "phonetic": "[səˈpraɪzd]" }
-      ]
-    },
-    {
-      "id": "unit-9",
-      "label": "Unit 9",
-      "title": "Was I a good girl back then?",
-      "items": [
-        { "english": "back then", "chinese": "当时；过去那个时候", "phonetic": "[bæk ðen]" },
-        { "english": "polite", "chinese": "有礼貌的", "phonetic": "[pəˈlaɪt]" },
-        { "english": "surf", "chinese": "浏览", "phonetic": "[sɜːf]" },
-        { "english": "Internet", "chinese": "因特网", "phonetic": "[ˈɪntənet]" },
-        { "english": "surf the Internet", "chinese": "上网", "phonetic": "[sɜːf ði ˈɪntənet]" },
-        { "english": "fat", "chinese": "胖的", "phonetic": "[fæt]" },
-        { "english": "cry", "chinese": "哭", "phonetic": "[kraɪ]" }
-      ]
-    },
-    {
-      "id": "unit-10",
-      "label": "Unit 10",
-      "title": "Then and now",
-      "items": [
-        { "english": "ago", "chinese": "……之前", "phonetic": "[əˈɡəʊ]" },
-        { "english": "village", "chinese": "村子；村庄", "phonetic": "[ˈvɪlɪdʒ]" },
-        { "english": "nearby", "chinese": "附近", "phonetic": "[ˈnɪəbaɪ]" },
-        { "english": "far away", "chinese": "遥远", "phonetic": "[fɑːr əˈweɪ]" },
-        { "english": "office", "chinese": "办公室", "phonetic": "[ˈɒfɪs]" },
-        { "english": "store", "chinese": "商店", "phonetic": "[stɔː]" },
-        { "english": "department store", "chinese": "百货公司", "phonetic": "[dɪˈpɑːtmənt stɔː]" }
-      ]
-    },
-    {
-      "id": "unit-11",
-      "label": "Unit 11",
-      "title": "I like the Spring Festival best",
-      "items": [
-        { "english": "each other", "chinese": "互相", "phonetic": "[iːtʃ ˈʌðə]" },
-        { "english": "gift", "chinese": "礼物", "phonetic": "[ɡɪft]" },
-        { "english": "lucky", "chinese": "幸运", "phonetic": "[ˈlʌkɪ]" },
-        { "english": "lucky money", "chinese": "压岁钱", "phonetic": "[ˈlʌkɪ ˈmʌni]" },
-        { "english": "wish", "chinese": "希望", "phonetic": "[wɪʃ]" },
-        { "english": "jiaozi", "chinese": "饺子", "phonetic": "[ˈdʒaʊdzə]" },
-        { "english": "Mid-Autumn Festival", "chinese": "中秋节", "phonetic": "[ˌmɪd ˈɔːtəm ˈfestɪvl]" },
-        { "english": "moon", "chinese": "月亮", "phonetic": "[muːn]" },
-        { "english": "mooncake", "chinese": "月饼", "phonetic": "[ˈmuːnkeɪk]" },
-        { "english": "dragon", "chinese": "龙", "phonetic": "[ˈdræɡ(ə)n]" },
-        { "english": "Dragon Boat Festival", "chinese": "端午节", "phonetic": "[ˈdræɡən bəʊt ˈfestɪvl]" },
-        { "english": "zongzi", "chinese": "粽子", "phonetic": "[ˈzɒŋdzə]" },
-        { "english": "race", "chinese": "比赛", "phonetic": "[reɪs]" },
-        { "english": "Chongyang Festival", "chinese": "重阳节", "phonetic": "[ˈtʃɒŋjæŋ ˈfestɪvl]" }
-      ]
-    },
-    {
-      "id": "unit-12",
-      "label": "Unit 12",
-      "title": "Other festivals in China",
-      "items": [
-        { "english": "lunar", "chinese": "月亮的", "phonetic": "[ˈluːnə(r)]" },
-        { "english": "celebrate", "chinese": "庆祝", "phonetic": "[ˈselɪbreɪt]" },
-        { "english": "remember", "chinese": "记住", "phonetic": "[rɪˈmembə(r)]" },
-        { "english": "ancient", "chinese": "古代的", "phonetic": "[ˈeɪnʃənt]" },
-        { "english": "poet", "chinese": "诗人", "phonetic": "[ˈpəʊɪt]" },
-        { "english": "bean", "chinese": "豆", "phonetic": "[biːn]" },
-        { "english": "bamboo", "chinese": "竹", "phonetic": "[ˌbæmˈbuː]" },
-        { "english": "cheer", "chinese": "欢呼", "phonetic": "[tʃɪə(r)]" },
-        { "english": "reunion", "chinese": "重聚", "phonetic": "[ˌriːˈjuːniən]" },
-        { "english": "lantern", "chinese": "灯笼", "phonetic": "[ˈlæntən]" }
+        {
+          "english": "lonely",
+          "chinese": "孤单的",
+          "phonetic": "/ˈləʊnli/"
+        },
+        {
+          "english": "garden",
+          "chinese": "花园",
+          "phonetic": "/ˈɡɑːdn/"
+        },
+        {
+          "english": "tool",
+          "chinese": "工具",
+          "phonetic": "/tuːl/"
+        },
+        {
+          "english": "basket",
+          "chinese": "篮子",
+          "phonetic": "/ˈbɑːskɪt/"
+        },
+        {
+          "english": "potato",
+          "chinese": "土豆",
+          "phonetic": "/pəˈteɪtəʊ/"
+        },
+        {
+          "english": "either",
+          "chinese": "也；（两者中的）任何一个",
+          "phonetic": "/ˈaɪðə/"
+        },
+        {
+          "english": "stay healthy",
+          "chinese": "保持健康",
+          "phonetic": "/steɪ ˈhelθi/"
+        },
+        {
+          "english": "have a sweet tooth",
+          "chinese": "爱吃甜食",
+          "phonetic": "/hæv ə swiːt tuːθ/"
+        },
+        {
+          "english": "build good habits",
+          "chinese": "养成好习惯",
+          "phonetic": "/bɪld ɡʊd ˈhæbɪts/"
+        },
+        {
+          "english": "get some sunshine",
+          "chinese": "晒晒太阳",
+          "phonetic": "/ɡet sʌm ˈsʌnʃaɪn/"
+        },
+        {
+          "english": "If you ask me, I'd say ...",
+          "chinese": "如果你问我的话，我会说……",
+          "phonetic": "/ɪf juː ɑːsk miː aɪd seɪ .../"
+        },
+        {
+          "english": "How's it going?",
+          "chinese": "最近怎么样？",
+          "phonetic": "/haʊz ɪt ˈɡəʊɪŋ/"
+        }
       ]
     }
   ]

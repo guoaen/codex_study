@@ -10,7 +10,7 @@
 
 1. `AGENTS.md`：Agent 接手规则、必须同步修改的文件、验证要求。
 2. `SITE_MAINTENANCE.md`：当前架构、路径约定、页面结构和历史变更。
-3. `SITE_FRAMEWORK.md`：AI Agent 轻量维护框架，尤其是英语单词词汇页的 JSON 源数据和生成脚本。
+3. `SITE_FRAMEWORK.md`：AI Agent 轻量维护框架，尤其是英语单词词汇页和已纳入框架课文页的 JSON 源数据、生成脚本。
 4. `assets/js/site-shell.js`：如果涉及页头、主导航、页脚或内容页公共朗读工具栏。
 5. 本次要修改的具体页面文件。
 
@@ -34,6 +34,7 @@
 - `/subjects/english/grade-4/first/words/`：英语四年级上学期单词词汇。
 - `/subjects/english/grade-5/second/texts/`：英语五年级下学期课文。
 - `/subjects/english/grade-5/second/words/`：英语五年级下学期单词词汇。
+- `/subjects/english/grade-6/first/texts/`：英语六年级上学期课文。
 - `/subjects/english/grade-6/first/words/`：英语六年级上学期单词词汇。
 - `/subjects/english/grammar/tenses/`：小学英语四大常用时态语法专题。
 - `/subjects/little-fox/`：Little Fox 分级阅读清单。
@@ -50,8 +51,8 @@
 - 公共页头、导航、页脚和内容页朗读工具栏集中在 `assets/js/site-shell.js`。
 - 页面资源统一使用站点根路径，例如 `/assets/css/site.css`。
 - 不要直接双击 HTML 文件作为正式预览方式；站点根路径需要在 HTTP 服务环境中工作。
-- 英语单词词汇页已纳入 AI Agent 轻量生成框架：源数据在 `content/english/vocab/`，生成脚本在 `tools/build_vocab_page.py`，入口清单由 `site-manifest.json` 和 `tools/build_indexes.py` 维护。
-- 新增英语内容页后，优先更新 `subjects/english/index.html` 的清单。
+- 英语单词词汇页和部分英语课文页已纳入 AI Agent 轻量生成框架：词汇源数据在 `content/english/vocab/`，课文源数据在 `content/english/texts/`，生成脚本分别是 `tools/build_vocab_page.py` 和 `tools/build_textbook_page.py`，入口清单由 `site-manifest.json` 和 `tools/build_indexes.py` 维护。
+- 新增英语内容页后，优先更新 `site-manifest.json`，再运行 `tools/build_indexes.py` 重建 `subjects/english/index.html` 清单。
 - 新增 Little Fox 故事页后，优先更新对应系列页，例如 `subjects/little-fox/wizard-and-cat/index.html`。
 - 新增、删除主要页面后，通常需要同步更新 `index.html`、`SITE_MAINTENANCE.md`，必要时更新本 README。
 

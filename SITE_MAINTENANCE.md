@@ -1,6 +1,6 @@
 # 小学知识点站点维护记录
 
-最后更新：2026-07-07
+最后更新：2026-07-10
 
 本文档记录本站点的维护细节。若由新的会话或其它 AI Agent 接手，请先读根目录 `AGENTS.md`，再读 `README.md`，最后读本文档。当前站点除英语内容外，也包含 Little Fox 分级阅读内容。
 
@@ -8,7 +8,7 @@
 
 ## 当前方案
 
-当前站点是最基础的 HTML/CSS/JS 静态站，不使用 Astro、Node 构建、打包器或组件框架。项目内新增了一层给 AI Agent 使用的轻量维护框架，当前只覆盖英语单词词汇页；它只生成静态 HTML，不改变部署方式。
+当前站点是最基础的 HTML/CSS/JS 静态站，不使用 Astro、Node 构建、打包器或组件框架。项目内新增了一层给 AI Agent 使用的轻量维护框架，当前覆盖英语单词词汇页，以及已迁入结构化源数据的英语课文页；它只生成静态 HTML，不改变部署方式。
 
 选择原因：
 - 当前实际页面较少，但后续会逐步增加。
@@ -22,7 +22,7 @@
 1. `AGENTS.md`：Agent 操作规则和验证要求。
 2. `README.md`：站点用途、预览方式、部署方式。
 3. `SITE_MAINTENANCE.md`：当前架构、页面约定、变更记录。
-4. `SITE_FRAMEWORK.md`：如果涉及英语单词词汇页，先确认 JSON 源数据和生成工具约定。
+4. `SITE_FRAMEWORK.md`：如果涉及英语单词词汇页或已纳入框架的英语课文页，先确认 JSON 源数据和生成工具约定。
 5. `.agents/skills/`：如果涉及英语课文、英语词汇或 PDF 故事页面，优先使用仓库内置的对应 skill。
 6. `assets/js/site-shell.js`：如果涉及公共导航、页头、页脚或内容页公共工具栏。
 7. 本次要修改的具体页面。
@@ -58,9 +58,11 @@
 - `SITE_FRAMEWORK.md`：AI Agent 轻量维护框架说明。
 - `site-manifest.json`：站点页面清单和英语清单页卡片数据。
 - `content/english/vocab/`：英语单词词汇页源数据。
+- `content/english/texts/`：已纳入框架的英语课文页源数据。
 - `tools/build_vocab_page.py`：从词汇 JSON 生成英语单词词汇页。
+- `tools/build_textbook_page.py`：从课文 JSON 生成英语课文朗读页。
 - `tools/build_indexes.py`：从 `site-manifest.json` 生成英语二级清单页。
-- `tools/validate_site.py`：校验页面路径、词汇 JSON 和生成页结构。
+- `tools/validate_site.py`：校验页面路径、词汇 JSON、课文 JSON 和生成页结构。
 - `tools/import_vocab_from_html.py`：从旧词汇页 HTML 抽取 JSON 的迁移辅助工具。
 - `index.html`：首页。
 - `assets/favicon.svg`：站点图标。
@@ -80,6 +82,7 @@
 - `subjects/english/grade-4/first/words/index.html`：英语四年级上学期单词词汇页。
 - `subjects/english/grade-5/second/texts/index.html`：英语五年级下学期课文页。
 - `subjects/english/grade-5/second/words/index.html`：英语五年级下学期单词词汇页。
+- `subjects/english/grade-6/first/texts/index.html`：英语六年级上学期课文页。
 - `subjects/english/grade-6/first/words/index.html`：英语六年级上学期单词词汇页。
 - `subjects/english/grammar/tenses/index.html`：小学英语四大常用时态语法专题页。
 - `subjects/little-fox/index.html`：Little Fox 二级清单页。
@@ -101,6 +104,7 @@
 - `/subjects/english/grade-4/first/words/`
 - `/subjects/english/grade-5/second/texts/`
 - `/subjects/english/grade-5/second/words/`
+- `/subjects/english/grade-6/first/texts/`
 - `/subjects/english/grade-6/first/words/`
 - `/subjects/english/grammar/tenses/`
 - `/subjects/little-fox/`
@@ -203,15 +207,16 @@ Little Fox 故事页复用课文页的朗读工具和译文显示逻辑：
 1. 确认内容归属：学科、系列、年级、学期、内容类型或故事名称。
 2. 判断是新增页面、更新已有页面，还是只更新首页入口。
 3. 如果是英语单词词汇页，优先修改或新增 `content/english/vocab/*.json`，必要时同步 `site-manifest.json`。
-4. 如果是其它暂未纳入框架的页面，新建或修改对应目录下的 `index.html`。
-5. 使用站点根路径引用 CSS/JS 和图片资源。
-6. 放置需要的公共模板占位节点。
-7. 如果新增英语三级内容页，更新 `subjects/english/index.html` 的清单；英语单词词汇页通过 `tools/build_indexes.py` 生成该清单。
-8. 如果新增 Little Fox 故事页，更新对应系列页；如果新增新系列，也更新 `subjects/little-fox/index.html`。
-9. 如果新增新的二级入口，更新 `index.html` 的入口；必要时修改 `assets/js/site-shell.js` 的 `site.nav`。
-10. 更新 `README.md` 的当前实际页面，若该页面属于主要页面。
-11. 更新本文档的“当前目录”“当前页面”和“变更记录”。
-12. 按“验证清单”检查。
+4. 如果是已纳入框架的英语课文页，优先修改或新增 `content/english/texts/*.json`，再用 `tools/build_textbook_page.py` 生成 HTML。
+5. 如果是其它暂未纳入框架的页面，新建或修改对应目录下的 `index.html`。
+6. 使用站点根路径引用 CSS/JS 和图片资源。
+7. 放置需要的公共模板占位节点。
+8. 如果新增英语三级内容页，更新 `site-manifest.json`，再运行 `tools/build_indexes.py` 生成 `subjects/english/index.html` 清单。
+9. 如果新增 Little Fox 故事页，更新对应系列页；如果新增新系列，也更新 `subjects/little-fox/index.html`。
+10. 如果新增新的二级入口，更新 `index.html` 的入口；必要时修改 `assets/js/site-shell.js` 的 `site.nav`。
+11. 更新 `README.md` 的当前实际页面，若该页面属于主要页面。
+12. 更新本文档的“当前目录”“当前页面”和“变更记录”。
+13. 按“验证清单”检查。
 
 ## 验证清单
 
@@ -224,7 +229,7 @@ Little Fox 故事页复用课文页的朗读工具和译文显示逻辑：
 - 如果是英语词汇页，检查 Unit 数、词汇行数、朗读按钮数是否符合预期。
 - 如果是 Little Fox 故事页，检查故事页数、插画图片引用、朗读按钮数和译文数是否符合预期。
 - 检查中文没有乱码。
-- 如果改动英语单词词汇页或 manifest，执行 `python tools/build_vocab_page.py --all`、`python tools/build_indexes.py` 和 `python tools/validate_site.py`。
+- 如果改动英语单词词汇页、已纳入框架的英语课文页或 manifest，执行对应构建命令，例如 `python tools/build_vocab_page.py --all`、`python tools/build_textbook_page.py --all`、`python tools/build_indexes.py` 和 `python tools/validate_site.py`。
 
 ## 本地预览
 
@@ -247,6 +252,13 @@ http://127.0.0.1:8080/
 - 输出目录：项目根目录，即 `primary-knowledge-site`。
 
 ## 变更记录
+
+### 2026-07-10
+
+- 将六年级上册英语单词页的 Unit 标题同步为课文页标题：I Am Angry、Talk It Out、Work It Out Together、Cat or Dog?、Shop Smart、Keep It Green、Play It Safe、A Gift for Grandpa。
+- 融合两份广州英语六年级上册 Unit 1-7 + Review 课文 Markdown，新增结构化源数据 `content/english/texts/grade-6-first.json`、通用课文页构建器 `tools/build_textbook_page.py` 和六年级上册课文朗读页；英语二级清单增加对应入口，并把课文 JSON 纳入 `tools/validate_site.py` 校验。
+- 调整仓库内置 `english-pdf-story-html` skill 的临时工作目录说明：移除验证成功后自动处理 `.tmp` scratch 目录的强制要求。
+- 使用新版广州英语六年级上册 Unit 1-7 单词短语 HTML 替换六年级上册词汇源数据：Unit 1-7 + Review 共 196 条，单词、短语和句型按同一 Unit 合并，缺失音标已按英文补齐，并重新生成词汇页和英语清单页。
 
 ### 2026-07-07
 
