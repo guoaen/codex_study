@@ -85,6 +85,7 @@
 - `subjects/english/grade-6/first/texts/index.html`：英语六年级上学期课文页。
 - `subjects/english/grade-6/first/words/index.html`：英语六年级上学期单词词汇页。
 - `subjects/english/grammar/tenses/index.html`：小学英语四大常用时态语法专题页。
+- `subjects/english/grammar/comparative-superlative/index.html`：英语比较级和最高级语法专题页。
 - `subjects/little-fox/index.html`：Little Fox 二级清单页。
 - `subjects/little-fox/wizard-and-cat/index.html`：Wizard and Cat 三级系列页。
 - `subjects/little-fox/wizard-and-cat/once-upon-a-time/index.html`：Once Upon a Time 故事朗读页。
@@ -107,6 +108,7 @@
 - `/subjects/english/grade-6/first/texts/`
 - `/subjects/english/grade-6/first/words/`
 - `/subjects/english/grammar/tenses/`
+- `/subjects/english/grammar/comparative-superlative/`
 - `/subjects/little-fox/`
 - `/subjects/little-fox/wizard-and-cat/`
 - `/subjects/little-fox/wizard-and-cat/once-upon-a-time/`
@@ -255,6 +257,7 @@ http://127.0.0.1:8080/
 
 ### 2026-07-10
 
+- 根据 `2026-07-10/english-comparative-superlative-notes.md` 新增英语语法专题页“英语比较级和最高级”：按孩子自学场景整理概念、变化规则、常用句型、不规则词和易错点，并接入英语二级清单页。
 - 将六年级上册英语单词页的 Unit 标题同步为课文页标题：I Am Angry、Talk It Out、Work It Out Together、Cat or Dog?、Shop Smart、Keep It Green、Play It Safe、A Gift for Grandpa。
 - 融合两份广州英语六年级上册 Unit 1-7 + Review 课文 Markdown，新增结构化源数据 `content/english/texts/grade-6-first.json`、通用课文页构建器 `tools/build_textbook_page.py` 和六年级上册课文朗读页；英语二级清单增加对应入口，并把课文 JSON 纳入 `tools/validate_site.py` 校验。
 - 调整仓库内置 `english-pdf-story-html` skill 的临时工作目录说明：移除验证成功后自动处理 `.tmp` scratch 目录的强制要求。

@@ -144,6 +144,21 @@
       }
     },
     {
+      "id": "english-grammar-comparative-superlative",
+      "type": "english-grammar",
+      "subject": "english",
+      "title": "英语比较级和最高级",
+      "route": "/subjects/english/grammar/comparative-superlative/",
+      "output": "subjects/english/grammar/comparative-superlative/index.html",
+      "managed": "manual",
+      "order": 110,
+      "card": {
+        "eyebrow": "语法专题 · 比较级",
+        "title": "英语比较级和最高级",
+        "summary": "比较级、最高级变化规则 · 常用句型与易错点"
+      }
+    },
+    {
       "id": "little-fox-index",
       "type": "subject-index",
       "title": "Little Fox",

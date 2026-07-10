@@ -37,6 +37,7 @@
 - `/subjects/english/grade-6/first/texts/`：英语六年级上学期课文。
 - `/subjects/english/grade-6/first/words/`：英语六年级上学期单词词汇。
 - `/subjects/english/grammar/tenses/`：小学英语四大常用时态语法专题。
+- `/subjects/english/grammar/comparative-superlative/`：英语比较级和最高级语法专题。
 - `/subjects/little-fox/`：Little Fox 分级阅读清单。
 - `/subjects/little-fox/wizard-and-cat/`：Wizard and Cat 系列清单。
 - `/subjects/little-fox/wizard-and-cat/once-upon-a-time/`：Once Upon a Time 故事朗读页。
