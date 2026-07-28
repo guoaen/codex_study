@@ -1,0 +1,2156 @@
+{
+  "schema": "english-textbook-page.v1",
+  "page_title": "广州英语六年级上册课文朗读",
+  "description": "Unit 1-7 + Review | 英文逐句朗读 | 中文译文点击显示",
+  "kicker": "六年级 · 上学期 · 课文",
+  "title": "广州英语六年级上册课文朗读",
+  "summary": "Unit 1-7 + Review | Get Started 与 Close Reading 主要内容 | 中文译文点击显示",
+  "stats": {
+    "unit_label": "Unit 1-7 + Review",
+    "item_suffix": "句/项"
+  },
+  "output": "subjects/english/grade-6/first/texts/index.html",
+  "source_notes": [
+    "Merged on 2026-07-10 from two user-provided Markdown files.",
+    "Source A controls dialogue/article order where Source B was reordered or simplified.",
+    "Source B contributes useful task wording and Chinese meaning clues."
+  ],
+  "units": [
+    {
+      "id": "unit-1",
+      "label": "Unit 1",
+      "title": "I Am Angry",
+      "sections": [
+        {
+          "heading": "Get Started · Task A",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "yell and cry",
+                  "translation": "大喊大叫、哭泣"
+                }
+              ],
+              "speaker": "Shouldn't do"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "shout bad words",
+                  "translation": "说脏话"
+                }
+              ],
+              "speaker": "Shouldn't do"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "throw things",
+                  "translation": "乱扔东西"
+                }
+              ],
+              "speaker": "Shouldn't do"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "go for a walk",
+                  "translation": "去散步冷静一下"
+                }
+              ],
+              "speaker": "Should do"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "take a deep breath",
+                  "translation": "深呼吸"
+                }
+              ],
+              "speaker": "Should do"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "count to ten",
+                  "translation": "数到十让自己平静"
+                }
+              ],
+              "speaker": "Should do"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "... 6, 7, 8, 9, 10",
+                  "translation": "……六、七、八、九、十"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Get Started · Task C",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "What do you do when you are angry, Aiwen?",
+                  "translation": "艾文，你生气的时候会怎么做？"
+                }
+              ],
+              "speaker": "Lucas"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I take a deep breath.",
+                  "translation": "我会深呼吸。"
+                }
+              ],
+              "speaker": "Aiwen"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "What if you are very angry?",
+                  "translation": "如果你非常生气呢？"
+                }
+              ],
+              "speaker": "Lucas"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Well, I usually go for a walk instead.",
+                  "translation": "嗯，我通常会改去散步。"
+                },
+                {
+                  "english": "What about you?",
+                  "translation": "你呢？"
+                }
+              ],
+              "speaker": "Aiwen"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I just yell and cry!",
+                  "translation": "我就大喊大叫、哭出来！"
+                }
+              ],
+              "speaker": "Lucas"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I know how you feel, but that can hurt others.",
+                  "translation": "我理解你的感受，但那样可能会伤害别人。"
+                }
+              ],
+              "speaker": "Aiwen"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "You are right.",
+                  "translation": "你说得对。"
+                },
+                {
+                  "english": "Maybe I'll try going for a walk too next time.",
+                  "translation": "也许下次我也会试着去散步。"
+                }
+              ],
+              "speaker": "Lucas"
+            }
+          ]
+        },
+        {
+          "heading": "Close Reading · Task A",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "Yafei, what's wrong?",
+                  "translation": "亚飞，怎么了？"
+                },
+                {
+                  "english": "You look angry.",
+                  "translation": "你看起来很生气。"
+                }
+              ],
+              "speaker": "Alice"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I am angry!",
+                  "translation": "我很生气！"
+                },
+                {
+                  "english": "Did you see that boy from another class?",
+                  "translation": "你看到那个别班的男孩了吗？"
+                },
+                {
+                  "english": "He kept making fun of me.",
+                  "translation": "他一直取笑我。"
+                },
+                {
+                  "english": "He made me look bad!",
+                  "translation": "他让我很难堪！"
+                }
+              ],
+              "speaker": "Yafei"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "That's not nice!",
+                  "translation": "那样可不好！"
+                }
+              ],
+              "speaker": "Alice"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I really wanted to shout bad words at him!",
+                  "translation": "我真想对他说脏话！"
+                }
+              ],
+              "speaker": "Yafei"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Yafei, you can do better than that!",
+                  "translation": "亚飞，你可以做得比那更好！"
+                },
+                {
+                  "english": "Did you try taking a deep breath?",
+                  "translation": "你试过深呼吸吗？"
+                }
+              ],
+              "speaker": "Alice"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I did, but it's not working.",
+                  "translation": "我试过了，但没用。"
+                }
+              ],
+              "speaker": "Yafei"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "OK.",
+                  "translation": "好。"
+                },
+                {
+                  "english": "Let's try counting to ten.",
+                  "translation": "我们试着数到十吧。"
+                },
+                {
+                  "english": "We can do it together.",
+                  "translation": "我们可以一起数。"
+                },
+                {
+                  "english": "One, two, three ...",
+                  "translation": "一、二、三……"
+                }
+              ],
+              "speaker": "Alice"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "All right ...",
+                  "translation": "好吧……"
+                },
+                {
+                  "english": "One, two, three ...",
+                  "translation": "一、二、三……"
+                }
+              ],
+              "speaker": "Yafei"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Go on.",
+                  "translation": "继续。"
+                },
+                {
+                  "english": "You are doing great!",
+                  "translation": "你做得很好！"
+                }
+              ],
+              "speaker": "Alice"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "... ten.",
+                  "translation": "……十。"
+                },
+                {
+                  "english": "I feel better now.",
+                  "translation": "我现在感觉好多了。"
+                },
+                {
+                  "english": "Thanks, Alice.",
+                  "translation": "谢谢你，爱丽丝。"
+                }
+              ],
+              "speaker": "Yafei"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "No problem!",
+                  "translation": "不客气！"
+                },
+                {
+                  "english": "Come on, let's go for a walk.",
+                  "translation": "来吧，我们去散散步。"
+                }
+              ],
+              "speaker": "Alice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-2",
+      "label": "Unit 2",
+      "title": "Talk It Out",
+      "sections": [
+        {
+          "heading": "Get Started · Task A",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "You look like a lion!",
+                  "translation": "你看起来像一头狮子！"
+                }
+              ],
+              "speaker": "Lucas"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Lucas, can you stop it?",
+                  "translation": "卢卡斯，你能别这样了吗？"
+                }
+              ],
+              "speaker": "Sam"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Lion!",
+                  "translation": "狮子！"
+                },
+                {
+                  "english": "Lion!",
+                  "translation": "狮子！"
+                }
+              ],
+              "speaker": "Lucas"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Lucas, stop!",
+                  "translation": "卢卡斯，住手！"
+                }
+              ],
+              "speaker": "Sam"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "It's not funny!",
+                  "translation": "这不好笑！"
+                }
+              ],
+              "speaker": "Sam"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "It's just a joke!",
+                  "translation": "这只是个玩笑！"
+                }
+              ],
+              "speaker": "Lucas"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Say sorry to me.",
+                  "translation": "向我道歉。"
+                }
+              ],
+              "speaker": "Sam"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Let's talk it out.",
+                  "translation": "我们把话说开吧。"
+                }
+              ],
+              "speaker": "Yiming"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Not a chance!",
+                  "translation": "没门！"
+                }
+              ],
+              "speaker": "Lucas"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "have a new haircut",
+                  "translation": "理了新发型"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "make fun of ...",
+                  "translation": "取笑……"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "call ... names",
+                  "translation": "骂……，给……起难听的外号"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "yell at ...",
+                  "translation": "对……大喊"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "fight with each other",
+                  "translation": "互相打架，互相争吵"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "calm ... down",
+                  "translation": "让……冷静下来"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Get Started · Task C",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "Guys!",
+                  "translation": "大家！"
+                },
+                {
+                  "english": "Guys!",
+                  "translation": "大家！"
+                },
+                {
+                  "english": "Let's calm down and talk it out.",
+                  "translation": "我们冷静下来，把话说开吧。"
+                }
+              ],
+              "speaker": "Yiming"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Lucas called me names.",
+                  "translation": "卢卡斯骂我。"
+                }
+              ],
+              "speaker": "Sam"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "What?",
+                  "translation": "什么？"
+                },
+                {
+                  "english": "You shouted bad words at me!",
+                  "translation": "你对我说脏话了！"
+                }
+              ],
+              "speaker": "Lucas"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Oh, yeah?",
+                  "translation": "哦，是吗？"
+                },
+                {
+                  "english": "You made fun of my haircut.",
+                  "translation": "你取笑我的发型。"
+                },
+                {
+                  "english": "Now, everyone is laughing at me.",
+                  "translation": "现在大家都在笑我。"
+                },
+                {
+                  "english": "Put yourself in my shoes!",
+                  "translation": "设身处地为我想一想！"
+                }
+              ],
+              "speaker": "Sam"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Guys, hold your horses.",
+                  "translation": "大家，别急。"
+                },
+                {
+                  "english": "Please be nice.",
+                  "translation": "请友好一点。"
+                }
+              ],
+              "speaker": "Yiming"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Lucas, you need to say sorry to me.",
+                  "translation": "卢卡斯，你需要向我道歉。"
+                }
+              ],
+              "speaker": "Sam"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Not a chance!",
+                  "translation": "没门！"
+                }
+              ],
+              "speaker": "Lucas"
+            }
+          ]
+        },
+        {
+          "heading": "Close Reading · Task A",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "Lucas, can we stop fighting and talk it out?",
+                  "translation": "卢卡斯，我们能不能别吵了，把话说开？"
+                }
+              ],
+              "speaker": "Sam"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Sure.",
+                  "translation": "当然可以。"
+                },
+                {
+                  "english": "I just don't understand why you got so angry.",
+                  "translation": "我只是不明白你为什么这么生气。"
+                },
+                {
+                  "english": "I just made a joke!",
+                  "translation": "我只是开了个玩笑！"
+                },
+                {
+                  "english": "I felt so bad when you yelled at me.",
+                  "translation": "你对我大喊的时候，我感觉很难受。"
+                },
+                {
+                  "english": "Aren't we friends?",
+                  "translation": "我们不是朋友吗？"
+                }
+              ],
+              "speaker": "Lucas"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Yes, we are.",
+                  "translation": "是的，我们是朋友。"
+                },
+                {
+                  "english": "But I felt hurt when you made fun of my haircut and called me names.",
+                  "translation": "但你取笑我的发型、骂我的时候，我觉得受伤了。"
+                },
+                {
+                  "english": "And I felt even worse because everyone laughed at me.",
+                  "translation": "而且因为大家都笑我，我感觉更糟了。"
+                },
+                {
+                  "english": "I understand you didn't mean to hurt me, but you did.",
+                  "translation": "我知道你不是故意伤害我，但你的确伤害了我。"
+                }
+              ],
+              "speaker": "Sam"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I really didn't mean to.",
+                  "translation": "我真的不是故意的。"
+                }
+              ],
+              "speaker": "Lucas"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I know.",
+                  "translation": "我知道。"
+                },
+                {
+                  "english": "I'm sorry about shouting bad words at you and calling you names, too.",
+                  "translation": "我也为对你说脏话、骂你而道歉。"
+                }
+              ],
+              "speaker": "Sam"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "It's okay, Sam.",
+                  "translation": "没关系，山姆。"
+                },
+                {
+                  "english": "You were right to feel angry.",
+                  "translation": "你生气是有道理的。"
+                },
+                {
+                  "english": "I'm sorry.",
+                  "translation": "对不起。"
+                }
+              ],
+              "speaker": "Lucas"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Let's put this behind us, all right?",
+                  "translation": "我们把这件事放下，好吗？"
+                }
+              ],
+              "speaker": "Sam"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Of course!",
+                  "translation": "当然！"
+                },
+                {
+                  "english": "Best friends forever!",
+                  "translation": "永远的好朋友！"
+                }
+              ],
+              "speaker": "Lucas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-3",
+      "label": "Unit 3",
+      "title": "Work It Out Together",
+      "sections": [
+        {
+          "heading": "Get Started · Task A",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "bring up the problem",
+                  "translation": "提出问题"
+                }
+              ],
+              "speaker": "Step 1"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "listen to each other",
+                  "translation": "互相倾听"
+                }
+              ],
+              "speaker": "Step 2"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "take turns to talk",
+                  "translation": "轮流说话"
+                }
+              ],
+              "speaker": "Step 3"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "come up with ideas",
+                  "translation": "想出办法"
+                }
+              ],
+              "speaker": "Step 4"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "work it out together",
+                  "translation": "一起解决问题"
+                }
+              ],
+              "speaker": "Step 5"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Dad, can I talk to you?",
+                  "translation": "爸爸，我能和你谈谈吗？"
+                }
+              ],
+              "speaker": "Child"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "You might get hurt.",
+                  "translation": "你可能会受伤。"
+                }
+              ],
+              "speaker": "Dad"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I understand.",
+                  "translation": "我理解。"
+                }
+              ],
+              "speaker": "Child"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "You may fall behind in school.",
+                  "translation": "你的学习可能会落后。"
+                }
+              ],
+              "speaker": "Dad"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "But it will help me grow stronger.",
+                  "translation": "但它会帮助我变得更强壮。"
+                }
+              ],
+              "speaker": "Child"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Maybe I can try for a month first?",
+                  "translation": "也许我可以先试一个月？"
+                }
+              ],
+              "speaker": "Child"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Good idea!",
+                  "translation": "好主意！"
+                }
+              ],
+              "speaker": "Dad"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Thanks, Dad!",
+                  "translation": "谢谢爸爸！"
+                },
+                {
+                  "english": "I will be careful!",
+                  "translation": "我会小心的！"
+                }
+              ],
+              "speaker": "Child"
+            }
+          ]
+        },
+        {
+          "heading": "Get Started · Task C",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "What's wrong, Alice?",
+                  "translation": "怎么了，爱丽丝？"
+                },
+                {
+                  "english": "You look sad.",
+                  "translation": "你看起来很难过。"
+                }
+              ],
+              "speaker": "Yiming"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I want to join the rock-climbing club at our school.",
+                  "translation": "我想加入学校的攀岩社团。"
+                },
+                {
+                  "english": "But I'm worried my parents won't let me.",
+                  "translation": "但我担心父母不会让我参加。"
+                }
+              ],
+              "speaker": "Alice"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Why is that?",
+                  "translation": "为什么呢？"
+                }
+              ],
+              "speaker": "Yiming"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "They may worry about me getting hurt.",
+                  "translation": "他们可能担心我会受伤。"
+                }
+              ],
+              "speaker": "Alice"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "That makes sense.",
+                  "translation": "这有道理。"
+                },
+                {
+                  "english": "Maybe you can listen to their worries first, and then come up with an idea together.",
+                  "translation": "也许你可以先听听他们的担心，然后一起想办法。"
+                }
+              ],
+              "speaker": "Yiming"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "You are right.",
+                  "translation": "你说得对。"
+                },
+                {
+                  "english": "I'll do that.",
+                  "translation": "我会这样做的。"
+                },
+                {
+                  "english": "Thanks, Yiming!",
+                  "translation": "谢谢你，一鸣！"
+                }
+              ],
+              "speaker": "Alice"
+            }
+          ]
+        },
+        {
+          "heading": "Close Reading · Task A",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "Alice's dad just got back home from work.",
+                  "translation": "爱丽丝的爸爸刚下班回家。"
+                }
+              ],
+              "speaker": "Narrator"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Hey, Dad, there's a club I ...",
+                  "translation": "嘿，爸爸，有个社团我……"
+                }
+              ],
+              "speaker": "Alice"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Can we talk about it later?",
+                  "translation": "我们能晚点再谈吗？"
+                },
+                {
+                  "english": "I'm a little tired right now.",
+                  "translation": "我现在有点累。"
+                }
+              ],
+              "speaker": "Dad"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "But ...",
+                  "translation": "可是……"
+                },
+                {
+                  "english": "Okay, Dad ...",
+                  "translation": "好吧，爸爸……"
+                }
+              ],
+              "speaker": "Alice"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "After dinner, in the living room, Alice comes in with a cup of tea.",
+                  "translation": "晚饭后，在客厅里，爱丽丝端着一杯茶进来了。"
+                }
+              ],
+              "speaker": "Narrator"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Dad, do you have a minute?",
+                  "translation": "爸爸，你有时间吗？"
+                },
+                {
+                  "english": "I got you some tea.",
+                  "translation": "我给你泡了些茶。"
+                }
+              ],
+              "speaker": "Alice"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Thanks!",
+                  "translation": "谢谢！"
+                },
+                {
+                  "english": "What's on your mind, Alice?",
+                  "translation": "爱丽丝，你想说什么？"
+                }
+              ],
+              "speaker": "Dad"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I'd like to join a rock-climbing club.",
+                  "translation": "我想加入一个攀岩社团。"
+                }
+              ],
+              "speaker": "Alice"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "That sounds exciting, but also dangerous.",
+                  "translation": "听起来很刺激，但也很危险。"
+                },
+                {
+                  "english": "Can you join when you're older?",
+                  "translation": "你能长大一点再参加吗？"
+                }
+              ],
+              "speaker": "Dad"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I understand your worries, Dad.",
+                  "translation": "我理解你的担心，爸爸。"
+                },
+                {
+                  "english": "But we have coaches to keep us safe.",
+                  "translation": "但我们有教练保护我们的安全。"
+                }
+              ],
+              "speaker": "Alice"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "That's good.",
+                  "translation": "那很好。"
+                },
+                {
+                  "english": "Do you know how often they train?",
+                  "translation": "你知道他们多久训练一次吗？"
+                }
+              ],
+              "speaker": "Dad"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "They train three times a week.",
+                  "translation": "他们每周训练三次。"
+                },
+                {
+                  "english": "And they have free practise every Sunday.",
+                  "translation": "而且每个星期天都有自由练习。"
+                }
+              ],
+              "speaker": "Alice"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Is that a lot?",
+                  "translation": "那会不会太多？"
+                }
+              ],
+              "speaker": "Dad"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I can go twice a week!",
+                  "translation": "我可以每周去两次！"
+                }
+              ],
+              "speaker": "Alice"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "All right.",
+                  "translation": "好吧。"
+                }
+              ],
+              "speaker": "Dad"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Great!",
+                  "translation": "太好了！"
+                },
+                {
+                  "english": "Thanks, Dad!",
+                  "translation": "谢谢爸爸！"
+                }
+              ],
+              "speaker": "Alice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-4",
+      "label": "Unit 4",
+      "title": "Cat or Dog?",
+      "sections": [
+        {
+          "heading": "Get Started · Task A",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "play during the night",
+                  "translation": "在夜间玩耍"
+                }
+              ],
+              "speaker": "Cats"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "stay inside",
+                  "translation": "待在室内"
+                }
+              ],
+              "speaker": "Cats"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "sleep during the day",
+                  "translation": "白天睡觉"
+                }
+              ],
+              "speaker": "Cats"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "go for a walk",
+                  "translation": "出门散步"
+                }
+              ],
+              "speaker": "Dogs"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "don't like to be alone",
+                  "translation": "不喜欢独处"
+                }
+              ],
+              "speaker": "Dogs"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "lose hair",
+                  "translation": "掉毛"
+                }
+              ],
+              "speaker": "Cats and dogs"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "love playing with toys",
+                  "translation": "喜欢玩玩具"
+                }
+              ],
+              "speaker": "Cats and dogs"
+            }
+          ]
+        },
+        {
+          "heading": "Get Started · Task C",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "Nikki, what's it like to have a cat?",
+                  "translation": "妮基，养猫是什么感觉？"
+                }
+              ],
+              "speaker": "Yiming"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "My cat follows me everywhere.",
+                  "translation": "我的猫到哪儿都跟着我。"
+                }
+              ],
+              "speaker": "Nikki"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Really?",
+                  "translation": "真的吗？"
+                },
+                {
+                  "english": "I thought cats liked to be alone.",
+                  "translation": "我以为猫喜欢独处。"
+                },
+                {
+                  "english": "I also heard cats sleep during the day and play at night.",
+                  "translation": "我还听说猫白天睡觉，晚上玩耍。"
+                }
+              ],
+              "speaker": "Yiming"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Well, my cat does sleep a lot during the day.",
+                  "translation": "嗯，我的猫白天确实睡很多。"
+                },
+                {
+                  "english": "But she wakes up to play with me when I get home from school.",
+                  "translation": "但我放学回家时，她会醒来和我玩。"
+                }
+              ],
+              "speaker": "Nikki"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Does she eat a lot?",
+                  "translation": "她吃得多吗？"
+                }
+              ],
+              "speaker": "Yiming"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Not very much.",
+                  "translation": "不太多。"
+                }
+              ],
+              "speaker": "Nikki"
+            }
+          ]
+        },
+        {
+          "heading": "Close Reading · Task A",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "First, you need to think about space.",
+                  "translation": "首先，你需要考虑空间。"
+                },
+                {
+                  "english": "Cats stay inside most of the time.",
+                  "translation": "猫大部分时间待在室内。"
+                },
+                {
+                  "english": "However, dogs need to go for a walk at least twice a day.",
+                  "translation": "然而，狗每天至少需要出门散步两次。"
+                },
+                {
+                  "english": "They love going to parks!",
+                  "translation": "它们喜欢去公园！"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Next, dogs and cats have different habits.",
+                  "translation": "其次，狗和猫有不同的习惯。"
+                },
+                {
+                  "english": "Most cats like to sleep during the day and play during the night.",
+                  "translation": "大多数猫喜欢白天睡觉、夜间玩耍。"
+                },
+                {
+                  "english": "If you are a light sleeper, think twice before getting a cat.",
+                  "translation": "如果你睡觉很容易醒，养猫前要三思。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "You need to clean dogs often.",
+                  "translation": "你需要经常给狗清洁。"
+                },
+                {
+                  "english": "Unlike dogs, cats usually clean themselves.",
+                  "translation": "不像狗，猫通常会自己清洁自己。"
+                },
+                {
+                  "english": "They both love playing with toys.",
+                  "translation": "它们都喜欢玩玩具。"
+                },
+                {
+                  "english": "They both lose hair, too.",
+                  "translation": "它们也都会掉毛。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Finally, make sure your family is OK with the idea, too!",
+                  "translation": "最后，也要确保你的家人同意这个想法！"
+                },
+                {
+                  "english": "Get an animal everyone will like!",
+                  "translation": "选择一种大家都会喜欢的动物！"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-5",
+      "label": "Unit 5",
+      "title": "Shop Smart",
+      "sections": [
+        {
+          "heading": "Get Started · Task A",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "think about it more",
+                  "translation": "再多想一想"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "wait a few days",
+                  "translation": "等几天"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "learn about it",
+                  "translation": "了解它"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "look for a better deal",
+                  "translation": "寻找更划算的交易"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "give it a try",
+                  "translation": "试一试"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "compare and choose",
+                  "translation": "比较后再选择"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Toys",
+                  "translation": "玩具"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Dolls",
+                  "translation": "洋娃娃"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Get Started · Task C",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "Yafei, my aunt just gave me 300 yuan to get myself a gift!",
+                  "translation": "亚飞，我阿姨刚给了我三百元，让我给自己买一份礼物！"
+                }
+              ],
+              "speaker": "Nikki"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Wow!",
+                  "translation": "哇！"
+                },
+                {
+                  "english": "What do you plan to get?",
+                  "translation": "你打算买什么？"
+                }
+              ],
+              "speaker": "Yafei"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I'm 12 now.",
+                  "translation": "我现在十二岁了。"
+                },
+                {
+                  "english": "I want to buy a bike.",
+                  "translation": "我想买一辆自行车。"
+                }
+              ],
+              "speaker": "Nikki"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Hold your horses!",
+                  "translation": "别急！"
+                },
+                {
+                  "english": "Do you really need it?",
+                  "translation": "你真的需要它吗？"
+                }
+              ],
+              "speaker": "Yafei"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "What do you mean?",
+                  "translation": "你是什么意思？"
+                }
+              ],
+              "speaker": "Nikki"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Well, you may want to buy something, but it doesn't mean you really need it.",
+                  "translation": "嗯，你可能想买某样东西，但这并不意味着你真的需要它。"
+                }
+              ],
+              "speaker": "Yafei"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "So, what should I do?",
+                  "translation": "那么，我该怎么做？"
+                }
+              ],
+              "speaker": "Nikki"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Maybe you can try it out first and think about it more.",
+                  "translation": "也许你可以先试一试，再多想一想。"
+                }
+              ],
+              "speaker": "Yafei"
+            }
+          ]
+        },
+        {
+          "heading": "Close Reading · Task A",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "First, think about it: Do I need that thing or do I just want it?",
+                  "translation": "首先，想一想：我需要那样东西，还是我只是想要它？"
+                },
+                {
+                  "english": "If you're not sure, wait a few days.",
+                  "translation": "如果你不确定，就等几天。"
+                },
+                {
+                  "english": "Then, make a decision.",
+                  "translation": "然后再做决定。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Next, ask yourself: Do I need that thing right now?",
+                  "translation": "接着，问问自己：我现在就需要那样东西吗？"
+                },
+                {
+                  "english": "If not, you can buy it later.",
+                  "translation": "如果不需要，你可以以后再买。"
+                },
+                {
+                  "english": "Keep an eye out for sales, or try second-hand shops.",
+                  "translation": "留意促销，或者试试二手商店。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "After you make up your mind, try to learn more about it.",
+                  "translation": "下定决心后，试着多了解它。"
+                },
+                {
+                  "english": "Go online, ask others about it, or give it a try.",
+                  "translation": "上网查一查，问问别人，或者试用一下。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Finally, compare and choose.",
+                  "translation": "最后，比较后再选择。"
+                },
+                {
+                  "english": "Ask yourself: Is it the best deal?",
+                  "translation": "问问自己：这是最划算的选择吗？"
+                },
+                {
+                  "english": "But be careful!",
+                  "translation": "但是要小心！"
+                },
+                {
+                  "english": "Sometimes \"buy one get one free\" may not be the better deal.",
+                  "translation": "有时候“买一送一”不一定更划算。"
+                },
+                {
+                  "english": "Check the \"best before date\" or BBD for short.",
+                  "translation": "检查“最佳食用日期”，简称 BBD。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-6",
+      "label": "Unit 6",
+      "title": "Keep It Green",
+      "sections": [
+        {
+          "heading": "Get Started · Task A",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "Some more, please.",
+                  "translation": "请再给我一些。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "You can't finish it.",
+                  "translation": "你吃不完的。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I'm coming!",
+                  "translation": "我来了！"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "You're done?",
+                  "translation": "你吃完了？"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "You should eat fewer snacks.",
+                  "translation": "你应该少吃零食。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Vegetables are good for your health.",
+                  "translation": "蔬菜对你的健康有好处。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "give too much food",
+                  "translation": "给太多食物"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "food waste",
+                  "translation": "食物浪费"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "take too much food",
+                  "translation": "拿太多食物"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "be picky about food",
+                  "translation": "挑食"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "eat snacks",
+                  "translation": "吃零食"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "rush out to play",
+                  "translation": "急着跑出去玩"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Get Started · Task C",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "Food waste is a big problem at our school.",
+                  "translation": "食物浪费是我们学校的一个大问题。"
+                }
+              ],
+              "speaker": "Mulan"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Yes.",
+                  "translation": "是的。"
+                },
+                {
+                  "english": "Sometimes the canteen staff give too much food to students.",
+                  "translation": "有时候食堂工作人员给学生太多食物。"
+                }
+              ],
+              "speaker": "Sam"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Also, some students are picky about food.",
+                  "translation": "而且，有些学生挑食。"
+                }
+              ],
+              "speaker": "Mulan"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I know.",
+                  "translation": "我知道。"
+                },
+                {
+                  "english": "Do you know what happens to our leftovers?",
+                  "translation": "你知道我们的剩饭剩菜会怎样吗？"
+                }
+              ],
+              "speaker": "Sam"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "The staff usually throw it away at the end of the day.",
+                  "translation": "工作人员通常在一天结束时把它们扔掉。"
+                }
+              ],
+              "speaker": "Mulan"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "We've got to do something about this!",
+                  "translation": "我们必须为这件事做点什么！"
+                }
+              ],
+              "speaker": "Sam"
+            }
+          ]
+        },
+        {
+          "heading": "Close Reading · Task A",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "There are thirty students in our class.",
+                  "translation": "我们班有三十名学生。"
+                },
+                {
+                  "english": "Seven said that they usually don't have enough time for breakfast.",
+                  "translation": "七名学生说他们通常没有足够时间吃早餐。"
+                },
+                {
+                  "english": "So, they feel hungry at noon, and they end up taking too much food.",
+                  "translation": "所以他们中午会觉得饿，最后拿了太多食物。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Three students said that sometimes the canteen staff give them too much food.",
+                  "translation": "三名学生说有时候食堂工作人员给他们太多食物。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Ten students said that they don't like some of the food.",
+                  "translation": "十名学生说他们不喜欢某些食物。"
+                },
+                {
+                  "english": "So, they don't eat it.",
+                  "translation": "所以他们不吃。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Six students said that they want to chat or play during lunch break.",
+                  "translation": "六名学生说他们午休时想聊天或玩耍。"
+                },
+                {
+                  "english": "They usually eat very little and then rush out to meet their friends.",
+                  "translation": "他们通常吃得很少，然后急着跑出去找朋友。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Lastly, four students said they like to bring snacks to school.",
+                  "translation": "最后，四名学生说他们喜欢带零食到学校。"
+                },
+                {
+                  "english": "When it is time for lunch, they don't feel hungry at all.",
+                  "translation": "到了午餐时间，他们一点也不饿。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-7",
+      "label": "Unit 7",
+      "title": "Play It Safe",
+      "sections": [
+        {
+          "heading": "Get Started · Task A",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "don't play if you are hurt",
+                  "translation": "如果受伤了就不要参加运动"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "watch out for others on the playground",
+                  "translation": "在操场上注意其他人"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "work with your teammates",
+                  "translation": "和队友合作"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "wear the right shoes",
+                  "translation": "穿合适的鞋"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "take water breaks",
+                  "translation": "休息喝水"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "warm up",
+                  "translation": "热身"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "drink enough water",
+                  "translation": "喝足够的水"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "follow the rules",
+                  "translation": "遵守规则"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Get Started · Task C",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "Hey, Lucas!",
+                  "translation": "嘿，卢卡斯！"
+                },
+                {
+                  "english": "The game starts in five minutes.",
+                  "translation": "比赛五分钟后开始。"
+                }
+              ],
+              "speaker": "Yiming"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Sorry, I overslept.",
+                  "translation": "抱歉，我睡过头了。"
+                }
+              ],
+              "speaker": "Lucas"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Did you eat breakfast?",
+                  "translation": "你吃早餐了吗？"
+                },
+                {
+                  "english": "You shouldn't play when you are hungry!",
+                  "translation": "你饿着肚子时不应该比赛！"
+                }
+              ],
+              "speaker": "Yiming"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "No, but I think I'll be okay.",
+                  "translation": "没有，但我想我会没事的。"
+                }
+              ],
+              "speaker": "Lucas"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "What about your right foot?",
+                  "translation": "你的右脚怎么样？"
+                },
+                {
+                  "english": "Doesn't it still hurt?",
+                  "translation": "它不是还疼吗？"
+                }
+              ],
+              "speaker": "Yiming"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "It's okay.",
+                  "translation": "没事。"
+                },
+                {
+                  "english": "I got to go now.",
+                  "translation": "我现在得走了。"
+                }
+              ],
+              "speaker": "Lucas"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Wait!",
+                  "translation": "等等！"
+                },
+                {
+                  "english": "Warm up first!",
+                  "translation": "先热身！"
+                },
+                {
+                  "english": "You're not even wearing the right shoes, and it's raining!",
+                  "translation": "你甚至没穿合适的鞋，而且还在下雨！"
+                },
+                {
+                  "english": "It's not safe.",
+                  "translation": "这不安全。"
+                }
+              ],
+              "speaker": "Yiming"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Lucas runs away.",
+                  "translation": "卢卡斯跑开了。"
+                }
+              ],
+              "speaker": "Narrator"
+            }
+          ]
+        },
+        {
+          "heading": "Close Reading · Task A",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "To: luiskk@mail.com",
+                  "translation": "收件人：luiskk@mail.com"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Subject: What a bad day!",
+                  "translation": "主题：糟糕的一天！"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Dear Luis,",
+                  "translation": "亲爱的路易斯："
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I had a bad day yesterday.",
+                  "translation": "我昨天过得很糟糕。"
+                },
+                {
+                  "english": "In the morning, I had an important football game, but I overslept!",
+                  "translation": "早上，我有一场重要的足球比赛，但我睡过头了！"
+                },
+                {
+                  "english": "I ran out of the house without having breakfast.",
+                  "translation": "我没吃早餐就跑出了家门。"
+                },
+                {
+                  "english": "When I arrived at school, I had no time to warm up.",
+                  "translation": "当我到学校时，我没有时间热身。"
+                },
+                {
+                  "english": "I even wore the wrong shoes!",
+                  "translation": "我甚至穿错了鞋！"
+                },
+                {
+                  "english": "What's worse, it was raining!",
+                  "translation": "更糟的是，当时还在下雨！"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I am sure you can guess what happened next.",
+                  "translation": "我相信你能猜到接下来发生了什么。"
+                },
+                {
+                  "english": "I didn't watch out for others on the playground, got pushed, and fell ...",
+                  "translation": "我在操场上没有注意其他人，被推了一下，然后摔倒了……"
+                },
+                {
+                  "english": "And I hurt my right foot again!",
+                  "translation": "而且我的右脚又受伤了！"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "My foot is okay.",
+                  "translation": "我的脚没事。"
+                },
+                {
+                  "english": "Yafei's mum was there.",
+                  "translation": "亚飞的妈妈当时在那里。"
+                },
+                {
+                  "english": "She is a doctor.",
+                  "translation": "她是一名医生。"
+                },
+                {
+                  "english": "But we lost the game.",
+                  "translation": "但我们输了比赛。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I did learn a lesson yesterday: Always get ready before sports, and be careful when you play.",
+                  "translation": "昨天我确实吸取了一个教训：运动前一定要做好准备，运动时要小心。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Yours,",
+                  "translation": "你的朋友，"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Lucas",
+                  "translation": "卢卡斯"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "label": "Review",
+      "title": "A Gift for Grandpa",
+      "sections": [
+        {
+          "heading": "Review · Task A",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "Hey, guys, what do you think is a good gift?",
+                  "translation": "嘿，大家觉得什么礼物好？"
+                },
+                {
+                  "english": "I want to get my grandpa something for his birthday.",
+                  "translation": "我想给爷爷买一份生日礼物。"
+                }
+              ],
+              "speaker": "Alice"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Well, first of all, I think it needs to carry meaning.",
+                  "translation": "嗯，首先，我认为它需要有意义。"
+                },
+                {
+                  "english": "It doesn't have to be big or cost a lot.",
+                  "translation": "它不一定要很大，也不一定要花很多钱。"
+                }
+              ],
+              "speaker": "Friend 1"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I can't agree with you more!",
+                  "translation": "我完全同意！"
+                },
+                {
+                  "english": "Maybe get him something that shows your love.",
+                  "translation": "也许可以买能表达你爱意的东西。"
+                },
+                {
+                  "english": "Or something to help him stay healthy.",
+                  "translation": "或者买能帮助他保持健康的东西。"
+                },
+                {
+                  "english": "You can also get him something he really needs.",
+                  "translation": "你也可以买他真正需要的东西。"
+                }
+              ],
+              "speaker": "Friend 2"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I agree.",
+                  "translation": "我同意。"
+                },
+                {
+                  "english": "You want to show your care for him and make his life better.",
+                  "translation": "你想表达对他的关心，让他的生活更好。"
+                },
+                {
+                  "english": "This way, he knows you are always thinking of him.",
+                  "translation": "这样，他就知道你一直想着他。"
+                }
+              ],
+              "speaker": "Friend 3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
