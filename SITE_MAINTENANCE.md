@@ -1,8 +1,8 @@
 # 小学知识点站点维护记录
 
-最后更新：2026-07-10
+最后更新：2026-07-28
 
-本文档记录本站点的维护细节。若由新的会话或其它 AI Agent 接手，请先读根目录 `AGENTS.md`，再读 `README.md`，最后读本文档。当前站点除英语内容外，也包含 Little Fox 分级阅读内容。
+本文档记录本站点的维护细节。若由新的会话或其它 AI Agent 接手，请先读根目录 `AGENTS.md`，再读 `README.md`，最后读本文档。当前站点包含语文、英语和 Little Fox 分级阅读内容。
 
 每次新增、修改、删除页面或内容后，都要更新本文档的“当前目录”“当前页面”“变更记录”中受影响的部分。
 
@@ -31,11 +31,11 @@
 
 当前信息架构：
 - 一级页面：`/` 首页。
-- 二级页面：`/subjects/english/` 英语、`/subjects/little-fox/` Little Fox。
-- 三级页面：英语具体内容页、Little Fox 系列页，例如 `/subjects/little-fox/wizard-and-cat/`。
+- 二级页面：`/subjects/chinese/` 语文、`/subjects/english/` 英语、`/subjects/little-fox/` Little Fox。
+- 三级页面：语文具体内容页、英语具体内容页、Little Fox 系列页，例如 `/subjects/chinese/grade-6/first/recitation/`、`/subjects/little-fox/wizard-and-cat/`。
 - 故事正文页：Little Fox 系列页下的具体故事，例如 `/subjects/little-fox/wizard-and-cat/once-upon-a-time/`。
 
-顶部主导航只保留一级/二级入口：`首页`、`英语`、`Little Fox`。不要把具体年级、学期、内容类型或单篇故事页面直接放进顶部主导航。
+顶部主导航只保留一级/二级入口：`首页`、`语文`、`英语`、`Little Fox`。不要把具体年级、学期、内容类型或单篇故事页面直接放进顶部主导航。
 
 ## 核心约定
 
@@ -76,6 +76,8 @@
 - `assets/images/little-fox/wizard-and-cat/the-palace/`：The Palace 由 PDF 渲染出的封面和故事页插画。
 - `assets/images/little-fox/wizard-and-cat/the-king-and-queen/`：The King and Queen 由 PDF 渲染出的封面和故事页插画。
 
+- `subjects/chinese/index.html`：语文二级清单页。
+- `subjects/chinese/grade-6/first/recitation/index.html`：语文六年级上册背诵资料页。
 - `subjects/english/index.html`：英语二级清单页。
 - `subjects/english/grade-3/second/texts/index.html`：英语三年级下学期课文页。
 - `subjects/english/grade-3/second/words/index.html`：英语三年级下学期单词词汇页。
@@ -99,6 +101,8 @@
 ## 当前页面
 
 - `/`
+- `/subjects/chinese/`
+- `/subjects/chinese/grade-6/first/recitation/`
 - `/subjects/english/`
 - `/subjects/english/grade-3/second/texts/`
 - `/subjects/english/grade-3/second/words/`
@@ -150,7 +154,7 @@
 </body>
 ```
 
-`data-nav` 的值应对应 `assets/js/site-shell.js` 里的 `site.nav[].id`，用于高亮当前导航。当前主要值是 `home`、`english` 和 `little-fox`。
+`data-nav` 的值应对应 `assets/js/site-shell.js` 里的 `site.nav[].id`，用于高亮当前导航。当前主要值是 `home`、`chinese`、`english` 和 `little-fox`。
 
 ## 英语课文页、语法页和词汇页结构
 
@@ -213,12 +217,13 @@ Little Fox 故事页复用课文页的朗读工具和译文显示逻辑：
 5. 如果是其它暂未纳入框架的页面，新建或修改对应目录下的 `index.html`。
 6. 使用站点根路径引用 CSS/JS 和图片资源。
 7. 放置需要的公共模板占位节点。
-8. 如果新增英语三级内容页，更新 `site-manifest.json`，再运行 `tools/build_indexes.py` 生成 `subjects/english/index.html` 清单。
-9. 如果新增 Little Fox 故事页，更新对应系列页；如果新增新系列，也更新 `subjects/little-fox/index.html`。
-10. 如果新增新的二级入口，更新 `index.html` 的入口；必要时修改 `assets/js/site-shell.js` 的 `site.nav`。
-11. 更新 `README.md` 的当前实际页面，若该页面属于主要页面。
-12. 更新本文档的“当前目录”“当前页面”和“变更记录”。
-13. 按“验证清单”检查。
+8. 如果新增语文内容页，更新 `subjects/chinese/index.html`、`site-manifest.json`，必要时更新首页入口和公共导航。
+9. 如果新增英语三级内容页，更新 `site-manifest.json`，再运行 `tools/build_indexes.py` 生成 `subjects/english/index.html` 清单。
+10. 如果新增 Little Fox 故事页，更新对应系列页；如果新增新系列，也更新 `subjects/little-fox/index.html`。
+11. 如果新增新的二级入口，更新 `index.html` 的入口；必要时修改 `assets/js/site-shell.js` 的 `site.nav`。
+12. 更新 `README.md` 的当前实际页面，若该页面属于主要页面。
+13. 更新本文档的“当前目录”“当前页面”和“变更记录”。
+14. 按“验证清单”检查。
 
 ## 验证清单
 
@@ -254,6 +259,10 @@ http://127.0.0.1:8080/
 - 输出目录：项目根目录，即 `primary-knowledge-site`。
 
 ## 变更记录
+
+### 2026-07-28
+
+- 新增语文二级入口和六年级上册背诵资料页：从指定 PDF 跳过第 1 页签名表格后整理第 2-7 页内容，按 7 个单元、18 项背诵内容排版，不启用语音朗读。
 
 ### 2026-07-10
 

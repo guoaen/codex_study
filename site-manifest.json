@@ -1,6 +1,6 @@
 {
   "schema": "primary-knowledge-site-manifest.v1",
-  "updated": "2026-07-10",
+  "updated": "2026-07-28",
   "pages": [
     {
       "id": "home",
@@ -17,6 +17,29 @@
       "route": "/subjects/english/",
       "output": "subjects/english/index.html",
       "managed": "tools/build_indexes.py"
+    },
+    {
+      "id": "chinese-index",
+      "type": "subject-index",
+      "title": "语文",
+      "route": "/subjects/chinese/",
+      "output": "subjects/chinese/index.html",
+      "managed": "manual"
+    },
+    {
+      "id": "chinese-grade-6-first-recitation",
+      "type": "chinese-recitation",
+      "subject": "chinese",
+      "title": "六年级上册背诵资料",
+      "route": "/subjects/chinese/grade-6/first/recitation/",
+      "output": "subjects/chinese/grade-6/first/recitation/index.html",
+      "managed": "manual",
+      "order": 610,
+      "card": {
+        "eyebrow": "六年级 · 上学期 · 背诵",
+        "title": "六年级上册背诵资料",
+        "summary": "7 个单元 · 18 项背诵内容 · 不含 PDF 第 1 页签名表格"
+      }
     },
     {
       "id": "english-grade-3-second-texts",
