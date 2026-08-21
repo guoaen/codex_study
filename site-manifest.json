@@ -1,6 +1,6 @@
 {
   "schema": "primary-knowledge-site-manifest.v1",
-  "updated": "2026-07-28",
+  "updated": "2026-08-20",
   "pages": [
     {
       "id": "home",
@@ -70,6 +70,22 @@
         "eyebrow": "三年级下学期 · 单词",
         "title": "广州英语三年级下册单词词汇",
         "summary": "Unit 1-8 · 227 条词汇/短语 · 支持逐词朗读"
+      }
+    },
+    {
+      "id": "english-grade-4-first-texts",
+      "type": "english-textbook",
+      "subject": "english",
+      "title": "广州英语四年级上册课文朗读",
+      "route": "/subjects/english/grade-4/first/texts/",
+      "output": "subjects/english/grade-4/first/texts/index.html",
+      "source": "content/english/texts/grade-4-first.json",
+      "managed": "tools/build_textbook_page.py",
+      "order": 400,
+      "card": {
+        "eyebrow": "四年级上学期 · 课文",
+        "title": "广州英语四年级上册课文朗读",
+        "summary": "Unit 1-8 · 176 句/项 · 逐句朗读"
       }
     },
     {

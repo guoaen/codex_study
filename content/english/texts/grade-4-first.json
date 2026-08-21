@@ -1,0 +1,1461 @@
+{
+  "schema": "english-textbook-page.v1",
+  "page_title": "广州英语四年级上册课文朗读",
+  "description": "Unit 1-8 | 英文逐句朗读 | 中文译文点击显示",
+  "kicker": "四年级 · 上学期 · 课文",
+  "title": "广州英语四年级上册课文朗读",
+  "summary": "Unit 1-8 | Get Started 与 Close Reading 主要内容 | 中文译文点击显示",
+  "stats": {
+    "unit_label": "Unit 1-8",
+    "item_suffix": "句/项"
+  },
+  "output": "subjects/english/grade-4/first/texts/index.html",
+  "source_notes": [
+    "Created on 2026-08-20 from user-pasted Unit 1-8 English text.",
+    "The source provided English only; Chinese translations were generated during site integration.",
+    "Unit titles were inferred from source task titles and content themes."
+  ],
+  "units": [
+    {
+      "id": "unit-1",
+      "label": "Unit 1",
+      "title": "Welcome to My Home",
+      "sections": [
+        {
+          "heading": "Get Started · Task A",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "Welcome!",
+                  "translation": "欢迎！"
+                }
+              ],
+              "speaker": "A"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Come on in, please.",
+                  "translation": "请进来吧。"
+                }
+              ],
+              "speaker": "A"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "These are for you.",
+                  "translation": "这些是给你的。"
+                }
+              ],
+              "speaker": "B"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Thank you!",
+                  "translation": "谢谢你！"
+                },
+                {
+                  "english": "What beautiful flowers!",
+                  "translation": "多么漂亮的花啊！"
+                }
+              ],
+              "speaker": "A"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I'm glad you like them.",
+                  "translation": "我很高兴你喜欢它们。"
+                }
+              ],
+              "speaker": "B"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Have a seat, please.",
+                  "translation": "请坐。"
+                }
+              ],
+              "speaker": "A"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Can I get you a drink?",
+                  "translation": "我可以给你拿点喝的吗？"
+                }
+              ],
+              "speaker": "A"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Thanks.",
+                  "translation": "谢谢。"
+                },
+                {
+                  "english": "Water is fine.",
+                  "translation": "水就可以。"
+                }
+              ],
+              "speaker": "B"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Can I use the bathroom?",
+                  "translation": "我可以用一下洗手间吗？"
+                }
+              ],
+              "speaker": "B"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Sure!",
+                  "translation": "当然！"
+                },
+                {
+                  "english": "The bathroom is over there.",
+                  "translation": "洗手间在那边。"
+                }
+              ],
+              "speaker": "A"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Oh!",
+                  "translation": "哦！"
+                },
+                {
+                  "english": "Baby Sam!",
+                  "translation": "小宝宝山姆！"
+                },
+                {
+                  "english": "May I have a look?",
+                  "translation": "我可以看一看吗？"
+                }
+              ],
+              "speaker": "B"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Sure!",
+                  "translation": "当然！"
+                },
+                {
+                  "english": "Go ahead.",
+                  "translation": "请吧。"
+                }
+              ],
+              "speaker": "A"
+            }
+          ]
+        },
+        {
+          "heading": "Close Reading · Task A",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "Hi, Aiwen.",
+                  "translation": "嗨，艾文。"
+                }
+              ],
+              "speaker": "Nikki"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Welcome, Nikki!",
+                  "translation": "欢迎你，尼基！"
+                },
+                {
+                  "english": "Come on in, please.",
+                  "translation": "请进来吧。"
+                }
+              ],
+              "speaker": "Aiwen"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "These are for you.",
+                  "translation": "这些是给你的。"
+                }
+              ],
+              "speaker": "Nikki"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Can I get you a drink?",
+                  "translation": "我可以给你拿点喝的吗？"
+                }
+              ],
+              "speaker": "Aiwen"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Oh, yes, please.",
+                  "translation": "哦，好的，请给我一点。"
+                },
+                {
+                  "english": "Thanks.",
+                  "translation": "谢谢。"
+                }
+              ],
+              "speaker": "Nikki"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Water or tea?",
+                  "translation": "水还是茶？"
+                }
+              ],
+              "speaker": "Aiwen"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "A cup of tea, please.",
+                  "translation": "请给我一杯茶。"
+                },
+                {
+                  "english": "Your home looks nice.",
+                  "translation": "你的家看起来很漂亮。"
+                }
+              ],
+              "speaker": "Nikki"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Let me show you around.",
+                  "translation": "让我带你参观一下。"
+                }
+              ],
+              "speaker": "Aiwen"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Great!",
+                  "translation": "太好了！"
+                }
+              ],
+              "speaker": "Nikki"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "This is my mum.",
+                  "translation": "这是我妈妈。"
+                }
+              ],
+              "speaker": "Aiwen"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Nice to meet you!",
+                  "translation": "很高兴见到你！"
+                },
+                {
+                  "english": "Are you Nikki?",
+                  "translation": "你是尼基吗？"
+                }
+              ],
+              "speaker": "Mum"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Yes, I am.",
+                  "translation": "是的，我是。"
+                },
+                {
+                  "english": "Nice to meet you, too.",
+                  "translation": "我也很高兴见到你。"
+                }
+              ],
+              "speaker": "Nikki"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-2",
+      "label": "Unit 2",
+      "title": "What Should You Do?",
+      "sections": [
+        {
+          "heading": "Get Started · Task A",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "Have a seat, please.",
+                  "translation": "请坐。"
+                }
+              ],
+              "speaker": "A"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Thank you.",
+                  "translation": "谢谢你。"
+                }
+              ],
+              "speaker": "B"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Would you like some rice?",
+                  "translation": "你想要一些米饭吗？"
+                }
+              ],
+              "speaker": "A"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "No, thanks.",
+                  "translation": "不用了，谢谢。"
+                },
+                {
+                  "english": "I'm good.",
+                  "translation": "我够了。"
+                }
+              ],
+              "speaker": "B"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Can I have some more soup, please?",
+                  "translation": "我可以再喝一些汤吗？"
+                }
+              ],
+              "speaker": "C"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "The food is so good.",
+                  "translation": "饭菜太好吃了。"
+                }
+              ],
+              "speaker": "A"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I'm glad you like it.",
+                  "translation": "我很高兴你喜欢。"
+                }
+              ],
+              "speaker": "B"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Could you please pass me the tissues?",
+                  "translation": "请你把纸巾递给我好吗？"
+                }
+              ],
+              "speaker": "A"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Here you are.",
+                  "translation": "给你。"
+                }
+              ],
+              "speaker": "B"
+            }
+          ]
+        },
+        {
+          "heading": "Close Reading · Task A · What Should You Do?",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "It's dinner time.",
+                  "translation": "现在是晚餐时间。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "You're at a friend's house.",
+                  "translation": "你在朋友家里。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "If you like the food, you can say, \"The food is great!\"",
+                  "translation": "如果你喜欢这些食物，你可以说：“饭菜很棒！”"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "If you feel full, kindly say, \"No, thank you. I'm good.\"",
+                  "translation": "如果你觉得饱了，要有礼貌地说：“不用了，谢谢。我够了。”"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "If you can't get something, ask someone, \"Could you please pass me the ...?\"",
+                  "translation": "如果你拿不到某样东西，可以问别人：“请你把……递给我好吗？”"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "If you drop your spoon on the floor, don't worry.",
+                  "translation": "如果你把勺子掉在地上，不要担心。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Pick it up and say, \"Excuse me. May I get a new spoon, please?\"",
+                  "translation": "把它捡起来，然后说：“打扰一下，我可以拿一把新的勺子吗？”"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "At the end of the dinner, always say, \"Thank you!\"",
+                  "translation": "晚餐结束时，一定要说：“谢谢！”"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-3",
+      "label": "Unit 3",
+      "title": "Cooking Noodles",
+      "sections": [
+        {
+          "heading": "Get Started · Task A · Cooking Noodles",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "First, wash the greens.",
+                  "translation": "首先，洗青菜。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Next, add some water.",
+                  "translation": "接着，加一些水。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Then, add the noodles.",
+                  "translation": "然后，加入面条。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Then, stir the noodles.",
+                  "translation": "然后，搅拌面条。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Then, add the greens.",
+                  "translation": "然后，加入青菜。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Last, enjoy!",
+                  "translation": "最后，享用吧！"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Close Reading · Task A · How to Cook Dumplings",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "First, add water into a pot.",
+                  "translation": "首先，往锅里加水。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Wait for the water to boil.",
+                  "translation": "等水烧开。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Next, add the dumplings.",
+                  "translation": "接着，加入饺子。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Be careful with the hot water!",
+                  "translation": "小心热水！"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Then, stir the dumplings with a spoon.",
+                  "translation": "然后，用勺子搅动饺子。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "When the dumplings come up to the top, add some cold water.",
+                  "translation": "当饺子浮到水面时，加入一些冷水。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Wait until they come up again.",
+                  "translation": "等它们再次浮上来。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Then, take them out.",
+                  "translation": "然后，把它们捞出来。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Remember to turn off the stove!",
+                  "translation": "记得关掉炉子！"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Time to eat!",
+                  "translation": "该吃啦！"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-4",
+      "label": "Unit 4",
+      "title": "Doing Chores",
+      "sections": [
+        {
+          "heading": "Get Started · Task A · Doing Chores",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "First, take out the rubbish.",
+                  "translation": "首先，把垃圾拿出去。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Then, clear the table.",
+                  "translation": "然后，收拾桌子。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Next, wash the dishes.",
+                  "translation": "接着，洗碗。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Then, put away the dishes.",
+                  "translation": "然后，把碗碟收好。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Then, clean the table.",
+                  "translation": "然后，擦桌子。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Last, sweep the floor.",
+                  "translation": "最后，扫地。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Close Reading · Task A",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "Lucas, the kitchen looks dirty.",
+                  "translation": "卢卡斯，厨房看起来很脏。"
+                },
+                {
+                  "english": "How do we clean it up?",
+                  "translation": "我们怎么把它打扫干净呢？"
+                }
+              ],
+              "speaker": "Aiwen"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Well, maybe we can wash the dishes first, and then take the rubbish out.",
+                  "translation": "嗯，也许我们可以先洗碗，然后把垃圾拿出去。"
+                }
+              ],
+              "speaker": "Lucas"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Our rubbish bin is full.",
+                  "translation": "我们的垃圾桶满了。"
+                },
+                {
+                  "english": "How about we take out the rubbish first?",
+                  "translation": "我们先把垃圾拿出去怎么样？"
+                }
+              ],
+              "speaker": "Aiwen"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Cool.",
+                  "translation": "好啊。"
+                },
+                {
+                  "english": "Then, we can clear the table and wash the dishes next.",
+                  "translation": "然后，我们接着可以收拾桌子、洗碗。"
+                }
+              ],
+              "speaker": "Lucas"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Great!",
+                  "translation": "太好了！"
+                },
+                {
+                  "english": "We can sweep the floor at the end.",
+                  "translation": "最后我们可以扫地。"
+                },
+                {
+                  "english": "Let's get to work.",
+                  "translation": "我们开始干活吧。"
+                }
+              ],
+              "speaker": "Aiwen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-5",
+      "label": "Unit 5",
+      "title": "Kindness Is Everywhere",
+      "sections": [
+        {
+          "heading": "Get Started · Task A · Kindness Is Everywhere",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "smile and say \"hi\" to others",
+                  "translation": "微笑并向别人说“嗨”"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "hold the door open for others",
+                  "translation": "为别人扶着门"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "cheer up a friend",
+                  "translation": "让朋友高兴起来"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "give a helping hand",
+                  "translation": "伸出援手"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "be ready to help",
+                  "translation": "乐于助人"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "ask others to join in",
+                  "translation": "邀请别人加入"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Mulan is kind.",
+                  "translation": "木兰很善良。"
+                },
+                {
+                  "english": "She likes to give a helping hand.",
+                  "translation": "她喜欢伸出援手。"
+                }
+              ],
+              "speaker": "A"
+            }
+          ]
+        },
+        {
+          "heading": "Close Reading · Task A",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "Mr Young, thank you so much for having us over.",
+                  "translation": "杨先生，非常感谢您邀请我们来做客。"
+                },
+                {
+                  "english": "I really like the food.",
+                  "translation": "我真的很喜欢这些食物。"
+                }
+              ],
+              "speaker": "A"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "You're welcome.",
+                  "translation": "不客气。"
+                },
+                {
+                  "english": "It was kind of you to ask Alice to join you for lunch.",
+                  "translation": "你们邀请爱丽丝一起吃午饭，真是太友善了。"
+                }
+              ],
+              "speaker": "Mr Young"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Alice is so nice.",
+                  "translation": "爱丽丝真好。"
+                },
+                {
+                  "english": "She's kind to us, too.",
+                  "translation": "她对我们也很友善。"
+                }
+              ],
+              "speaker": "B"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Yes, she always says nice things and gets on well with everyone.",
+                  "translation": "是的，她总是说友善的话，并且和每个人都相处得很好。"
+                }
+              ],
+              "speaker": "C"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "She cheers me up when I'm sad.",
+                  "translation": "我难过的时候，她会让我高兴起来。"
+                }
+              ],
+              "speaker": "D"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "And she's always ready to help!",
+                  "translation": "而且她总是乐于帮忙！"
+                }
+              ],
+              "speaker": "E"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Haha!",
+                  "translation": "哈哈！"
+                },
+                {
+                  "english": "Alice talks a lot about you guys, too!",
+                  "translation": "爱丽丝也经常说起你们！"
+                },
+                {
+                  "english": "You guys make her happy.",
+                  "translation": "你们让她很开心。"
+                }
+              ],
+              "speaker": "Mr Young"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-6",
+      "label": "Unit 6",
+      "title": "Ways to Love Your Family",
+      "sections": [
+        {
+          "heading": "Get Started · Task A · Ways to Love Your Family",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "say nice words",
+                  "translation": "说好听的话"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "give a gift",
+                  "translation": "送礼物"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "spend one-on-one time",
+                  "translation": "一对一相处"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "help out",
+                  "translation": "帮忙"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "buy a birthday cake",
+                  "translation": "买生日蛋糕"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "read a book",
+                  "translation": "读一本书"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "cook together",
+                  "translation": "一起做饭"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "cook birthday noodles",
+                  "translation": "做生日面"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "take a walk",
+                  "translation": "散步"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "say \"Happy birthday!\"",
+                  "translation": "说“生日快乐！”"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "How does Aiwen say nice words?",
+                  "translation": "艾文怎样说好听的话？"
+                }
+              ],
+              "speaker": "A"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "She says, \"Happy birthday!\"",
+                  "translation": "她说：“生日快乐！”"
+                }
+              ],
+              "speaker": "B"
+            }
+          ]
+        },
+        {
+          "heading": "Close Reading · Task A",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "My grandma's birthday is next Sunday.",
+                  "translation": "我奶奶的生日是下周日。"
+                },
+                {
+                  "english": "She likes to cook for me and makes me laugh all the time.",
+                  "translation": "她喜欢给我做饭，还总是逗我笑。"
+                },
+                {
+                  "english": "I want to show her my love.",
+                  "translation": "我想表达我对她的爱。"
+                },
+                {
+                  "english": "What can I do?",
+                  "translation": "我能做什么呢？"
+                }
+              ],
+              "speaker": "Aiwen"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Does she like cake?",
+                  "translation": "她喜欢蛋糕吗？"
+                },
+                {
+                  "english": "You can buy her a birthday cake.",
+                  "translation": "你可以买一个生日蛋糕给她。"
+                }
+              ],
+              "speaker": "Yuting"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Well, she doesn't like it that much.",
+                  "translation": "嗯，她不太喜欢蛋糕。"
+                }
+              ],
+              "speaker": "Aiwen"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Hmm ... Maybe you can help out in the kitchen and cook with her!",
+                  "translation": "嗯……也许你可以在厨房帮忙，和她一起做饭！"
+                }
+              ],
+              "speaker": "Yuting"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Buy a cookbook for her.",
+                  "translation": "给她买一本食谱书。"
+                },
+                {
+                  "english": "Surprise her!",
+                  "translation": "给她一个惊喜！"
+                }
+              ],
+              "speaker": "Sam"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "You can tell her a funny story and make her laugh.",
+                  "translation": "你可以给她讲一个有趣的故事，让她笑起来。"
+                }
+              ],
+              "speaker": "Haoran"
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Why don't you cook her something or draw her a nice picture?",
+                  "translation": "你为什么不给她做点吃的，或者给她画一幅漂亮的画呢？"
+                }
+              ],
+              "speaker": "James"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-7",
+      "label": "Unit 7",
+      "title": "Jobs and Work Time",
+      "sections": [
+        {
+          "heading": "Get Started · Task A · Jobs and Work Time",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "Mr Zhang is a teacher.",
+                  "translation": "张先生是一名老师。"
+                },
+                {
+                  "english": "He works from 8:00 to 16:30.",
+                  "translation": "他的工作时间是从八点到十六点三十分。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Ms Zhou is a cook.",
+                  "translation": "周女士是一名厨师。"
+                },
+                {
+                  "english": "She works from 6:30 to 15:00.",
+                  "translation": "她的工作时间是从六点三十分到十五点。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Mr Fu is a worker.",
+                  "translation": "傅先生是一名工人。"
+                },
+                {
+                  "english": "He works from 9:00 to 18:00.",
+                  "translation": "他的工作时间是从九点到十八点。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Mr Yuan is a waiter.",
+                  "translation": "袁先生是一名服务员。"
+                },
+                {
+                  "english": "He works from 14:00 to 22:00.",
+                  "translation": "他的工作时间是从十四点到二十二点。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Mr Gao is an IT worker.",
+                  "translation": "高先生是一名 IT 工作人员。"
+                },
+                {
+                  "english": "He works from 10:00 to 19:00.",
+                  "translation": "他的工作时间是从十点到十九点。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Miss Wang is a doctor.",
+                  "translation": "王小姐是一名医生。"
+                },
+                {
+                  "english": "She works from 8:00 to 17:00.",
+                  "translation": "她的工作时间是从八点到十七点。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Mr Luo is a gardener.",
+                  "translation": "罗先生是一名园丁。"
+                },
+                {
+                  "english": "He works from 6:00 to 14:00.",
+                  "translation": "他的工作时间是从六点到十四点。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Mrs Chen is a cleaner.",
+                  "translation": "陈太太是一名清洁工。"
+                },
+                {
+                  "english": "She works from 9:00 to 16:00.",
+                  "translation": "她的工作时间是从九点到十六点。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Mr Wei is a taxi driver.",
+                  "translation": "魏先生是一名出租车司机。"
+                },
+                {
+                  "english": "He works from 5:30 to 14:30.",
+                  "translation": "他的工作时间是从五点三十分到十四点三十分。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Mr Gao is an IT worker.",
+                  "translation": "高先生是一名 IT 工作人员。"
+                },
+                {
+                  "english": "He goes to work at 10 in the morning.",
+                  "translation": "他早上十点去上班。"
+                },
+                {
+                  "english": "He comes home at 7 in the evening.",
+                  "translation": "他晚上七点回家。"
+                }
+              ],
+              "speaker": "A"
+            }
+          ]
+        },
+        {
+          "heading": "Close Reading · Task A · Aiwen's Family",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "My dad is a bus driver.",
+                  "translation": "我爸爸是一名公交车司机。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "He usually goes to work at 5 in the morning.",
+                  "translation": "他通常早上五点去上班。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "He comes home at 1 in the afternoon.",
+                  "translation": "他下午一点回家。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "He gets ready for bed at around 10 o'clock at night.",
+                  "translation": "他晚上十点左右准备睡觉。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "My mum is a cook.",
+                  "translation": "我妈妈是一名厨师。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "She goes to work at 5:30 in the morning.",
+                  "translation": "她早上五点半去上班。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "She comes home at 3 in the afternoon.",
+                  "translation": "她下午三点回家。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "She goes to bed at 10 at night.",
+                  "translation": "她晚上十点睡觉。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I'm a student, of course.",
+                  "translation": "当然，我是一名学生。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I get up at 7 and go to school at 7:30 in the morning.",
+                  "translation": "我早上七点起床，七点半去上学。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I come home at 4 in the afternoon.",
+                  "translation": "我下午四点回家。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I go to bed at 9 at night.",
+                  "translation": "我晚上九点睡觉。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-8",
+      "label": "Unit 8",
+      "title": "Festivals",
+      "sections": [
+        {
+          "heading": "Get Started · Task A · Festivals",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "watch fireworks",
+                  "translation": "看烟花"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "eat mooncakes",
+                  "translation": "吃月饼"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "visit family and friends",
+                  "translation": "拜访家人和朋友"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "give out gifts",
+                  "translation": "分发礼物"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "make rice dumplings",
+                  "translation": "包粽子"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "have a big meal",
+                  "translation": "吃一顿大餐"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "My favourite festival is ...",
+                  "translation": "我最喜欢的节日是……"
+                },
+                {
+                  "english": "On that day, we ...",
+                  "translation": "在那一天，我们……"
+                }
+              ],
+              "speaker": "A"
+            }
+          ]
+        },
+        {
+          "heading": "Close Reading · Task A · Festival Chants",
+          "lines": [
+            {
+              "chunks": [
+                {
+                  "english": "Spring Festival is the time of year, when we meet family from far and near.",
+                  "translation": "春节是一年中的这个时候，我们会和远近各地的家人相聚。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Come and sit, laugh and cheer, the best wishes are right here.",
+                  "translation": "来坐一坐，欢笑喝彩，最美好的祝福就在这里。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I look back at the days we went through.",
+                  "translation": "我回顾我们一起走过的日子。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "I look forward to new things to do.",
+                  "translation": "我期待要去做的新事情。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Gifts are part of the New Year, too.",
+                  "translation": "礼物也是新年的一部分。"
+                }
+              ]
+            },
+            {
+              "chunks": [
+                {
+                  "english": "Hope all your dreams do come true.",
+                  "translation": "希望你所有的梦想都能成真。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

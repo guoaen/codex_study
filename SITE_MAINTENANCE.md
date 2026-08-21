@@ -1,6 +1,6 @@
 # 小学知识点站点维护记录
 
-最后更新：2026-07-28
+最后更新：2026-08-20
 
 本文档记录本站点的维护细节。若由新的会话或其它 AI Agent 接手，请先读根目录 `AGENTS.md`，再读 `README.md`，最后读本文档。当前站点包含语文、英语和 Little Fox 分级阅读内容。
 
@@ -81,6 +81,7 @@
 - `subjects/english/index.html`：英语二级清单页。
 - `subjects/english/grade-3/second/texts/index.html`：英语三年级下学期课文页。
 - `subjects/english/grade-3/second/words/index.html`：英语三年级下学期单词词汇页。
+- `subjects/english/grade-4/first/texts/index.html`：英语四年级上学期课文页。
 - `subjects/english/grade-4/first/words/index.html`：英语四年级上学期单词词汇页。
 - `subjects/english/grade-5/second/texts/index.html`：英语五年级下学期课文页。
 - `subjects/english/grade-5/second/words/index.html`：英语五年级下学期单词词汇页。
@@ -106,6 +107,7 @@
 - `/subjects/english/`
 - `/subjects/english/grade-3/second/texts/`
 - `/subjects/english/grade-3/second/words/`
+- `/subjects/english/grade-4/first/texts/`
 - `/subjects/english/grade-4/first/words/`
 - `/subjects/english/grade-5/second/texts/`
 - `/subjects/english/grade-5/second/words/`
@@ -259,6 +261,10 @@ http://127.0.0.1:8080/
 - 输出目录：项目根目录，即 `primary-knowledge-site`。
 
 ## 变更记录
+
+### 2026-08-20
+
+- 使用 `english-textbook-html` skill 和课文页生成框架新增广州英语四年级上册课文朗读页：Unit 1-8，共 176 个朗读/译文块；源文本只有英文，已补充中文译文，并接入英语二级清单页。
 
 ### 2026-07-28
 

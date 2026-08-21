@@ -33,6 +33,7 @@
 - `/subjects/english/`：英语内容清单。
 - `/subjects/english/grade-3/second/texts/`：英语三年级下学期课文。
 - `/subjects/english/grade-3/second/words/`：英语三年级下学期单词词汇。
+- `/subjects/english/grade-4/first/texts/`：英语四年级上学期课文。
 - `/subjects/english/grade-4/first/words/`：英语四年级上学期单词词汇。
 - `/subjects/english/grade-5/second/texts/`：英语五年级下学期课文。
 - `/subjects/english/grade-5/second/words/`：英语五年级下学期单词词汇。
